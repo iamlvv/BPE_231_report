@@ -1,18 +1,12 @@
 INFO:  latexindent.pl version 3.23.4, 2023-11-19, a script to indent .tex files
-<<<<<<< HEAD
        latexindent.pl lives here: C:/Users/levan/AppData/Local/Programs/MiKTeX/scripts/latexindent/
-       Wed Dec 13 22:30:15 2023
-       Filename: c:/Users/levan/Downloads/report_bpe_231/Content/Ph�n t�ch v� thi?t k? h? th?ng/documents/So d? ho?t d?ng/__latexindent_temp_So d? ho?t d?ng.tex
-=======
-       latexindent.pl lives here: C:/Users/Admin/AppData/Local/Programs/MiKTeX/scripts/latexindent/
-       Wed Dec 13 21:40:59 2023
-       Filename: c:/Users/Admin/Desktop/BPE_231_report/Content/Ph�n t�ch v� thi?t k? h? th?ng/documents/Use case/__latexindent_temp_Use-case.tex
->>>>>>> bd67b3f8d9ad1ee893245d1df3fe4f006675d632
+       Wed Dec 13 22:43:10 2023
+       Filename: c:/Users/levan/Downloads/report_bpe_231/Content/Co s? l� thuy?t/documents/Survey/documents/__latexindent_temp_SurveyMeasurement.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
-INFO:  Directory for backup files and c:/Users/Admin/Desktop/BPE_231_report//indent.log:
-       c:/Users/Admin/Desktop/BPE_231_report/
+INFO:  Directory for backup files and c:/Users/levan/Downloads/report_bpe_231//indent.log:
+       c:/Users/levan/Downloads/report_bpe_231/
 INFO:  Perl modules are being loaded from the following directories:
        C:/Strawberry/perl/lib/FindBin.pm
        C:/Strawberry/perl/vendor/lib/YAML/Tiny.pm
@@ -21,22 +15,18 @@ INFO:  Perl modules are being loaded from the following directories:
        C:/Strawberry/perl/lib/Getopt/Long.pm
        C:/Strawberry/perl/vendor/lib/File/HomeDir.pm
 INFO:  LatexIndent perl modules are being loaded from, for example:
-       C:/Users/Admin/AppData/Local/Programs/MiKTeX/scripts/latexindent/LatexIndent/Document.pm
+       C:/Users/levan/AppData/Local/Programs/MiKTeX/scripts/latexindent/LatexIndent/Document.pm
 INFO:  YAML settings read: defaultSettings.yaml
-       Reading defaultSettings.yaml from C:/Users/Admin/AppData/Local/Programs/MiKTeX/scripts/latexindent/defaultSettings.yaml
+       Reading defaultSettings.yaml from C:/Users/levan/AppData/Local/Programs/MiKTeX/scripts/latexindent/defaultSettings.yaml
 INFO:  YAML reading settings
-       Home directory is C:\Users\Admin
+       Home directory is C:\Users\levan
        latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
        see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
 INFO:  YAML settings read: -y switch
        YAML setting: defaultIndent:'    '
        single-quoted string found in -y switch: '    ', substitute to     
        Updating mainSettings with defaultIndent:     
-<<<<<<< HEAD
-FATAL I couldn't find c:/Users/levan/Downloads/report_bpe_231/Content/Phân tích và thi?t k? h? th?ng/documents/So d? ho?t d?ng/__latexindent_temp_So d? ho?t d?ng.tex, are you sure it exists?
-=======
-FATAL I couldn't find c:/Users/Admin/Desktop/BPE_231_report/Content/Phân tích và thi?t k? h? th?ng/documents/Use case/__latexindent_temp_Use-case.tex, are you sure it exists?
->>>>>>> bd67b3f8d9ad1ee893245d1df3fe4f006675d632
+FATAL I couldn't find c:/Users/levan/Downloads/report_bpe_231/Content/Co s? lý thuy?t/documents/Survey/documents/__latexindent_temp_SurveyMeasurement.tex, are you sure it exists?
       Exiting, no indentation done.
        --------------
 INFO:  Please direct all communication/issues to:
