@@ -70,13 +70,13 @@
 \contentsline {paragraph}{\numberline {2.6.2.7}Notification: Các thông báo của người dùng}{63}{paragraph.2.6.2.7}%
 \contentsline {section}{\numberline {3}Hiện thực hệ thống}{65}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Công nghệ sử dụng}{65}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}ReactJS - Javascript}{65}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}ReactJS}{65}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Python}{65}{subsubsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.3}Websocket và Socket.IO}{66}{subsubsection.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.1.4}PostgreSQL}{67}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}Hiện thực giao diện người dùng}{68}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Kết luận}{69}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Kết quả đạt được}{69}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Những điểm hạn chể}{69}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Hướng phát triển cho giai đoạn luận văn}{69}{subsubsection.3.3.3}%
-\contentsline {section}{\numberline {4}Tham khảo}{70}{section.4}%
+\contentsline {subsection}{\numberline {3.2}Hiện thực giao diện người dùng}{69}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Kết luận}{78}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Kết quả đạt được}{78}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Những điểm hạn chể}{78}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Hướng phát triển cho giai đoạn luận văn}{78}{subsubsection.3.3.3}%
+\contentsline {section}{\numberline {4}Tham khảo}{79}{section.4}%
