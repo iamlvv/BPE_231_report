@@ -1,0 +1,39 @@
+\subsubsection{Delete requests}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name} &  Delete requests
+\\ \hline
+\textbf{Actor} &  Workspace owner
+\\ \hline
+\textbf{Description} &  Workspace owner yêu cầu của thành viên gửi đến
+\\ \hline
+\textbf{Trigger} &  Không 
+\\ \hline
+\textbf{Pre-conditions} &  Người dùng đăng nhập vào hệ thống, người dùng hiện tại đang ở giao diện quản lý yêu cầu của workspace mà người dùng sở hữu
+\\ \hline
+\textbf{Post-conditions} &  Thành công yêu cầu từ thành viên gửi đến
+\\ \hline
+\textbf{Normal Flow} &
+  \begin{enumerate}
+      \item Người dùng đang ở giao diện quản lý yêu cầu của workspace
+      \item Hệ thống hiển thị danh sách yêu cầu trong workspace.
+      \item Người dùng chọn một hoặc nhiều yêu cầu. Hệ thống hiển thị nút "Delete"
+      \item Người dùng chọn nút “Delete”, hệ thống hiển thị modal xác nhận thao tác xóa yêu cầu đã chọn
+      \item Người dùng chọn “Delete” để thành công xóa yêu cầu
+  \end{enumerate}
+\\ \hline
+\textbf{Alternative Flow} & Không
+\\ \hline
+\textbf{Exceptions} &
+     \begin{tabular}{p{10cm}}
+        5a. Người dùng chọn "Cancel" để tắt modal
+     \end{tabular}
+\\ \hline
+\end{tabular}%
+}
+\end{table}
