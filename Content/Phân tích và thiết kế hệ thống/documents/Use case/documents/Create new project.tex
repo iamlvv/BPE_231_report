@@ -1,0 +1,55 @@
+\subsubsection{Create new project}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}    & Create new project
+\\ \hline
+\textbf{Actor}            & Workspace owner, workspace member
+\\ \hline
+\textbf{Description}      & Workspace owner có thể tạo project trong Workspace 
+\\ \hline
+\textbf{Trigger}          & Không
+\\ \hline
+\textbf{Pre-conditions}   & Workspace owner đã đăng nhập vào hệ thống, hiện tại đang ở giao diện workspace người dùng muốn tạo project. Người dùng có quyền hạn của editor hoặc owner.
+\\ \hline
+\textbf{Post-conditions}  & Tạo project thành công
+\\ \hline
+\textbf{Normal Flow} &
+    \begin{enumerate}
+        \item Người dùng chọn nút “Create project”
+        \item Hệ thống mở modal yêu cầu thông tin của project: project name, project description
+        \item Người dùng nhập tên (Name) của project
+        \item Người dùng nhập mô tả (Description) của project
+        \item Người dùng chọn nút “Save” để lưu thông tin và hoàn tất tạo mới project
+    \end{enumerate}
+\\ \hline
+\textbf{Alternative Flow} & Không
+\\ \hline
+\textbf{Exceptions} &
+   \begin{tabular}{p{10cm}}
+      3a. Người dùng chọn nút “Cancel” để đóng modal nhập thông tin workspace
+      \\
+      4a. Người dùng sử dụng tên của workspace đã tồn tại
+      \\ 
+      \begin{tabular}{p{9cm}}
+          4a.1. Hệ thống yêu cầu người dùng sửa lại tên phù hợp
+          \\ 
+          4a.2. Tiếp tục bước 4
+      \end{tabular}
+      \\
+      4b. Người dùng không nhập tên của workspace
+      \\ 
+      \begin{tabular}{p{9cm}}
+          4b.1. Hệ thống yêu cầu người dùng phải điền thông tin bắt buộc
+          \\ 
+          4b.2. Tiếp tục bước 4
+      \end{tabular}
+  \end{tabular} 
+\\ \hline
+\end{tabular}%
+}
+\end{table}

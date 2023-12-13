@@ -1,0 +1,39 @@
+\subsubsection{Delete project in Workspace}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name} & Delete project in Workspace. 
+\\ \hline
+\textbf{Actor} & Workspace owner, workspace member
+\\ \hline
+\textbf{Description} & Người dùng có thể xóa project trong Workspace
+\\ \hline
+\textbf{Trigger} & Không 
+\\ \hline
+\textbf{Pre-conditions} & Người dùng đã đăng nhập vào hệ thống và đang ở giao diện workspace đã chọn, người dùng có quyền hạn của editor hoặc owner
+\\ \hline
+\textbf{Post-conditions} & Xóa project thành công 
+\\ \hline
+\textbf{Normal Flow} &
+    \begin{enumerate}
+        \item Người dùng hiện tại đang ở giao diện workspace và hệ thống hiển thị danh sách project.
+        \item Người dùng chọn vào icon "Menu" của item project, hệ thống hiển thị danh sách menu thao tác với project
+        \item Người dùng chọn nút "Delete" trong menu
+        \item Hệ thống hiển thị modal yêu cầu người dùng xác nhận xóa project
+        \item Người dùng nhấn nút “Delete” để xác nhận xóa project
+    \end{enumerate}
+\\ \hline
+\textbf{Alternative Flow} & Không 
+\\ \hline
+\textbf{Exceptions} &
+  \begin{tabular}{p{10cm}}
+        5a. Người dùng chọn "Cancel" để hủy thao tác xóa project
+  \end{tabular}
+\\ \hline
+\end{tabular}%
+}
+\end{table}

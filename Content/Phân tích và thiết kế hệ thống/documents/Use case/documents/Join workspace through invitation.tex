@@ -1,0 +1,50 @@
+\subsubsection{Join workspace through invitation}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & Join workspace through invitation
+\\ \hline
+\textbf{Actor}             & Registered user
+\\ \hline
+\textbf{Description}       & Tham gia workspace thông qua “Lời mời tham gia workspace”
+\\ \hline
+\textbf{Trigger}           &
+  \begin{enumerate}
+      \item Thành viên trong workspace với quyền Chia sẻ hoặc cao hơn gửi lời mời trực tiếp đến người dùng trên hệ thống và chưa tồn tại trong workspace
+      \item Workspace owner đồng ý xét duyệt yêu cầu chia sẻ của thành viên không có quyền Chia sẻ trong workspace đến người dùng trên hệ thống
+      \item Workspace owner gửi lời mời tham gia trực tiếp đến người dùng trên hệ thống
+  \end{enumerate}
+\\ \hline
+\textbf{Pre-conditions}    & Người dùng đã đăng ký vào hệ thống và đăng nhập thành công
+\\ \hline
+\textbf{Post-conditions}   & Người dùng thành công tham gia vào workspace
+\\ \hline
+\textbf{Normal flow}       &
+  \begin{enumerate}
+      \item Người dùng chọn icon “Notification” trên thanh điều hướng (navigation bar)
+      \item Hệ thống chuyển hướng đến trang Notification (thông báo) của người dùng
+      \item Hệ thống hiển thị danh sách những thông báo của người dùng
+      \item Người dùng chọn vào thông báo “Lời mời tham gia workspace” để mở modal hiển thị thông tin chi tiết của Lời mời
+      \item Người dùng chọn “Accept” để chấp nhận lời mời tham gia vào workspace
+  \end{enumerate}
+\\ \hline
+\textbf{Alternative flows} & 6a. Người dùng chọn “Decline” để từ chối lời mời tham gia workspace
+\\ \hline
+\textbf{Exceptions}        & 
+    \begin{tabular}{p{10cm}}
+    6a. Người dùng chọn “Accept” với những lời mời đã hết hiệu lực
+    \\
+        \begin{tabular}{p{9cm}}
+            6a.1. Hệ thống hiển thị lỗi khi xử lý yêu cầu của người dùng
+            \\
+            6a.2. Hệ thống đóng modal hiển thị thông tin Lời mời vào workspace
+        \end{tabular}
+    \end{tabular}
+\\ \hline
+\end{tabular}%
+}
+\end{table}

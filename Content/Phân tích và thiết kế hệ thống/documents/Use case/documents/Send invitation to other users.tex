@@ -1,0 +1,58 @@
+\subsubsection{Send invitation to other users}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}    & Send invitation to other users
+\\ \hline
+\textbf{Actor}            & Workspace member
+\\ \hline
+\textbf{Description}      & Người dùng có thể gửi lời mời tham gia workspace cho người dùng trong hệ thống. 
+\\ \hline
+\textbf{Trigger}          & Không
+\\ \hline
+\textbf{Pre-conditions}   & Người dùng đã đăng nhập vào hệ thống thành công
+\\ \hline
+\textbf{Post-conditions}  & Gửi lời mời người dùng trong hệ thống vào workspace thành công.
+\\ \hline
+\textbf{Normal Flow} &
+    \begin{enumerate}
+        \item Người dùng ở giao diện Default homepage, hệ thống hiển thị danh sách những workspace mà người dùng tham gia/sở hữu
+        \item Người dùng chọn icon "Menu" ở workspace mà người dùng tham gia với quyền hạn của viewer để hiển thị dropdown menu
+        \item Người dùng chọn nút “Share” để hiện modal chia sẻ workspace:
+        \begin{enumerate}
+            \item Những người hiện có trong workspace
+            \item Quyền hạn của những người hiện có trong workspace
+        \end{enumerate}
+        \item Người dùng nhập email của người được mời để tìm kiếm người dùng trong hệ thống
+        \item Người dùng chọn quyền hạn của người dùng được mời vào workspace
+        \item Người dùng chọn “Send” để gửi lời mời tới người dùng
+    \end{enumerate}
+ \\ \hline
+\textbf{Alternative flows} &
+  \begin{tabular}{p{10cm}}
+  4a. Email của người được mời không tồn tại trên hệ thống
+    \begin{tabular}{p{9cm}}
+          4a.1. Hệ thống hiển thị không tìm thấy kết quả phù hợp
+    \end{tabular}
+  \\
+  5a. Người dùng gán quyền hạn cho người được mời vào workspace vượt quá quyền hạn hiện có trong workspace
+      \begin{tabular}{p{9cm}}
+          5a.1. Hệ thống thông báo lỗi yêu cầu người dùng gán quyền cho người được mời không vượt quá quyền hạn hiện có (Editor > Sharer > Viewer)
+          \\
+          5a.2. Tiếp tục ở bước 5
+      \end{tabular}
+  \\
+  \end{tabular} 
+\\ \hline
+\textbf{Exceptions} &
+  \begin{tabular}{p{10cm}}
+    5a. Người dùng chọn “Cancel” để hủy yêu cầu và đóng modal
+  \end{tabular}
+\\ \hline
+\end{tabular}%
+}
+\end{table}

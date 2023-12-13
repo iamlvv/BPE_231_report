@@ -1,0 +1,48 @@
+\subsubsection{Send request for adjust permission}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name} &
+  Send request for adjust permission
+\\ \hline
+\textbf{Actor} &
+  Workspace member
+\\ \hline
+\textbf{Description} &
+  Gửi yêu cầu “Cung cấp thêm quyền” tới workspace owner để được xét duyệt 
+\\ \hline
+\textbf{Trigger} &
+  Không
+\\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đã đăng ký vào hệ thống và đăng nhập thành công
+\\ \hline
+\textbf{Post-conditions} &
+  Người dùng gửi thành công yêu cầu “Cung cấp điều chỉnh quyền” tới workspace owner để được xét duyệt 
+\\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng ở giao diện của workspace đã chọn và đang tham gia vào workspace dưới quyền hạn của viewer hoặc sharer
+      \item Người dùng chọn nút “Create new project”, hệ thống hiện modal thông báo:
+      \begin{enumerate}
+          \item Người dùng không có quyền hạn để chỉnh sửa nọi dung workspace
+          \item Gửi yêu cầu đến workspace owner để điều chỉnh quyền trong workspace
+      \end{enumerate}
+      \item Người dùng chọn nút “Send” để gửi yêu cầu
+  \end{enumerate}
+\\ \hline
+\textbf{Alternative flows} &
+  Không 
+\\ \hline
+\textbf{Exceptions} &
+  \begin{tabular}{p{10cm}}
+      3a. Người dùng chọn “Cancel” để đóng modal
+  \end{tabular} 
+\\ \hline
+\end{tabular}%
+}
+\end{table}

@@ -1,0 +1,42 @@
+\subsubsection{Manage requests from member}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}   & Manage requests from member
+\\ \hline
+\textbf{Actor}           & Workspace owner
+\\ \hline
+\textbf{Description}     & Workspace owner xét duyệt các yêu cầu từ thành viên trong Workspace 
+\\ \hline
+\textbf{Trigger}         & Không
+\\ \hline
+\textbf{Pre-conditions}  & Người dùng đã đăng nhập vào hệ thống, người dùng hiện tại đang ở giao diện workspace mà người dùng sở hữu
+\\ \hline
+\textbf{Post-conditions} & Thành công xét duyệt các yêu cầu từ người dùng trong workspace
+\\ \hline
+\textbf{Normal Flow}     &
+    \begin{enumerate}
+        \item Người dùng chọn icon "Management" bên cạnh tiêu đề workspace, hệ thống chuyển hướng đến trang quản lý workspace. Mặc định ở giao diện "Members management"
+        \item Người dùng chọn "Requests management" ở thanh sidebar để hệ thống chuyển hướng tới trang quản lý yêu cầu của workspace.
+        \item Hệ thống hiển thị danh sách những yêu cầu từ người dùng trong workspace.
+        \item Người dùng chọn vào yêu cầu để mở modal hiển thị những thông tin của yêu cầu.
+        \item Người dùng chọn nút "Approve" trong modal để chấp nhận yêu cầu tương ứng.
+    \end{enumerate}
+\\ \hline
+\textbf{Alternative Flow} &
+    \begin{tabular}{p{10cm}}
+        5a. Người dùng chọn "Decline" trong modal để từ chối yêu cầu tương ứng.
+    \end{tabular}
+\\ \hline
+\textbf{Exceptions}      & 
+    \begin{tabular}{p{10cm}}
+        5a. Người dùng chọn "Cancel" để hủy thao tác, hệ thống tắt modal xác nhận
+    \end{tabular}
+\\ \hline
+\end{tabular}%
+}
+\end{table}

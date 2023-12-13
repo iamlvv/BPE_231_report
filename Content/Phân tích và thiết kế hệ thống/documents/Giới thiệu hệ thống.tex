@@ -1,0 +1,54 @@
+\subsection{Giới thiệu hệ thống}
+Ở đề tài trước, hệ thống (tạm gọi là phiên bản 1.0) đã được hiện thực với một số tính năng quan trọng, chẳng hạn như: thiết kế, so sánh, mô phỏng và đánh giá mô hình BPMN. Ngoài việc cung cấp bộ công cụ đầy đủ các thành phần BPMN 2.0, phiên bản 1.0 này của hệ thống còn hỗ trợ nhập xuất file BPMN, ghi chú trên các thành phần và mô hình, các tính năng undo, redo, zoom-in, zoom-out,... Trong quá trình thiết kế, người dùng cũng có thể xác thực mô hình BPMN về mặt ngữ nghĩa cũng như so sánh các phiên bản khác nhau của mô hình.
+\newline
+Nhóm chúng tôi nhận ra rằng tính năng quản lý mô hình BPMN của người dùng vẫn chưa được chú trọng. Các dự án của người dùng chỉ mới được đóng gói trong các đơn vị gọi là Project, và chỉ mới thuộc về riêng một cá nhân sở hữu project đó. Tuy nhiên, chúng tôi nhận thấy rằng, khi hệ thống được mở rộng, đồng nghĩa với việc số lượng người dùng tăng lên, người ta sẽ có xu hướng nhóm các dự án lại với nhau thành từng cụm lớn hơn. Trong những cụm đó, những người dùng có thể làm việc với nhau trên các project bên trong mỗi cụm, giúp phân tách và quản lý dự án hiệu quả hơn. Chúng tôi gọi đó là tính năng Workspace. 
+\newline
+Workspace được cụ thể hoá bởi các tính năng sau đây:
+\begin{itemize}
+    \item Quản lý thành viên (members). Một Workspace có thể có một hoặc nhiều người cùng tham gia. Mỗi người dùng đều có một Workspace cá nhân của bản thân, gọi là Personal Workspace. Personal Workspace là riêng tư, nên không thể mời người khác tham gia vào Personal Workspace của bản thân. Người dùng có thể tự tạo Workspace khác (tạm gọi là Regular Workspace) để có thể làm việc với nhiều người cho các dự án ở trong Workspace đó. Chủ sở hữu Workspace có thể mời người khác tham gia vào Workspace của mình, cũng như thiết lập một số quyền truy cập của thành viên, hay loại bỏ thành viên khỏi Workspace.
+    \item Quản lý dự án (projects). Các Projects sẽ được tạo trong Workspace, cho phép các thành viên trong Workspace có thể truy cập các project liên quan tới Workspace đó. Bất kỳ thành viên nào của Workspace với bất kỳ quyền hạn nào cũng có thể tạo project của riêng mình trong các Workspace mà mình tham gia, và mời các thành viên khác vào project được tạo để cùng nhau phát triển. Các projects cũng có thể bị xoá khỏi Workspace tuỳ theo mục đích và nhu cầu.
+    \item Quản lý yêu cầu (requests). Khi hiện thực chức năng Workspace, nhóm chúng tôi để tâm tới tính đóng mở của Workspace. Chúng tôi cho rằng Workspace nên đủ đóng để bảo vệ sự toàn vẹn dữ liệu bên trong và đảm bảo sự riêng tư. Tuy nhiên Workspace nên đủ mở để nhiều thành viên khác trong hệ thống có thể cùng tham gia và phát triển, xây dựng hệ sinh thái trong đó. Chính vì vậy, quản lý requests là nhóm các tính năng cho phép chủ sở hữu Workspace có thể quản lý được những luồng tham gia vào Workspace hay những yêu cầu muốn thay đổi quyền hạn của bản thân thành viên để có thêm một số quyền hạn đối với các dữ liệu trong Workspace. Chủ sở hữu có thể chấp thuận, từ chối hay xoá bỏ những yêu cầu nào từ phía thành viên. Khi một request được chấp thuận hay từ chối, sẽ có một thông báo gửi về cho đối tượng của request đó. Bên cạnh đó, chủ sở hữu Workspace cũng sẽ nhận được các requests theo thời gian thực, ngay khi thành viên gửi đi bất kỳ yêu cầu nào.
+    \item Cá nhân hoá Workspace. Hệ thống cho phép người dùng linh hoạt tuỳ chỉnh một số thuộc tính của Workspace như tên, mô tả, logo biểu trưng của Workspace nhằm tăng trải nghiệm cá nhân và phù hợp với mục đích của Workspace đó.
+\end{itemize}
+Bên cạnh tính năng Workspace, nhóm chúng tôi còn phát triển thêm tính năng thông báo:
+\begin{itemize}
+    \item Quản lý các thông báo cá nhân. Mỗi người dùng sẽ có một hộp thông báo của riêng mình. Ở đó, các thông báo sẽ được tổng hợp để người dùng có thể theo dõi. Các loại thông báo bao gồm: thông báo khi có thành viên mới tham gia Workspace, thông báo khi yêu cầu thay đổi quyền hạn của bản thân trong Workspace tham gia được chấp thuận hay từ chối, thông báo là lời mời tham gia Workspace từ một thành viên trong Workspace đó. Người dùng có thể chấp thuận hoặc từ chối lời mời này. Bên cạnh đó, người dùng có thể thực thi các thao tác xoá, lọc, đánh dấu những thông báo quan trọng.
+    \item Nhận, gửi thông báo theo thời gian thực. Thông thường, để luôn nhận được thông báo mới nhất, người dùng cần phải tải lại trang định kỳ để hệ thống trả về các thông báo mới. Tuy nhiên, nhóm chúng tôi đã hiện thực tính năng thông báo này theo thời gian thực, nghĩa là khi có một thông báo mới, nó sẽ được hiển thị đồng thời, ngay lập tức cho người dùng, để họ dù đang làm gì trên hệ thống vẫn có thể theo dõi được các yêu cầu của mình có được chấp thuận hay chưa, hay nhận lời mời tham gia Workspace ngay lập tức. Việc hiện thực theo thời gian thực giúp tăng khả năng phản hồi và trải nghiệm của người dùng khi sử dụng hệ thống.
+\end{itemize}
+Trong thời gian tới, nhóm chúng tôi sẽ tập trung phát triển tính năng Template Suggestions. Chúng tôi đang hướng tới việc mở hoá hệ thống, nghĩa là cho phép người dùng có thể công khai một số project đến cho cộng đồng để được đóng góp và phát triển thành những sản phẩm tiềm năng, tối ưu. Những người dùng khác có thể tham gia phát triển, tạo bản sao đem về project cá nhân của họ và đánh giá những dự án chất lượng cao nhằm xây dựng tài nguyên các mô hình BPMN và đưa ra các đề xuất phù hợp với nhu cầu của người dùng khi họ cần tìm kiếm hay khởi tạo dự án nào trong hệ thống, họ có thể tham khảo tới những mẫu mô hình được đánh giá cao đã có sẵn.
+\newline
+
+
+Các yêu cầu phi chức năng cũng là yếu tố quan trọng cần được đánh giá, xem xét. Các yêu cầu phi chức năng dưới đây được chúng tôi đảm bảo hệ thống có thể thực hiện được nhằm tối ưu hoá trải nghiệm của người dùng, bên cạnh các yêu cầu phi chức năng kế thừa từ đề tài trước đó:
+\begin{center}
+    \begin{tabular}{ |m{3cm}|m{10cm}|}
+\hline
+    Performance & \begin{itemize}
+        \item Đối với màn hình input: tối đa 5 trường dữ liệu, không tính toán dữ liệu phức tạp, không tương tác với hệ thống ngoài, có thể lưu trữ dữ liệu trực
+tiếp ngay xuống database, không lưu trữ các tệp nội dung lớn như hình ảnh, video, tập tin quá 3 MB.
+        \item Đối với màn hình output: dữ liệu được truy vấn trực tiếp từ database, hạn chế những câu lệnh truy vấn phức tạp, những truy vấn từ hệ thống ngoài.
+Hiển thị tối đa 10 dòng dữ liệu, có độ dài nhỏ hơn 100 ký tự
+    \end{itemize} \\
+    \hline
+    Usability  & \begin{itemize}
+        \item Tất cả thông tin quan trọng phải được hiển thị trong 1 màn hình (không
+cần phải thực hiện thêm thao tác cuộn).
+        \item Giao diện của hệ thống cần có sự nhất quán, về mặt hình ảnh biểu tượng
+cũng như vị trí các đối tượng trên màn hình để người dùng làm quen dễ
+dàng hơn.
+        \item Người dùng có thể thành thạo các thao tác trên màn hình trong 15 phút
+sử dụng.
+    \end{itemize} \\
+    \hline
+    Supportability & \begin{itemize}
+        \item Hệ thống có thể được sử dụng hiệu quả trên các trình duyệt web (Opera,
+UC Browser, Safari, Microsoft Edge, Google Chrome, Samsung Internet
+Browser).
+        \item Hệ thống không chạy trên các phiên bản trình duyệt quá cũ.
+    \end{itemize} \\
+    \hline
+    Scalability & Có khả năng tách database trên một server riêng và backend trên một
+server riêng \\
+\hline
+\end{tabular}
+\end{center}

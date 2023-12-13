@@ -1,0 +1,48 @@
+\subsubsection{Delete member in Workspace}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name} &
+  Delete member in Workspace
+\\ \hline
+\textbf{Actor} &
+  Workspace owner
+\\ \hline
+\textbf{Description} &
+  Workspace owner xóa thành viên ra khỏi Workspace 
+\\ \hline
+\textbf{Trigger} &
+  Không 
+\\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đăng nhập vào hệ thống, người dùng hiện tại đang ở giao diện workspace mà người dùng sở hữu
+\\ \hline
+\textbf{Post-conditions} &
+  Thành công xóa người dùng khỏi workspace
+\\ \hline
+\textbf{Normal Flow} &
+  \begin{enumerate}
+      \item Người dùng chọn icon "Management" bên cạnh tiêu đề workspace, hệ thống chuyển hướng đến trang quản lý workspace. Mặc định ở giao diện "Members management"
+      \item Hệ thống hiển thị danh sách thành viên trong workspace.
+      \item Người dùng chọn một hoặc nhiều thành viên. Hệ thống hiển thị nút "Delete"
+      \item Người dùng chọn nút “Delete”, hệ thống hiển thị modal xác nhận thao tác xóa thành viên đã chọn khỏi workspace
+      \item Người dùng chọn “Delete” để loại trừ thành viên khỏi workspace
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative Flow} &
+    \begin{tabular}{p{10cm}}
+        3a. Danh sách thành viên chỉ có workspace owner, người dùng không thể lựa chọn thành viên để thao tác
+    \end{tabular}
+\\ \hline
+\textbf{Exceptions} &
+     \begin{tabular}{p{10cm}}
+        5a. Người dùng chọn "Cancel" để tắt modal
+     \end{tabular}
+\\ \hline
+\end{tabular}%
+}
+\end{table}

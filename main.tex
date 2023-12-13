@@ -1,0 +1,195 @@
+\documentclass[a4paper]{article}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\usepackage[utf8]{vietnam}
+\usepackage{sans}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{a4wide,amssymb,epsfig,latexsym,array,hhline,fancyhdr}
+\usepackage[normalem]{ulem}
+\usepackage[makeroom]{cancel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{longtable,amscd}
+\usepackage{diagbox}%Make diagonal lines in tables
+\usepackage{booktabs}
+\usepackage{alltt}
+\usepackage[framemethod=tikz]{mdframed}% For highlighting paragraph backgrounds
+\usepackage{caption,subcaption}
+\usepackage{lastpage}
+\usepackage[lined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{graphicx}% Standard graphics package
+\usepackage{placeins}
+\usepackage{array}
+\usepackage{tabularx, caption}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{graphics}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{makecell}
+\usepackage{enumitem}
+\usepackage{epsfig}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage[normalem]{ulem}
+\usepackage{cite}%Tai lieu tham khao
+\usepackage{indentfirst}%Lui dau dong
+\hypersetup{urlcolor=cyan,linkcolor=black,citecolor=black,colorlinks=true} 
+\usetikzlibrary{arrows,decorations,backgrounds}
+\usepackage{pstricks}%PSTricks with the standard color package
+\usepackage[bottom]{footmisc}%footnote ở cuối trang
+\usepackage{tgpagella}
+\usepackage{enumitem}
+\graphicspath{ {figures/} }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\thesislayout{	% A4: 210 × 297
+	\geometry{
+		a4paper,
+		total={160mm,240mm},  % fix over page
+		left=25mm,
+		top=30mm,
+	}
+}
+\thesislayout
+
+\setlength{\headheight}{40pt}
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\fancyhead[L]
+{
+ \begin{tabular}{rl}
+    \begin{picture}(25,15)(0,0)
+    \put(5,-10){\includegraphics[width=10mm,height=10mm]{Pictures/logoBK.png}}
+    %\put(0,-8){\epsfig{width=10mm,figure=hcmut.eps}}
+   \end{picture}&
+	%\includegraphics[width=8mm, height=8mm]{hcmut.png} & %
+	\begin{tabular}{l}
+		\textbf{\bf \ttfamily Trường Đại Học Bách Khoa Tp.Hồ Chí Minh}\\
+		\textbf{\bf \ttfamily Khoa Khoa Học \& Kỹ Thuật Máy Tính}
+	\end{tabular} 
+ \vspace{2mm}
+ \end{tabular}
+}
+\fancyhead[R]{
+	\begin{tabular}{l}
+		\tiny \bf \\
+		\tiny \bf 
+	\end{tabular}  }
+\fancyfoot{} % clear all footer fields
+\fancyfoot[L]{\scriptsize \ttfamily Báo cáo đề cương Đồ án chuyên ngành - HK231}
+\fancyfoot[R]{\scriptsize \ttfamily Trang {\thepage}/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.3pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\makeatletter
+\newcounter {subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection .\@alph\c@subsubsubsection}
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries}}
+\newcommand*\l@subsubsubsection{\@dottedtocline{3}{10.0em}{4.1em}}
+\newcommand*{\subsubsubsectionmark}[1]{}
+\makeatother
+
+\sloppy
+\captionsetup[figure]{labelfont={small,bf},textfont={small,it},belowskip=-1pt,aboveskip=-9pt}
+%space remove between caption, figure, and text
+\captionsetup[table]{labelfont={small,bf},textfont={small,it},belowskip=-1pt,aboveskip=7pt}
+%space remove between caption, table, and text
+
+\renewcommand{\listfigurename}{List of plots}
+
+\setlength{\floatsep}{5pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{5pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+
+\thesislayout
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH \\
+TRƯỜNG ĐẠI HỌC BÁCH KHOA \\
+KHOA KHOA HỌC \& KỸ THUẬT MÁY TÍNH 
+\end{center}
+\renewcommand{\rmdefault}{ppl}
+\vspace{1cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h!]
+    \begin{center}
+        \includegraphics[width=4cm, height=4cm]{Pictures/logoBK.png}
+    \end{center}
+\end{figure}
+\vspace{1cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\begin{tabular}{c}
+\textbf{\large\textcolor{black}{BÁO CÁO ĐỀ CƯƠNG}}\\\\
+\textbf{\large\textcolor{black}{ĐỒ ÁN CHUYÊN NGÀNH}}\\\\
+~~\\
+\hline
+\\
+\textbf{\LARGE \color{black}BUSINESS PROCESS EVALUATION}\\
+\\
+\hline
+\end{tabular}
+\end{center}
+\vspace{2cm}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{rll}
+\textbf{Giảng viên hướng dẫn:} & Trương Thị Thái Minh   &         \\
+\textbf{Sinh viên thực hiện:}  & Lê Văn Vỹ             & 2010805 \\
+                               & Nguyễn Trí Hiếu       & 2013153 \\
+\end{tabular}
+\end{table}
+
+\vspace{5cm}
+\begin{center}
+{\footnotesize Thành phố Hồ Chí Minh, 12/2023}
+\end{center}
+\end{titlepage}
+\vspace{20cm}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+\setstretch{1.5}
+
+% Make itemize list items become hyphen
+\setlist[itemize,1]{label=--}
+\setlist[itemize,2]{label=--}
+\setlist[itemize,3]{label=--}
+
+% \section{Giới thiệu đề tài}
+% \input{Content/Giới thiệu đề tài/main}
+% \newpage
+\section{Cơ sở lý thuyết}
+\input{Content/Cơ sở lý thuyết/main}
+\newpage
+\section{Phân tích và thiết kế hệ thống}
+\input{Content/Phân tích và thiết kế hệ thống/main}
+\newpage
+\section{Hiện thực hệ thống}
+\input{Content/Hiện thực hệ thống/main}
+\newpage
+% \section{Kiểm thử và đánh giá hệ thống}
+% \input{Content/Kiểm thử và đánh giá hệ thống/main}
+% \newpage
+\input{Content/Kết luận/main}
+\newpage
+\input{Content/References}
+
+
+\end{document}

@@ -1,0 +1,56 @@
+\subsubsection{Create new workspace}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & Create new workspace
+\\ \hline
+\textbf{Actor}             & Registered user
+\\ \hline
+\textbf{Description}       & Người dùng tạo mới workspace
+\\ \hline
+\textbf{Trigger}           & Không
+\\ \hline
+\textbf{Pre-conditions}    & Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang ở giao diện Default homepage
+\\ \hline
+\textbf{Post-conditions}   & Người dùng tạo mới workspace thành công, và trở thành workspace owner của workspace đó
+\\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng ở giao diện Default homepage, hiện đang hiển thị danh sách workspace của người dùng đó
+      \item Người dùng chọn nút “Create workspace”
+      \item Hệ thống mở modal yêu cầu thông tin của workspace: Workspace name, workspace description
+      \item Người dùng nhập tên (Name) của workspace
+      \item Người dùng nhập mô tả (Description) của workspace
+      \item Người dùng chọn nút “Save” để lưu thông tin và hoàn tất tạo mới workspace
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} & Không
+\\ \hline
+\textbf{Exceptions} &
+  \begin{tabular}{p{10cm}}
+      2a. Người dùng chọn nút “Cancel” để đóng modal nhập thông tin workspace
+      \\
+      3a. Người dùng sử dụng tên của workspace đã tồn tại
+      \\ 
+      \begin{tabular}{p{9cm}}
+          3a.1. Hệ thống yêu cầu người dùng sửa lại tên phù hợp
+          \\ 
+          3a.2. Tiếp tục bước 4
+      \end{tabular}
+      \\
+      3b. Người dùng không nhập tên của workspace
+      \\ 
+      \begin{tabular}{p{9cm}}
+          3b.1. Hệ thống yêu cầu người dùng phải điền thông tin bắt buộc
+          \\ 
+          3b.2. Tiếp tục bước 4
+      \end{tabular}
+  \end{tabular}
+  \\ \hline
+\end{tabular}
+}
+\end{table}
