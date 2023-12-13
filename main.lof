@@ -1,0 +1,43 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Biểu đồ Gantt phân chia công việc}}{8}{figure.caption.5}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Lược đồ trình tự câu hỏi trong bảng khảo sát}}{27}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Lược đồ use-case hệ thống}}{32}{figure.caption.7}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Tạo mới workspace}}{52}{figure.caption.27}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Xoá workspace}}{53}{figure.caption.28}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Xoá thành viên khỏi Workspace}}{54}{figure.caption.29}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Quản lý requests trong Workspace}}{55}{figure.caption.30}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Thay đổi quyền của thành viên trong Workspace}}{56}{figure.caption.31}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Tạo mới project trong Workspace}}{57}{figure.caption.32}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Xoá project trong Workspace}}{58}{figure.caption.33}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Gửi lời mời trực tiếp đến cho user}}{59}{figure.caption.34}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Sơ đồ lớp cho toàn bộ hệ thống}}{60}{figure.caption.35}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Presentation Layer}}{61}{figure.caption.36}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Default homepage trong Presentation layer}}{62}{figure.caption.37}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Workspace detail page trong Presentation layer}}{63}{figure.caption.38}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Member management page trong Presentation layer}}{64}{figure.caption.39}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Notification page trong Presentation layer}}{65}{figure.caption.40}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Customization page trong Presentation layer}}{66}{figure.caption.41}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Request management page trong Presentation layer}}{67}{figure.caption.42}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Business Layer}}{67}{figure.caption.43}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Workspace Business}}{68}{figure.caption.44}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Join Workspace Business}}{68}{figure.caption.45}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Recent Opened Workspace Business}}{69}{figure.caption.46}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Request Business}}{69}{figure.caption.47}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Notification Business}}{70}{figure.caption.48}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Persistence Layer}}{70}{figure.caption.49}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Workspace Persistence}}{71}{figure.caption.50}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Join Workspace Persistence}}{71}{figure.caption.51}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Recent Opened Workspace Persistence}}{72}{figure.caption.52}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Request Persistence}}{72}{figure.caption.53}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Notification Persistence}}{73}{figure.caption.54}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Lược đồ ERD}}{74}{figure.caption.55}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Giao diện trang default homepage}}{83}{figure.caption.63}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Dropdown menu}}{83}{figure.caption.64}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Giao diện create modal khi người dùng tạo mới workspace}}{84}{figure.caption.65}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Giao diện rename modal khi người dùng đổi tên workspace}}{84}{figure.caption.66}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Giao diện share modal khi người dùng muốn mời/gửi yêu cầu mời người dùng khác vào workspace}}{85}{figure.caption.67}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Giao diện trang Workspace detail}}{86}{figure.caption.68}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Giao diện trang thông báo của người dùng}}{87}{figure.caption.69}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của thông báo}}{88}{figure.caption.70}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Giao diện trang quản lý thành viên trong Workspace}}{89}{figure.caption.71}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Giao diện trang quản lý yêu cầu từ thành viên trong workspace}}{90}{figure.caption.72}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của yêu cầu}}{90}{figure.caption.73}%

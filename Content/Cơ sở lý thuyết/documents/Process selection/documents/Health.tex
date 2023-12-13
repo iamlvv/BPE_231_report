@@ -1,29 +1,37 @@
 Sức khỏe là tiêu chí nhắm vào việc đánh giá mức độ đạt được hiệu suất hoạt động mong muốn do tổ chức đề ra cho quy trình nghiệp vụ. Việc đánh giá tiêu chí này sẽ dễ dàng với những tổ chức hoạt động hướng quy trình - xác định nghiệp vụ dưới dạng những quy trình nghiệp vụ có thể mô hình hóa được; đây là một lợi thế cho phép doanh nghiệp thu thập được những thông tin cần thiết cho quá trình đánh giá hiệu suất. Cụ thể hơn, việc đánh giá hiệu suất quy trình nghiệp vụ sẽ được mô tả thông qua 4 tiêu chí: thời gian (time), chi phí (cost), chất lượng (quality) và độ linh hoạt (flexibility).
-    \begin{enumerate}[label=(\alph*)]
-        \item Thời gian
-        \newline
+    % \begin{enumerate}[label=(\alph*)]
+        % \item Thời gian
+        % \newline
+    \paragraph{Thời gian}\mbox{}
+    
     Thời gian là yếu tổ phổ biến trong đánh giá hiệu suất quy trình nghiệp vụ. Cụ thể hơn thì đại lượng được tính toán phổ biến là thời gian chu kỳ (cycle time) - khoảng thời gian mà quy trình nghiệp vụ bắt đầu cho đến khi kết thúc; đây là đại lượng được tập trung tính toán ở hệ thống tiền nhiệm (BKSky 1.0) nhằm mục đích đánh giá quy trình nghiệp vụ. 
     
     Mục tiêu của đa phần những quy trình nghiệp vụ là giảm thời gian chu kỳ thực tế, điều này có thể hiểu là giảm thời gian chờ đợi (waiting time) - khoảng thời gian mà quy trình chờ để nhận được phản hồi từ người dùng; hoặc thời gian phục vụ (serving time) - khoảng thời gian thực sự tiêu tốn để hoàn thành tác vụ quy định trong quy trình nghiệp vụ.
 
     Trong ngữ cảnh của hệ thống hiện tại, chúng ta vẫn sẽ tập trung vào đánh giá hiệu suất của quy trình dựa vào đại lượng thời gian chu kỳ.
     
-        \item Chi phí
-        \newline
+        % \item Chi phí
+        % \newline
+    \paragraph{Chi phí}\mbox{}
+
     Khía cạnh về chi phí là khía cạnh phổ biến được cân nhắc trong giai đoạn phân tích, đánh giá và tái thiết kế quy trình. Khi chúng ta đề cập tới chi phí, mục tiêu đi kèm là giảm thiểu chi phí được sử dụng để vận hành quy trình nghiệp vụ. Chi phí này có thể là chi phí cố định (fixed cost) - chi phí không bị ảnh hưởng bởi cường độ và tần suất vận hành của quy trình nghiệp, thường là chi phí sử dụng cơ sở vật chất, chi phí bảo trì hệ thống,...; hoặc chi phí biến đổi (variable cost) - chi phí liên quan tới "lượng", ví dụ phụ thuộc vào số lượng sản phẩm, số lượng nhân viên,...
     
     Kế thừa ngữ cảnh của hệ thống cũ, hệ thống BKSky 2.0 sẽ xem xét khía cạnh chi phí theo mô hình Chi phí dựa trên hoạt động theo thời gian (Time-driven activity-based costing model); trong mô hình này chúng ta sẽ quan tâm tới chi phí đơn vị (unit cost) mà tổ chức chi trả cho quy trình nghiệp vụ để thực thi, vận hành trong một đơn vị thời gian.
     
-        \item Chất lượng
-        \newline
+        % \item Chất lượng
+        % \newline
+    \paragraph{Chất lượng}\mbox{}
+
     Chất lượng của quy trình có thể được nhìn nhận dưới hai góc nhìn chính: bên trong (internal quality) và bên ngoài (external quality). Chất lượng quy trình là khái niệm có phần trừu tượng, định nghĩa chất lượng có thể được tổng hợp từ nhiều yếu tố nhỏ liên quan; tuy nhiên trong ngữ cảnh hệ thống hiện tại, chúng ta sẽ tập trung phản ánh chất lượng của quy trình thông qua tính dễ hiểu của quy trình đối với người tham gia quy trình (process's participants - phân biệt với khách hàng sử dụng sản phẩm/dịch vụ cung cấp bởi đầu ra của quy trình).
     
     Kế thừa ngữ cảnh của hệ thống BKSky 1.0, thời gian của các tác vụ trong khối lặp trong quy trình ảnh hưởng theo một trọng số lớn đến tổng thời gian của cả quy trình. Vì vậy xác suất lặp của khối lặp càng lớn thì khả năng nó tác động đến tổng thời gian của quy trình càng cao, chất lượng bên trong của quy trình sẽ bị ảnh hưởng bởi xác suất lặp của các khối lặp. Yếu tố này sẽ được kế thừa trong hệ thống hiện tại.
 
     Bên cạnh đó, phản hồi từ phía người tham gia quy trình nghiệp vụ cũng đóng góp vào việc đánh giá chất lượng của quy trình. Phản hồi có thể được thu thập thông qua khảo sát hoặc những lời góp ý từ phía người tham gia quy trình. Hệ thống hiện tại sẽ tập trung vào việc khai thác phản hồi từ phía người dùng để hoàn thiện hơn quá trình đánh giá chất lượng của quy trình nghiệp vụ.
     
-        \item Độ linh hoạt
-        \newline
+        % \item Độ linh hoạt
+        % \newline
+    \paragraph{Độ linh hoạt}\mbox{}
+
     Độ linh hoạt của quy trình thể hiện thông qua khả năng thay đổi để thích nghi dưới những điều kiện khác nhau của quy trình nghiệp vụ. Tổ chức thường có mong muốn khiến quy trình nghiệp vụ của họ nhanh hơn, rẻ hơn và tốt hơn mà không chú ý đến yếu tố thay đổi của quy trình. Có thể dưới những hoàn cảnh khác nhau, tính ổn định vốn có của quy trình sẽ đánh mất hoàn toàn; khi đó, để so sánh hai quy trình với nhau thì quy trình có thể hoạt động ổn định trong đa số hoàn cảnh lại chiếm ưu thế hơn quy trình hoạt động tốt khi tải bình thường nhưng lại đình trệ khi tải vượt quá cao.
 
     Mục tiêu là chúng ta cần nâng cao được tính linh hoạt của quy trình để có thể đáp ứng nhiều điều kiện khác nhau, tính thích ứng có thể thể hiện thông qua:
@@ -35,4 +43,4 @@ Sức khỏe là tiêu chí nhắm vào việc đánh giá mức độ đạt đ
     \end{itemize}
 
 Trong ngữ cảnh của hệ thống BKSky 1.0, chúng ta đã xem xét tính linh hoạt của quy trình nghiệp vụ bị ảnh hưởng bởi số lượng biến thể sinh ra khi luồng thực thi rẽ nhánh. Ở hệ thống hiện tại, chúng ta sẽ kế thừa đồng thời phát triển thêm về tính linh hoạt của quy trình khi hoàn cảnh khác nhau sẽ yêu cầu cấu trúc khác nhau nhằm đảm bảo tính ổn định của hiệu suất quy trình. 
-\end{enumerate}
+% \end{enumerate}

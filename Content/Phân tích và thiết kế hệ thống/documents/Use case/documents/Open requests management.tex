@@ -1,0 +1,33 @@
+\subsubsection{View requests management}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & View requests management                                              
+\\ \hline
+\textbf{Actor}             & Workspace owner
+\\ \hline
+\textbf{Description}       & Truy cập vào trang quản lý yêu cầu của chủ sở hữu Workspace
+\\ \hline
+\textbf{Trigger}           & Không                                                                         \\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang đứng ở giao diện workspace đã chọn \\ \hline
+\textbf{Post-conditions}   & Người dùng truy cập vào trang quản lý yêu cầu của Workspace mà họ sở hữu
+\\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng ở giao diện workspace đã chọn
+      \item Người dùng chọn icon hình bánh răng ở bên cạnh tiêu đề workspace
+      \item Hệ thống điều hướng người dùng tới giao diện quản lý, giao diện mặc định là quản lý người dùng
+      \item Người dùng chọn tab "Requests management" ở thanh sidebar
+      \item Hệ thống điều hướng người dùng tới giao diện quản lý yêu cầu của workspace
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} & Không                                                                         \\ \hline
+\textbf{Exceptions}        & Không                                                                         \\ \hline
+\end{tabular}%
+}
+\end{table}

@@ -1,0 +1,39 @@
+\subsubsection{Delete notification}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name} & Delete notification. 
+\\ \hline
+\textbf{Actor} & Registered user
+\\ \hline
+\textbf{Description} & Người dùng có thể xóa thông báo
+\\ \hline
+\textbf{Trigger} & Không 
+\\ \hline
+\textbf{Pre-conditions} & Người dùng đã đăng nhập vào hệ thống và đang ở trang thông báo
+\\ \hline
+\textbf{Post-conditions} & Xóa thông báo thành công 
+\\ \hline
+\textbf{Normal Flow} &
+    \begin{enumerate}
+        \item Người dùng hiện tại đang ở trang thông báo và hệ thống hiển thị danh sách thông báo.
+        \item Người dùng chọn vào icon "Menu" của item thông báo, hệ thống hiển thị danh sách menu thao tác với thông báo
+        \item Người dùng chọn nút "Delete" trong menu
+        \item Hệ thống hiển thị modal yêu cầu người dùng xác nhận xóa thông báo
+        \item Người dùng nhấn nút “Delete” để xác nhận xóa thông báo
+    \end{enumerate}
+\\ \hline
+\textbf{Alternative Flow} & Không 
+\\ \hline
+\textbf{Exceptions} &
+  \begin{tabular}{p{10cm}}
+        5a. Người dùng chọn "Cancel" để hủy thao tác xóa thông báo
+  \end{tabular}
+\\ \hline
+\end{tabular}%
+}
+\end{table}
