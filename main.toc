@@ -1,82 +1,89 @@
-\contentsline {section}{\numberline {1}Cơ sở lý thuyết}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Business Project Evaluation}{3}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Thời gian chu kỳ}{3}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Chi phí}{4}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Độ minh bạch}{4}{subsubsection.1.1.3}%
-\contentsline {subsubsection}{\numberline {1.1.4}Xử lý ngoại lệ}{4}{subsubsection.1.1.4}%
-\contentsline {subsubsection}{\numberline {1.1.5}Độ linh hoạt}{4}{subsubsection.1.1.5}%
-\contentsline {subsubsection}{\numberline {1.1.6}Chất lượng}{5}{subsubsection.1.1.6}%
-\contentsline {subsection}{\numberline {1.2}Process portfolio}{5}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Process selection}{6}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Độ quan trọng chiến lược}{6}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Sức khỏe}{6}{subsubsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.3}Tính khả thi}{8}{subsubsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.4}Survey}{8}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Nguyên tắc thiết kế bảng khảo sát}{9}{subsubsection.1.4.1}%
-\contentsline {paragraph}{\numberline {1.4.1.1}Nguyên tắc}{9}{paragraph.1.4.1.1}%
-\contentsline {paragraph}{\numberline {1.4.1.2}Thang điểm}{10}{paragraph.1.4.1.2}%
-\contentsline {subsubsection}{\numberline {1.4.2}Yếu tố khảo sát}{10}{subsubsection.1.4.2}%
-\contentsline {paragraph}{\numberline {1.4.2.1}CES}{10}{paragraph.1.4.2.1}%
-\contentsline {paragraph}{\numberline {1.4.2.2}CSAT}{11}{paragraph.1.4.2.2}%
-\contentsline {paragraph}{\numberline {1.4.2.3}NPS}{11}{paragraph.1.4.2.3}%
-\contentsline {subsubsection}{\numberline {1.4.3}Phương pháp MUSA}{12}{subsubsection.1.4.3}%
-\contentsline {subsubsection}{\numberline {1.4.4}Tính toán kết quả khảo sát}{13}{subsubsection.1.4.4}%
-\contentsline {subsubsection}{\numberline {1.4.5}Tính toán giá trị chất lượng của quy trình nghiệp vụ}{14}{subsubsection.1.4.5}%
-\contentsline {subsubsection}{\numberline {1.4.6}Đề xuất bảng khảo sát}{15}{subsubsection.1.4.6}%
-\contentsline {paragraph}{\numberline {1.4.6.1}Đối tượng khảo sát}{15}{paragraph.1.4.6.1}%
-\contentsline {paragraph}{\numberline {1.4.6.2}Nội dung khảo sát}{15}{paragraph.1.4.6.2}%
-\contentsline {paragraph}{\numberline {1.4.6.3}Hình thức câu hỏi}{16}{paragraph.1.4.6.3}%
-\contentsline {paragraph}{\numberline {1.4.6.4}Nội dung câu hỏi}{17}{paragraph.1.4.6.4}%
-\contentsline {section}{\numberline {2}Phân tích và thiết kế hệ thống}{23}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Giới thiệu hệ thống}{23}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Kiến trúc phần mềm}{25}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Use-case}{27}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Lược đồ use-case}{27}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Đặc tả use-case}{28}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Create new workspace}{28}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Join workspace through invitation}{29}{subsubsection.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.5}View user’s list of workspaces}{30}{subsubsection.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.6}Access to projects' content in selected workspace}{31}{subsubsection.2.3.6}%
-\contentsline {subsubsection}{\numberline {2.3.7}Send request for inviting other user}{32}{subsubsection.2.3.7}%
-\contentsline {subsubsection}{\numberline {2.3.8}Send request for adjust permission}{33}{subsubsection.2.3.8}%
-\contentsline {subsubsection}{\numberline {2.3.9}Delete member in Workspace}{34}{subsubsection.2.3.9}%
-\contentsline {subsubsection}{\numberline {2.3.10}Manage requests from member}{35}{subsubsection.2.3.10}%
-\contentsline {subsubsection}{\numberline {2.3.11}Create new project}{36}{subsubsection.2.3.11}%
-\contentsline {subsubsection}{\numberline {2.3.12}Delete project in Workspace}{37}{subsubsection.2.3.12}%
-\contentsline {subsubsection}{\numberline {2.3.13}Send invitation to other users}{38}{subsubsection.2.3.13}%
-\contentsline {subsection}{\numberline {2.4}Sơ đồ hoạt động}{39}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Tạo mới workspace}{39}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Xoá workspace}{40}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Xoá thành viên khỏi Workspace}{41}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Quản lý requests trong Workspace}{42}{subsubsection.2.4.4}%
-\contentsline {subsubsection}{\numberline {2.4.5}Thay đổi quyền của thành viên trong Workspace}{43}{subsubsection.2.4.5}%
-\contentsline {subsubsection}{\numberline {2.4.6}Tạo mới project trong Workspace}{44}{subsubsection.2.4.6}%
-\contentsline {subsubsection}{\numberline {2.4.7}Xoá project trong Workspace}{45}{subsubsection.2.4.7}%
-\contentsline {subsubsection}{\numberline {2.4.8}Gửi lời mời trực tiếp đến cho user}{46}{subsubsection.2.4.8}%
-\contentsline {subsection}{\numberline {2.5}Sơ đồ lớp}{47}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Tổng quan}{47}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Presentation Layer}{47}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Business Layer}{53}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Persistence Layer}{56}{subsubsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.6}Thiết kế cơ sở dữ liệu}{60}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Lược đồ ERD}{60}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Ánh xạ ERD và mô tả chi tiết thực thể}{60}{subsubsection.2.6.2}%
-\contentsline {paragraph}{\numberline {2.6.2.1}User: Người dùng của hệ thống}{60}{paragraph.2.6.2.1}%
-\contentsline {paragraph}{\numberline {2.6.2.2}Project: Dự án trong workspace}{60}{paragraph.2.6.2.2}%
-\contentsline {paragraph}{\numberline {2.6.2.3}Workspace: Không gian làm việc trong hệ thống}{61}{paragraph.2.6.2.3}%
-\contentsline {paragraph}{\numberline {2.6.2.4}Join Workspace: Quan hệ tham gia giữa người dùng và workspace}{62}{paragraph.2.6.2.4}%
-\contentsline {paragraph}{\numberline {2.6.2.5}Recent Opened Workspace: Quan hệ chỉnh sửa giữa người dùng và workspace}{62}{paragraph.2.6.2.5}%
-\contentsline {paragraph}{\numberline {2.6.2.6}Request: Các yêu cầu trong hệ thống}{62}{paragraph.2.6.2.6}%
-\contentsline {paragraph}{\numberline {2.6.2.7}Notification: Các thông báo của người dùng}{63}{paragraph.2.6.2.7}%
-\contentsline {section}{\numberline {3}Hiện thực hệ thống}{65}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Công nghệ sử dụng}{65}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}ReactJS - Javascript}{65}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Python}{65}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Websocket và Socket.IO}{66}{subsubsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.4}PostgreSQL}{67}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}Hiện thực giao diện người dùng}{68}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Kết luận}{69}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Kết quả đạt được}{69}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Những điểm hạn chể}{69}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Hướng phát triển cho giai đoạn luận văn}{69}{subsubsection.3.3.3}%
-\contentsline {section}{\numberline {4}Tham khảo}{70}{section.4}%
+\contentsline {section}{\numberline {1}Giới thiệu đề tài}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Lý do chọn đề tài}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Mục tiêu của đề tài}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Phạm vi của đề tài}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Ý nghĩa của đề tài}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Cấu trúc của đồ án}{4}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Phân chia công việc}{5}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Cơ sở lý thuyết}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Business Project Evaluation}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Thời gian chu kỳ}{7}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Chi phí}{8}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Độ minh bạch}{8}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Xử lý ngoại lệ}{8}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Độ linh hoạt}{8}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}Chất lượng}{9}{subsubsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.2}Process portfolio}{9}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Process selection}{10}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Độ quan trọng chiến lược}{10}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Sức khỏe}{10}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Tính khả thi}{12}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Survey}{12}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Nguyên tắc thiết kế bảng khảo sát}{13}{subsubsection.2.4.1}%
+\contentsline {paragraph}{\numberline {2.4.1.1}Nguyên tắc}{13}{paragraph.2.4.1.1}%
+\contentsline {paragraph}{\numberline {2.4.1.2}Thang điểm}{14}{paragraph.2.4.1.2}%
+\contentsline {subsubsection}{\numberline {2.4.2}Yếu tố khảo sát}{14}{subsubsection.2.4.2}%
+\contentsline {paragraph}{\numberline {2.4.2.1}CES}{14}{paragraph.2.4.2.1}%
+\contentsline {paragraph}{\numberline {2.4.2.2}CSAT}{15}{paragraph.2.4.2.2}%
+\contentsline {paragraph}{\numberline {2.4.2.3}NPS}{15}{paragraph.2.4.2.3}%
+\contentsline {subsubsection}{\numberline {2.4.3}Phương pháp MUSA}{16}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Tính toán kết quả khảo sát}{17}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}Tính toán giá trị chất lượng của quy trình nghiệp vụ}{18}{subsubsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.6}Đề xuất bảng khảo sát}{19}{subsubsection.2.4.6}%
+\contentsline {paragraph}{\numberline {2.4.6.1}Đối tượng khảo sát}{19}{paragraph.2.4.6.1}%
+\contentsline {paragraph}{\numberline {2.4.6.2}Nội dung khảo sát}{19}{paragraph.2.4.6.2}%
+\contentsline {paragraph}{\numberline {2.4.6.3}Hình thức câu hỏi}{20}{paragraph.2.4.6.3}%
+\contentsline {paragraph}{\numberline {2.4.6.4}Nội dung câu hỏi}{21}{paragraph.2.4.6.4}%
+\contentsline {section}{\numberline {3}Phân tích và thiết kế hệ thống}{27}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Giới thiệu hệ thống}{27}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Kiến trúc phần mềm}{29}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Use-case}{31}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Lược đồ use-case}{31}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Đặc tả use-case}{32}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Create new workspace}{32}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Join workspace through invitation}{33}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}View user’s list of workspaces}{34}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}Access to projects' content in selected workspace}{35}{subsubsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.7}Send request for inviting other user}{36}{subsubsection.3.3.7}%
+\contentsline {subsubsection}{\numberline {3.3.8}Send request for adjust permission}{37}{subsubsection.3.3.8}%
+\contentsline {subsubsection}{\numberline {3.3.9}Delete member in Workspace}{38}{subsubsection.3.3.9}%
+\contentsline {subsubsection}{\numberline {3.3.10}Manage requests from member}{39}{subsubsection.3.3.10}%
+\contentsline {subsubsection}{\numberline {3.3.11}Create new project}{40}{subsubsection.3.3.11}%
+\contentsline {subsubsection}{\numberline {3.3.12}Delete project in Workspace}{41}{subsubsection.3.3.12}%
+\contentsline {subsubsection}{\numberline {3.3.13}Send invitation to other users}{42}{subsubsection.3.3.13}%
+\contentsline {subsection}{\numberline {3.4}Sơ đồ hoạt động}{43}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Tạo mới workspace}{43}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Xoá workspace}{44}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Xoá thành viên khỏi Workspace}{45}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Quản lý requests trong Workspace}{46}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Thay đổi quyền của thành viên trong Workspace}{47}{subsubsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}Tạo mới project trong Workspace}{48}{subsubsection.3.4.6}%
+\contentsline {subsubsection}{\numberline {3.4.7}Xoá project trong Workspace}{49}{subsubsection.3.4.7}%
+\contentsline {subsubsection}{\numberline {3.4.8}Gửi lời mời trực tiếp đến cho user}{50}{subsubsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.5}Sơ đồ lớp}{51}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Tổng quan}{51}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Presentation Layer}{51}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Business Layer}{58}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Persistence Layer}{61}{subsubsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.6}Thiết kế cơ sở dữ liệu}{65}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Lược đồ ERD}{65}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Ánh xạ ERD và mô tả chi tiết thực thể}{65}{subsubsection.3.6.2}%
+\contentsline {paragraph}{\numberline {3.6.2.1}User: Người dùng của hệ thống}{65}{paragraph.3.6.2.1}%
+\contentsline {paragraph}{\numberline {3.6.2.2}Project: Dự án trong workspace}{65}{paragraph.3.6.2.2}%
+\contentsline {paragraph}{\numberline {3.6.2.3}Workspace: Không gian làm việc trong hệ thống}{66}{paragraph.3.6.2.3}%
+\contentsline {paragraph}{\numberline {3.6.2.4}Join Workspace: Quan hệ tham gia giữa người dùng và workspace}{67}{paragraph.3.6.2.4}%
+\contentsline {paragraph}{\numberline {3.6.2.5}Recent Opened Workspace: Quan hệ chỉnh sửa giữa người dùng và workspace}{67}{paragraph.3.6.2.5}%
+\contentsline {paragraph}{\numberline {3.6.2.6}Request: Các yêu cầu trong hệ thống}{67}{paragraph.3.6.2.6}%
+\contentsline {paragraph}{\numberline {3.6.2.7}Notification: Các thông báo của người dùng}{68}{paragraph.3.6.2.7}%
+\contentsline {section}{\numberline {4}Hiện thực hệ thống}{70}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Công nghệ sử dụng}{70}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}ReactJS}{70}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Python}{70}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Websocket và Socket.IO}{71}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}PostgreSQL}{72}{subsubsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.2}Hiện thực giao diện người dùng}{73}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Kết luận}{74}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Kết quả đạt được}{74}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Những điểm hạn chể}{74}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Hướng phát triển cho giai đoạn luận văn}{74}{subsubsection.4.3.3}%
+\contentsline {section}{\numberline {5}Tham khảo}{75}{section.5}%

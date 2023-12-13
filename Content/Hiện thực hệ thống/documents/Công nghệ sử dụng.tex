@@ -1,50 +1,138 @@
 \subsection{Công nghệ sử dụng}
 \subsubsection{ReactJS}
-React là một thư viện Javascript mã nguồn mở, được phát triển và hỗ trợ bởi Meta (trước đây là Facebook), được ra mắt vào năm 2013 với mục đích xây dựng giao diện người dùng. React được sử dụng rộng rãi để xây dựng các trang web SPA (Single Page Application) và các ứng dụng trên nền tảng di động. React tổ chức các thành phần của trang web thành các component, cho phép chúng ta nhóm các logic xử lý của các phần nhỏ của giao diện lại với nhau, từ đó có thể tái sử dụng nhiều lần và mở rộng thêm chức năng cho mỗi thành phần đó. Mỗi component có thể tự quản lý trạng thái (state) của riêng mình, cũng như nhận vào các thuộc tính (props) được truyền từ component cha. React tối ưu việc render trang web bằng cách chỉ cho phép render khi phát hiện có sự thay đổi trong state và props, từ đó giảm thiểu số lần phải re - render. React còn nổi tiếng với việc sử dụng Virtual DOM để cải thiện hiệu năng, khi so sánh DOM gốc của trang web và Virtual DOM để tìm ra những sự khác nhau, và chỉ render lại những điểm khác nhau đó, thay vì re - render cả cây DOM, điều mà sẽ làm hiệu năng của trang web giảm đi đáng kể.
-\newline
-\textbf{Một số ưu điểm của React}
+React là một thư viện Javascript mã nguồn mở, được phát triển và hỗ trợ bởi
+Meta (trước đây là Facebook), ra mắt vào năm 2013 với mục đích xây dựng giao
+diện người dùng. React được sử dụng rộng rãi để xây dựng các trang web SPA
+(Single Page Application) và các ứng dụng trên nền tảng di động. React tổ chức
+các thành phần của trang web thành các component, cho phép chúng ta nhóm các
+logic xử lý của các phần nhỏ của giao diện lại với nhau, từ đó có thể tái sử
+dụng nhiều lần và mở rộng thêm chức năng cho mỗi thành phần đó. Mỗi component
+có thể tự quản lý trạng thái (state) của riêng mình, cũng như nhận vào các
+thuộc tính (props) được truyền từ component cha. React tối ưu việc render trang
+web bằng cách chỉ cho phép render khi phát hiện có sự thay đổi trong state và
+props, từ đó giảm thiểu số lần phải re - render. React còn nổi tiếng với việc
+sử dụng Virtual DOM để cải thiện hiệu năng, khi so sánh DOM gốc của trang web
+và Virtual DOM để tìm ra những sự khác nhau, và chỉ render lại những điểm khác
+nhau đó, thay vì re - render cả cây DOM, điều mà sẽ làm hiệu năng của trang web
+giảm đi đáng kể.
+\par
+Một số ưu điểm của React có thể kể đến như sau:
 \begin{itemize}
-    \item Cập nhật hiệu quả. Các thuật toán của ReactJS đảm bảo rằng các cập nhật, thay đổi UI được thực thi hiệu quả. Chỉ những components bị ảnh hưởng bởi một thay đổi nào đó mới được re - render, giúp tối ưu hoá tổng quan hiệu năng của ứng dụng.
-    \item Luồng dữ liệu một chiều. ReactJS chỉ cung cấp luồng dữ liệu đi theo một chiều, giúp cho lập trình viên dễ dàng hiểu cách dữ liệu hoạt động, thay đổi như thế nào trong cây phân cấp component, cũng như dự đoán trước trạng thái của component.
-    \item Cộng đồng lớn. ReactJS là thư viện front-end Javascript nổi tiếng, do đó sự hỗ trợ từ cộng đồng là rất tốt khi ta có vấn đề trong việc lập trình. Ngoài ra, các thư viện, components của bên thứ ba, các hooks được phát triển và duy trì bởi hàng triệu lập trình viên trên toàn thế giới, giúp ta có thể tìm thấy thư viện mong muốn, phục vụ cho nhiều chức năng của hệ thống.
+    \item Cập nhật hiệu quả. Các thuật toán của ReactJS đảm bảo rằng các cập nhật, thay
+          đổi UI được thực thi hiệu quả. Chỉ những components bị ảnh hưởng bởi một thay
+          đổi nào đó mới được re - render, giúp tối ưu hoá tổng quan hiệu năng của ứng
+          dụng.
+    \item Luồng dữ liệu một chiều. ReactJS chỉ cung cấp luồng dữ liệu đi theo một chiều,
+          giúp cho lập trình viên dễ dàng hiểu cách dữ liệu hoạt động, thay đổi như thế
+          nào trong cây phân cấp component, cũng như dự đoán trước trạng thái của
+          component.
+    \item Cộng đồng lớn. ReactJS là thư viện front-end Javascript nổi tiếng, do đó sự hỗ
+          trợ từ cộng đồng là rất tốt khi ta có vấn đề trong việc lập trình. Ngoài ra,
+          các thư viện, components của bên thứ ba, các hooks được phát triển và duy trì
+          bởi hàng triệu lập trình viên trên toàn thế giới, giúp ta có thể tìm thấy thư
+          viện mong muốn, phục vụ cho các chức năng khác nhau của hệ thống.
 \end{itemize}
 \subsubsection{Python}
-Tiếp nối với phần Backend của đề tài trước, ở đề tài này, nhóm tiếp tục sử dụng Python làm ngôn ngữ lập trình chính cho phần server của hệ thống, áp dụng framework Flask. Hiện nay có rất nhiều framework để hỗ trợ người dùng lập trình web với ngôn ngữ Python, và Flask là một trong những framework phổ biến đó. 
-\newline
+Kế thừa từ đề tài trước, ở đề tài này, nhóm tiếp tục sử dụng Python làm ngôn
+ngữ lập trình chính cho phần server của hệ thống và áp dụng framework Flask.
+\par
 Ở Flask có một số ưu điểm nổi bật để chúng tôi quyết định lựa chọn nó:
 \begin{itemize}
-    \item Một micro web framework. Flask là một micro web framework được viết bằng Python, không yêu cầu tool hay thư viện cụ thể nào. “Micro” không có nghĩa là thiếu chức năng mà “micro” theo triết lý thiết kế là cung cấp một lõi chức năng “súc tích” nhất cho ứng dụng web nhưng người dùng có thể mở rộng bất cứ lúc nào. Flask luôn hỗ trợ các thành phần tiện ích mở rộng cho ứng dụng như tích hợp cơ sở dữ liệu, xác thực biểu mẫu, xử lý upload, các công nghệ xác thực, template, email, RESTful... Người dùng có thể tập trung xây dựng web application ngay từ đầu trong một khoảng thời gian rất ngắn và có thể phát triển quy mô của ứng dụng tùy theo yêu cầu.
-    \item Khả năng mở rộng. Chính nguyên lý và áp dụng microframework đã giúp cho Flask Python có thể dễ dàng mở rộng nếu có nhu cầu từ Web Application. Do phần core chạy độc lập và ít phụ thuộc, nên cho dù mở rộng ở mức quy mô thì web application sử dụng Flask Python vẫn đáp ứng được.
-    \item Sự linh hoạt. Sự linh hoạt là tính năng cốt lõi và cũng là ưu điểm của Flask Python. Chính vì giữ cho core và các thành phần khác đơn giản nên ít bị phụ thuộc vào nhau. Sự đơn giản này giúp ta có thể chuyển hướng web application theo business owner dễ dàng hơn. Ngoài ra do ít bị phụ thuộc lẫn nhau nên một thành phần nào đó bị sập cũng khó mà kéo theo cả hệ thống bị sập. 
+    \item Flask là một micro web framework được viết bằng Python, không yêu cầu tool hay
+          thư viện cụ thể nào. “Micro” không có nghĩa là thiếu chức năng mà “micro” theo
+          triết lý thiết kế là cung cấp một lõi chức năng “súc tích” nhất cho ứng dụng
+          web nhưng người dùng có thể mở rộng bất cứ lúc nào. Flask luôn hỗ trợ các thành
+          phần tiện ích mở rộng cho ứng dụng như tích hợp cơ sở dữ liệu, xác thực biểu
+          mẫu, xử lý upload, các công nghệ xác thực, template, email, RESTful... Người
+          dùng có thể tập trung xây dựng web application ngay từ đầu trong một khoảng
+          thời gian rất ngắn và có thể mở rộng quy mô của ứng dụng tùy theo yêu cầu.
+    \item Chính nguyên lý và áp dụng microframework đã giúp cho Flask Python có thể dễ
+          dàng mở rộng nếu có nhu cầu từ ứng dụng web. Do phần core chạy độc lập và ít
+          phụ thuộc, nên cho dù mở rộng ở mức quy mô thì ứng dụng web sử dụng Flask
+          Python vẫn đáp ứng được.
+    \item Sự linh hoạt là tính năng cốt lõi và cũng là ưu điểm của Flask Python. Chính vì
+          giữ cho core và các thành phần khác đơn giản nên ít bị phụ thuộc vào nhau, sự
+          đơn giản này giúp ta có thể chuyển hướng ứng dụng web theo business owner dễ
+          dàng hơn. Ngoài ra do ít bị phụ thuộc lẫn nhau nên một thành phần nào đó bị sập
+          cũng khó mà kéo theo cả hệ thống bị sập.
 \end{itemize}
 \subsubsection{Websocket và Socket.IO}
-Websocket là một công nghệ theo thời gian thực, cung cấp một giao tiếp hai chiều, song công toàn phần giữa máy khách và máy chủ trên một kết nối đơn socket, bền vững. Trong chế độ truyền song công toàn phần, việc giao tiếp giữa bên gửi và bên nhận có thể diễn ra đồng thời. Bên gửi và bên nhận có thể truyền và nhận tín hiệu cùng một lúc. Chế độ truyền song công toàn phần giống như con đường hai chiều, trong đó các phương tiện có thể lưu chuyển theo cả hai hướng cùng một lúc. Ví dụ, trong một cuộc trò chuyện qua điện thoại, hai người giao tiếp và cả hai có thể tự do nói và nghe cùng một lúc. Một kết nối Websocket sẽ bắt đầu với một HTTP request/response handshake. Nếu handshake khởi tạo thành công, máy chủ và máy khách đồng ý sử dụng kết nối TCP có sẵn đã được thiết lập cho một kết nối Websocket. Kết nối này sẽ tồn tại lâu nhất có thể (theo lý thuyết có thể tồn tại mãi mãi), cho phép máy chủ và máy khách có thể độc lập gửi dữ liệu cho nhau. Một số ưu điểm của Websocket:
+Websocket là một công nghệ theo thời gian thực, cung cấp một giao tiếp hai
+chiều, song công toàn phần giữa máy khách và máy chủ trên một kết nối đơn
+socket, bền vững. Trong chế độ truyền song công toàn phần, việc giao tiếp giữa
+bên gửi và bên nhận có thể diễn ra đồng thời, bên gửi và bên nhận có thể truyền
+và nhận tín hiệu cùng một lúc. Chế độ truyền song công toàn phần giống như con
+đường hai chiều, trong đó các phương tiện có thể lưu chuyển theo cả hai hướng
+cùng một lúc. Ví dụ, trong một cuộc trò chuyện qua điện thoại, hai người giao
+tiếp và cả hai có thể tự do nói và nghe cùng một lúc. Một kết nối Websocket sẽ
+bắt đầu với một HTTP request/response handshake. Nếu handshake khởi tạo thành
+công, máy chủ và máy khách đồng ý sử dụng kết nối TCP có sẵn đã được thiết lập
+cho một kết nối Websocket. Kết nối này sẽ tồn tại lâu nhất có thể (theo lý
+thuyết có thể tồn tại mãi mãi), cho phép máy chủ và máy khách có thể độc lập
+gửi dữ liệu cho nhau.
+\par
+Một số ưu điểm của Websocket:
 \begin{itemize}
-    \item Trước khi có Websocket, các kỹ thuật HTTP như AJAX long polling và COmet là những chuẩn để xây dựng các ứng dụng thời gian thực. Tuy nhiên, ở Websocet đã lược bỏ đi việc thiết lập kết nối mỗi khi có request, và giảm kích thước của mỗi message vì không còn HTTP headers. Điều này giúp tiết kiệm băng thông, cải thiện độ trễ.
+    \item Trước khi có Websocket, các kỹ thuật HTTP như AJAX long polling và Comet là
+          những tiêu chuẩn để xây dựng các ứng dụng thời gian thực. Tuy nhiên, ở
+          Websocket đã lược bỏ đi việc thiết lập kết nối mỗi khi có request, và giảm kích
+          thước của mỗi message vì không còn HTTP headers. Điều này giúp tiết kiệm băng
+          thông, cải thiện độ trễ.
     \item Độ linh hoạt đã ăn sâu vào thiết kế của công nghệ Websocket, cho phép việc hiện thực các giao thức ở tầng ứng dụng và các mở rộng cho những chức năng khác (ví dụ như pub/sub messaging).
-    \item Là một công nghệ hướng sự kiện (event - driven), Websocket cho phép dữ liệu được truyền đi mà không cần máy khách phải gửi request. Cơ chế này sẽ cực kỳ hữu ích trong viễn cảnh máy khách cần phản ứng nhanh chóng với một sự kiện nào đó (đặc biệt là những sự kiện không thể dự đoán trước).
+    \item Là một công nghệ hướng sự kiện (event - driven), Websocket cho phép dữ liệu
+          được truyền đi mà không cần máy khách phải gửi request. Cơ chế này sẽ cực kỳ
+          hữu ích trong ngữ cảnh máy khách cần phản ứng nhanh chóng với một sự kiện nào
+          đó (đặc biệt là những sự kiện không thể dự đoán trước).
 \end{itemize}
+\par
 Dẫu vậy, Websocket vẫn có một số những nhược điểm như sau:
 \begin{itemize}
-    \item Không như HTTP, Websocket là có trạng thái (stateful). Trong một số trường hợp sẽ khá khó khăn khi phải xử lý điều này, đặc biệt là lúc mở rộng hệ thống, bởi vì nó yêu cầu phía server phải theo dõi mỗi kết nối Websocket đơn lẻ và duy trì các thông tin trạng thái.
-    \item Websocket không tự động khôi phục khi các kết nối bị huỷ - và để tự động khôi phục ta cần phải tự hiện thực lấy. Đây cũng là lý do vì sao có nhiều thư viện hỗ trợ Websocket phía máy khách.
-    \item Một số môi trường (ví dụ như môi trường trong doanh nghiệp với các proxy servers) sẽ chặn các kết nối Websocket.
+    \item Không như HTTP, Websocket là có trạng thái (stateful). Trong một số trường hợp
+          sẽ khá khó khăn khi phải xử lý điều này, đặc biệt là lúc mở rộng hệ thống, bởi
+          vì nó yêu cầu phía server phải theo dõi mỗi kết nối Websocket đơn lẻ và duy trì
+          các thông tin trạng thái.
+    \item Websocket không tự động khôi phục khi các kết nối bị huỷ - và để tự động khôi
+          phục ta cần phải tự hiện thực tính năng này. Đây cũng là lý do vì sao có nhiều
+          thư viện hỗ trợ Websocket phía máy khách.
+    \item Một số môi trường (ví dụ như môi trường trong doanh nghiệp với các proxy
+          servers) sẽ chặn các kết nối Websocket.
 \end{itemize}
-Chính vì vậy, chúng tôi sử dụng thêm một thư viện để hỗ trợ trong việc trao đổi dữ liệu qua giao thức Websocket.
-Socket.IO là một thư viện theo thời gian thực, giúp giảm thiểu độ trễ và giao tiếp hai chiều giữa máy khách và mát chủ. Socket.IO được xây dựng trên nền tảng giao thức Websocket, và cung cấp thêm một số tính năng khác như tự động kết nối lại, hỗ trợ broadcast,...
+\par
+Chính vì vậy, chúng tôi sử dụng thêm một thư viện để hỗ trợ trong việc trao đổi
+dữ liệu qua giao thức Websocket. Socket.IO là một thư viện theo thời gian thực,
+giúp giảm thiểu độ trễ và giao tiếp hai chiều giữa máy khách và mát chủ.
+Socket.IO được xây dựng trên nền tảng giao thức Websocket, và cung cấp thêm một
+số tính năng khác như tự động kết nối lại, hỗ trợ broadcast,...
+\par
 Một số ưu điểm của Socket.IO:
 \begin{itemize}
-    \item Socket.IO hỗ trợ multiplexing thông qua namespaces. Việc tận dụng namespaces giúp ta có thể tối giản hoá số lượng kết nối TCP đã sử dụng, và lưu các cổng socket trên máy chủ.
-    \item Socket.IO cho phép phía máy chủ có thể linh hoạt broadcast các sự kiện đến tất cả máy khách đã kết nối. Ta cũng có thể broadcast các sự kiện tới một tập nhỏ các máy khách thông qua tính năng room.
-    \item Socket.IO hỗ trợ HTTP long polling như một phương án dự phòng, sẽ hữu ích trong các môi trường không hỗ trợ Websocket.
-    \item Socket.IO cung cấp cơ chế Ping/Pong, cho phép phát hiện một kết nối có đang hoạt động hay không. Ngoài ra, nếu một máy khách bị ngắt kết nối, nó sẽ tự động kết nối lại.
+    \item Socket.IO hỗ trợ multiplexing thông qua namespaces. Việc tận dụng namespaces
+          giúp ta có thể tối giản hoá số lượng kết nối TCP đã sử dụng, và lưu các cổng
+          socket trên máy chủ.
+    \item Socket.IO cho phép phía máy chủ có thể linh hoạt broadcast các sự kiện đến tất
+          cả máy khách đã kết nối. Ta cũng có thể broadcast các sự kiện tới một tập nhỏ
+          các máy khách thông qua tính năng room.
+    \item Socket.IO hỗ trợ HTTP long polling như một phương án dự phòng, sẽ hữu ích trong
+          các môi trường không hỗ trợ Websocket.
+    \item Socket.IO cung cấp cơ chế Ping/Pong, cho phép phát hiện một kết nối có đang
+          hoạt động hay không. Ngoài ra, nếu một máy khách bị ngắt kết nối, nó sẽ tự động
+          kết nối lại.
 \end{itemize}
 Tuy nhiên, thư viện này cũng bộc lộ một số nhược điểm như sau:
 \begin{itemize}
-    \item Socket.IO có giới hạn trong các tính năng bảo mật. Chẳng hạn như, nó không cung cấp mã hoá đầu cuối, hay cơ chế nào để tạo ra và làm mới các tokens phục vụ cho việc xác thực người dùng.
-    \item Không tương thích với những hiện thực Websocket khác. Ta không thể sử dụng một máy khách Websocket cơ bản với một máy chủ Socket.IO.
-    \item Socket.IO được thiết kế để làm việc trong một vùng đơn, hơn là kiểu kiến trúc đa vùng. Điều này có thể làm gia tăng độ trễ nếu các người dùng ở các vùng khác nhau.
+    \item Socket.IO có giới hạn trong các tính năng bảo mật. Chẳng hạn như, nó không cung
+          cấp mã hoá đầu cuối, hay cơ chế nào để tạo ra và làm mới các tokens phục vụ cho
+          việc xác thực người dùng.
+    \item Không tương thích với những hiện thực Websocket khác. Ta không thể sử dụng một
+          máy khách Websocket cơ bản với một máy chủ Socket.IO.
+    \item Socket.IO được thiết kế để làm việc trong một vùng đơn, hơn là kiểu kiến trúc
+          đa vùng. Điều này có thể làm gia tăng độ trễ nếu các người dùng ở các vùng khác
+          nhau.
 \end{itemize}
+\par
+Mặc dù Socket.IO có một số nhược điểm như trên, chúng tôi nhận thấy rằng những
+nhược điểm đó không ảnh hưởng nhiều đến hệ thống, và những ưu điểm của
+Socket.IO là đủ để chúng tôi quyết định sử dụng nó.
 
 \subsubsection{PostgreSQL}
 Để thiết kế database cho mục đích lưu trữ dữ liệu, nhóm quyết định chọn cơ sở
@@ -52,9 +140,18 @@ dữ liệu quan hệ (relational database) để hiện thực, và hệ quản
 được chọn là PostgreSQL. Những lợi ích của việc sử dụng hệ cơ sở dữ liệu có quan
 hệ như sau:
 \begin{itemize}
-  \item Bảo đảm tính toàn vẹn dữ liệu. Cơ sở dữ liệu quan hệ bắt buộc cần phải bảo đảm tính toàn vẹn dữ liệu, bằng việc sử dụng các ràng buộc như khoá chính, khoá ngoại, các ràng buộc duy nhất. Những ràng buộc này giúp cho dữ liệu được chính xác, nhất quán và tuân theo các quy định đã được định nghĩa từ trước.
-  \item Nhờ việc sử dụng kỹ thuật chuẩn hoá dữ liệu, mà cơ sở dữ liệu quan hệ có thể tái tổ chức lại dữ liệu, lược bỏ những dư thừa hay các vấn đề liên quan đến nhất quán dữ liệu khi tiến hành chỉnh sửa, thêm, xoá dữ liệu.
-  \item Hỗ trợ các công cụ cũng như tính năng nâng cao giúp người dùng dễ dàng xử lý trên dữ liệu một cách hiệu quả như indexing, transaction, cơ chế query optimization.
-  \item Hệ quản trị cơ sở dữ liệu quan hệ cho phép lưu trữ và phục hồi nhờ việc cung cấp các cơ chế có sẵn cho việc phục hồi. Điều này đảm bảo dữ liệu có thể được lưu trữ một cách an toàn, giải quyết các vấn đề liên quan tới mất mát dữ liệu.
+    \item Bảo đảm tính toàn vẹn dữ liệu. Cơ sở dữ liệu quan hệ bắt buộc cần phải bảo đảm
+          tính toàn vẹn dữ liệu, bằng việc sử dụng các ràng buộc như khoá chính, khoá
+          ngoại, các ràng buộc duy nhất. Những ràng buộc này giúp cho dữ liệu được chính
+          xác, nhất quán và tuân theo các quy định đã được định nghĩa từ trước.
+    \item Nhờ việc sử dụng kỹ thuật chuẩn hoá dữ liệu, mà cơ sở dữ liệu quan hệ có thể
+          tái tổ chức lại dữ liệu, lược bỏ những dư thừa hay các vấn đề liên quan đến
+          nhất quán dữ liệu khi tiến hành chỉnh sửa, thêm, xoá dữ liệu.
+    \item Hỗ trợ các công cụ cũng như tính năng nâng cao giúp người dùng dễ dàng xử lý
+          trên dữ liệu một cách hiệu quả như indexing, transaction, cơ chế query
+          optimization.
+    \item Hệ quản trị cơ sở dữ liệu quan hệ cho phép lưu trữ và phục hồi nhờ việc cung
+          cấp các cơ chế có sẵn cho việc phục hồi. Điều này đảm bảo dữ liệu có thể được
+          lưu trữ một cách an toàn, giải quyết các vấn đề liên quan tới mất mát dữ liệu.
 \end{itemize}
 So sánh với các loại cơ sở dữ liệu không quan hệ phổ biến hiện nay, ưu điểm lớn nhất của việc sử dụng cơ sở dữ liệu quan hệ so với cơ sở dữ liệu không quan hệ trong phạm vi đề tài đó là việc sử dụng cấu trúc có quan hệ giúp quản lý dữ liệu tốt hơn, tính nhất quán dữ liệu được đảm bảo hơn. Ngoài ra, do đề tài này được phát triển dựa trên đề tài gốc vốn sử dụng cơ sở dữ liệu quan hệ, để đảm bảo tính thống nhất về mặt chức năng của hệ thống, nhóm nhận thấy tiếp tục loại hình cơ sở dữ liệu này là một điều đúng đắn.

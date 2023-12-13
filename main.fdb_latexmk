@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1702424276 "c:/Users/levan/Downloads/report_bpe_231/main.tex" "main.pdf" "main" 1702424290 0
+["pdflatex"] 1702462009 "c:/Users/levan/Downloads/report_bpe_231/main.tex" "main.pdf" "main" 1702462029 0
   "C:/Users/levan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1702401361 128883 a801f125df3ad8b6fd6afa55a553b80f ""
   "C:/Users/levan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1702400736 24224316 bc64ddac71910bc832db0003caf7baf5 ""
   "C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-t5.enc" 1525740614 2975 5d07e0fae8df45f23cc4ae4431a77829 ""
@@ -252,11 +252,11 @@
   "C:/Users/levan/AppData/Local/Programs/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "Content/References.tex" 1702399382 66 fd0d9292611e1d9d85269438d1dfa210 ""
   "Pictures/logoBK.png" 1702399386 7805 4de3f24c8685aa19307c4d83191fa395 ""
-  "c:/Users/levan/Downloads/report_bpe_231/main.tex" 1702399382 5698 694350d8f93ae6d5752fbcdcaea732eb ""
-  "main.aux" 1702424289 20783 64c54103481321f73e387a3d09386822 "pdflatex"
-  "main.out" 1702424289 12342 e67b82ef2ad6826dcd5d9a091af41200 "pdflatex"
-  "main.tex" 1702399382 5698 694350d8f93ae6d5752fbcdcaea732eb ""
-  "main.toc" 1702424289 8221 2894744762afd94627fd3698371e13d4 "pdflatex"
+  "c:/Users/levan/Downloads/report_bpe_231/main.tex" 1702454927 5814 1e84cf5934c94cd8ea91a6dc91812152 ""
+  "main.aux" 1702462028 22122 8285ea4b0c490563d5f63a92877bb55e "pdflatex"
+  "main.out" 1702462028 13479 9a328f63d89dbbae6a1563a854076f43 "pdflatex"
+  "main.tex" 1702454927 5814 1e84cf5934c94cd8ea91a6dc91812152 ""
+  "main.toc" 1702462029 8846 243e7dd1ecdd3ca3fc4649044e343f93 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

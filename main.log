@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.13)  13 DEC 2023 06:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.13)  13 DEC 2023 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1275,42 +1275,6 @@ LaTeX Warning: Label `fig:enter-label' multiply defined.
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
 
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1408,7 +1372,7 @@ LaTeX Font Info:    Trying to load font information for T5+ppl on input line 127
 (C:\Users\levan\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ppl.fd
 File: t5upl.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ppl.
 )
-<Pictures/logoBK.png, id=270, 223.83624pt x 226.8475pt>
+<Pictures/logoBK.png, id=298, 223.83624pt x 226.8475pt>
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 129.
@@ -1443,21 +1407,21 @@ Non-PDF special ignored!
 {C:/Users/levan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-t5.enc}{C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc} <./Pictures/logoBK.png>] (main.toc
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 72.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 64.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 72.
+LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 64.
  (C:\Users\levan\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T5/cmtt/b/n' undefined
-(Font)              using `T5/cmtt/m/n' instead on input line 72.
+(Font)              using `T5/cmtt/m/n' instead on input line 64.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 ...ng nghệ sử dụng}{65}{subsection.3.1}
+l.64 ....5.1}Tổng quan}{51}{subsubsection.3.5.1}
                                                   % [1])
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1466,72 +1430,108 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 168.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [2] (Content/Cơ sở lý thuyết/main.tex (Content/Cơ sở lý thuyết/documents/BPM evaluation/BPM evaluation.tex (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Time.tex) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Cost.tex
+ [2] (Content/Giới thiệu đề tài/main.tex (Content/Giới thiệu đề tài/documents/Lý do chọn đề tài.tex) (Content/Giới thiệu đề tài/documents/Mục tiêu của đề tài.tex) (Content/Giới thiệu đề tài/documents/Phạm vi của đề tài.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 5.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [3]) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Transparency.tex) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Exception handling.tex) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Flexibility.tex
+ [3]) (Content/Giới thiệu đề tài/documents/Ý nghĩa của đề tài.tex) (Content/Giới thiệu đề tài/documents/Cấu trúc của đồ án.tex
+File: Pictures/logoBK.png Graphic file (type png)
+<use Pictures/logoBK.png>
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 5.
+(pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
+ [4]) (Content/Giới thiệu đề tài/documents/Phân chia công việc.tex
+<Content/Giới thiệu đề tài/images/PCCV 0.png, id=411, 602.25pt x 160.1985pt>
+File: Content/Giới thiệu đề tài/images/PCCV 0.png Graphic file (type png)
+<use Content/Giới thiệu đề tài/images/PCCV 0.png>
+Package pdftex.def Info: Content/Giới thiệu đề tài/images/PCCV 0.png  used on input line 4.
+(pdftex.def)             Requested size: 455.24408pt x 121.09946pt.
+<Content/Giới thiệu đề tài/images/PCCV 1.png, id=412, 602.25pt x 137.313pt>
+File: Content/Giới thiệu đề tài/images/PCCV 1.png Graphic file (type png)
+<use Content/Giới thiệu đề tài/images/PCCV 1.png>
+Package pdftex.def Info: Content/Giới thiệu đề tài/images/PCCV 1.png  used on input line 5.
+(pdftex.def)             Requested size: 455.24408pt x 103.79953pt.
+<Content/Giới thiệu đề tài/images/PCCV 2.png, id=413, 602.25pt x 214.401pt>
+File: Content/Giới thiệu đề tài/images/PCCV 2.png Graphic file (type png)
+<use Content/Giới thiệu đề tài/images/PCCV 2.png>
+Package pdftex.def Info: Content/Giới thiệu đề tài/images/PCCV 2.png  used on input line 6.
+(pdftex.def)             Requested size: 455.24408pt x 162.07295pt.
+))
+File: Pictures/logoBK.png Graphic file (type png)
+<use Pictures/logoBK.png>
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 177.
+(pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
+ [5]
+File: Pictures/logoBK.png Graphic file (type png)
+<use Pictures/logoBK.png>
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 177.
+(pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
+ [6 <./Content/Giới thiệu đề tài/images/PCCV 0.png> <./Content/Giới thiệu đề tài/images/PCCV 1.png> <./Content/Giới thiệu đề tài/images/PCCV 2.png>] (Content/Cơ sở lý thuyết/main.tex (Content/Cơ sở lý thuyết/documents/BPM evaluation/BPM evaluation.tex (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Time.tex) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Cost.tex
+File: Pictures/logoBK.png Graphic file (type png)
+<use Pictures/logoBK.png>
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 5.
+(pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
+ [7]) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Transparency.tex) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Exception handling.tex) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Flexibility.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 3.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [4]) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Quality.tex)) (Content/Cơ sở lý thuyết/documents/Process portfolio.tex
+ [8]) (Content/Cơ sở lý thuyết/documents/BPM evaluation/documents/Quality.tex)) (Content/Cơ sở lý thuyết/documents/Process portfolio.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 10.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [5]) (Content/Cơ sở lý thuyết/documents/Process selection/Process selection.tex (Content/Cơ sở lý thuyết/documents/Process selection/documents/Strategic importance.tex) (Content/Cơ sở lý thuyết/documents/Process selection/documents/Health.tex
+ [9]) (Content/Cơ sở lý thuyết/documents/Process selection/Process selection.tex (Content/Cơ sở lý thuyết/documents/Process selection/documents/Strategic importance.tex) (Content/Cơ sở lý thuyết/documents/Process selection/documents/Health.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 14.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [6]
+ [10]
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 33.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [7]) (Content/Cơ sở lý thuyết/documents/Process selection/documents/Feasibility.tex)) (Content/Cơ sở lý thuyết/documents/Survey/Survey.tex (Content/Cơ sở lý thuyết/documents/Survey/documents/SurveyIntroduction.tex
+ [11]) (Content/Cơ sở lý thuyết/documents/Process selection/documents/Feasibility.tex)) (Content/Cơ sở lý thuyết/documents/Survey/Survey.tex (Content/Cơ sở lý thuyết/documents/Survey/documents/SurveyIntroduction.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 6.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [8]) (Content/Cơ sở lý thuyết/documents/Survey/documents/SurveyConventions.tex
+ [12]) (Content/Cơ sở lý thuyết/documents/Survey/documents/SurveyConventions.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 31.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [9]) (Content/Cơ sở lý thuyết/documents/Survey/documents/SurveyMeasurement.tex
+ [13]) (Content/Cơ sở lý thuyết/documents/Survey/documents/SurveyMeasurement.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 10.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [10]
+ [14]
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 34.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [11]) (Content/Cơ sở lý thuyết/documents/Survey/documents/MUSAMethod.tex
+ [15]) (Content/Cơ sở lý thuyết/documents/Survey/documents/MUSAMethod.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 15.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [12]) (Content/Cơ sở lý thuyết/documents/Survey/documents/CalculateSurvey.tex
+ [16]) (Content/Cơ sở lý thuyết/documents/Survey/documents/CalculateSurvey.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 9.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [13]) (Content/Cơ sở lý thuyết/documents/Survey/documents/CalculateQuality.tex
+ [17]) (Content/Cơ sở lý thuyết/documents/Survey/documents/CalculateQuality.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 5.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [14]) (Content/Cơ sở lý thuyết/documents/Survey/documents/SurveySuggestion.tex
+ [18]) (Content/Cơ sở lý thuyết/documents/Survey/documents/SurveySuggestion.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 17.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [15]
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 []|\T5/qpl/m/n/10 Multiple choice (sin-gle
  []
@@ -1565,17 +1565,17 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 69.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-[16]
+[20]
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 98.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [17]
+ [21]
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 122.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [18]
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\T5/qpl/m/n/10 C�u
  []
@@ -1664,7 +1664,7 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 159.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-[19]
+[23]
 Underfull \hbox (badness 3460) in paragraph at lines 163--163
 \T5/qpl/m/n/10 vari-a-tions for dif-fer-ent con-di-
  []
@@ -1693,8 +1693,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 181.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-[20]
-<Content/Cơ sở lý thuyết/documents/Survey/images/surveyflow.png, id=477, 3300.33pt x 4504.83pt>
+[24]
+<Content/Cơ sở lý thuyết/documents/Survey/images/surveyflow.png, id=543, 3300.33pt x 4504.83pt>
 File: Content/Cơ sở lý thuyết/documents/Survey/images/surveyflow.png Graphic file (type png)
 <use Content/Cơ sở lý thuyết/documents/Survey/images/surveyflow.png>
 Package pdftex.def Info: Content/Cơ sở lý thuyết/documents/Survey/images/surveyflow.png  used on input line 184.
@@ -1704,32 +1704,32 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 180.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [21]
+ [25]
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 180.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [22 <./Content/Cơ sở lý thuyết/documents/Survey/images/surveyflow.png>] (Content/Phân tích và thiết kế hệ thống/main.tex (Content/Phân tích và thiết kế hệ thống/documents/Giới thiệu hệ thống.tex
+ [26 <./Content/Cơ sở lý thuyết/documents/Survey/images/surveyflow.png>] (Content/Phân tích và thiết kế hệ thống/main.tex (Content/Phân tích và thiết kế hệ thống/documents/Giới thiệu hệ thống.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 11.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 36.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [23]
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 62--71
 
  []
 
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 54.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 106.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-[24]) (Content/Phân tích và thiết kế hệ thống/documents/Kiến trúc phần mềm.tex
+[28]) (Content/Phân tích và thiết kế hệ thống/documents/Kiến trúc phần mềm.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 5.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 23.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [25]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/Use-case.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Use case/images/System usecase.png, id=506, 1003.75pt x 821.0675pt>
+ [29]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/Use-case.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Use case/images/System usecase.png, id=571, 1003.75pt x 821.0675pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Use case/images/System usecase.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Use case/images/System usecase.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Use case/images/System usecase.png  used on input line 6.
@@ -1738,27 +1738,27 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 9.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [26] (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Create new workspace.tex) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Join workspace through invitation.tex
+ [30] (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Create new workspace.tex) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Join workspace through invitation.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [27 <./Content/Phân tích và thiết kế hệ thống/documents/Use case/images/System usecase.png>]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/View user’s list of workspaces.tex
+ [31 <./Content/Phân tích và thiết kế hệ thống/documents/Use case/images/System usecase.png>]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/View user’s list of workspaces.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [28]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Access to projects' content in selected workspace.tex
+ [32]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Access to projects' content in selected workspace.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [29]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Send request for inviting other user.tex
+ [33]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Send request for inviting other user.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [30]
+ [34]
 Underfull \hbox (badness 2671) in paragraph at lines 57--57
 []|\T5/qpl/m/n/10 5a. Ng��i d�ng g�n quy�n h�n cho ng��i ^^_��c m�i v�o
  []
@@ -1773,32 +1773,32 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [31]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Delete member in Workspace.tex
+ [35]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Delete member in Workspace.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [32]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Manage requests from member.tex
+ [36]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Manage requests from member.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [33]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Create new project.tex
+ [37]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Create new project.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [34]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Delete project in Workspace.tex
+ [38]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Delete project in Workspace.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [35]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Send invitation to other users.tex
+ [39]) (Content/Phân tích và thiết kế hệ thống/documents/Use case/documents/Send invitation to other users.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [36]
+ [40]
 Underfull \hbox (badness 2671) in paragraph at lines 57--57
 []|\T5/qpl/m/n/10 5a. Ng��i d�ng g�n quy�n h�n cho ng��i ^^_��c m�i v�o
  []
@@ -1813,8 +1813,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 22.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [37]) (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/Sơ đồ hoạt động.tex (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Tạo mới workspace.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createWorkspace.png, id=633, 3501.08pt x 2698.08pt>
+ [41]) (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/Sơ đồ hoạt động.tex (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Tạo mới workspace.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createWorkspace.png, id=698, 3501.08pt x 2698.08pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createWorkspace.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createWorkspace.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createWorkspace.png  used on input line 4.
@@ -1824,13 +1824,13 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 3.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [38]
+ [42]
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 4.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [39 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createWorkspace.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Xoá workspace.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteWorkspace.png, id=655, 3497.065pt x 2898.83pt>
+ [43 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createWorkspace.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Xoá workspace.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteWorkspace.png, id=721, 3497.065pt x 2898.83pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteWorkspace.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteWorkspace.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteWorkspace.png  used on input line 4.
@@ -1840,8 +1840,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 7.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [40 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteWorkspace.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Xoá thành viên.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/removeMemberFromWorkspace.png, id=663, 3501.08pt x 4219.765pt>
+ [44 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteWorkspace.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Xoá thành viên.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/removeMemberFromWorkspace.png, id=729, 3501.08pt x 4219.765pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/removeMemberFromWorkspace.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/removeMemberFromWorkspace.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/removeMemberFromWorkspace.png  used on input line 4.
@@ -1851,8 +1851,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 10.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [41 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/removeMemberFromWorkspace.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Quản lý requests.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/manageRequests.png, id=671, 4982.615pt x 3300.33pt>
+ [45 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/removeMemberFromWorkspace.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Quản lý requests.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/manageRequests.png, id=737, 4982.615pt x 3300.33pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/manageRequests.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/manageRequests.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/manageRequests.png  used on input line 4.
@@ -1862,8 +1862,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 13.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [42 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/manageRequests.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Thay đổi quyền thành viên.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/adjustMemberPermissions.png, id=680, 4986.63pt x 3737.965pt>
+ [46 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/manageRequests.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Thay đổi quyền thành viên.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/adjustMemberPermissions.png, id=745, 4986.63pt x 3737.965pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/adjustMemberPermissions.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/adjustMemberPermissions.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/adjustMemberPermissions.png  used on input line 4.
@@ -1873,8 +1873,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 16.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [43 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/adjustMemberPermissions.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Tạo mới project.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createProjects.png, id=688, 3497.065pt x 2694.065pt>
+ [47 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/adjustMemberPermissions.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Tạo mới project.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createProjects.png, id=753, 3497.065pt x 2694.065pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createProjects.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createProjects.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createProjects.png  used on input line 4.
@@ -1884,8 +1884,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 19.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [44 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createProjects.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Xoá project.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteProjects.png, id=696, 3501.08pt x 2894.815pt>
+ [48 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/createProjects.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Xoá project.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteProjects.png, id=762, 3501.08pt x 2894.815pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteProjects.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteProjects.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteProjects.png  used on input line 4.
@@ -1895,141 +1895,145 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 22.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [45 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteProjects.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Gửi lời mời.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/sendInvitation.png, id=704, 4986.63pt x 3938.715pt>
+ [49 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/deleteProjects.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/documents/Gửi lời mời.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/sendInvitation.png, id=770, 4986.63pt x 3938.715pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/sendInvitation.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/sendInvitation.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/sendInvitation.png  used on input line 4.
 (pdftex.def)             Requested size: 455.24408pt x 359.57755pt.
 )) (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/Sơ đồ lớp.tex (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/documents/Tổng quan.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/LayerArchitect.png, id=705, 1003.75pt x 641.39626pt>
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/LayerArchitect.png, id=771, 1003.75pt x 665.48625pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/LayerArchitect.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/LayerArchitect.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/LayerArchitect.png  used on input line 4.
-(pdftex.def)             Requested size: 455.24408pt x 290.90599pt.
-)
+(pdftex.def)             Requested size: 455.24408pt x 301.83203pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 4.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 9.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [46 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/sendInvitation.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/documents/PresentationLayer.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/presentationLayer.png, id=713, 1003.75pt x 376.40625pt>
+ [50 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ hoạt động/images/sendInvitation.png>]) (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/documents/PresentationLayer.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/presentationLayer.png, id=780, 1003.75pt x 376.40625pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/presentationLayer.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/presentationLayer.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/presentationLayer.png  used on input line 5.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/presentationLayer.png  used on input line 7.
 (pdftex.def)             Requested size: 455.24408pt x 170.71947pt.
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/defaultWorkspacePage.png, id=714, 1003.75pt x 988.69376pt>
+File: Pictures/logoBK.png Graphic file (type png)
+<use Pictures/logoBK.png>
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 12.
+(pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
+ [51 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/LayerArchitect.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/defaultWorkspacePage.png, id=789, 1003.75pt x 988.69376pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/defaultWorkspacePage.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/defaultWorkspacePage.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/defaultWorkspacePage.png  used on input line 13.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/defaultWorkspacePage.png  used on input line 15.
 (pdftex.def)             Requested size: 455.24408pt x 448.42317pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 18.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 20.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [47 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/LayerArchitect.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/presentationLayer.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/workspaceDetailPage.png, id=724, 1003.75pt x 820.06375pt>
+ [52 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/presentationLayer.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/workspaceDetailPage.png, id=797, 1003.75pt x 820.06375pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/workspaceDetailPage.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/workspaceDetailPage.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/workspaceDetailPage.png  used on input line 21.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/workspaceDetailPage.png  used on input line 23.
 (pdftex.def)             Requested size: 455.24408pt x 371.94084pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 26.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 28.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [48 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/defaultWorkspacePage.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/membersManagementPage.png, id=733, 1003.75pt x 703.62875pt>
+ [53 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/defaultWorkspacePage.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/membersManagementPage.png, id=805, 1003.75pt x 703.62875pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/membersManagementPage.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/membersManagementPage.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/membersManagementPage.png  used on input line 29.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/membersManagementPage.png  used on input line 31.
 (pdftex.def)             Requested size: 455.24408pt x 319.1316pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 34.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 36.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [49 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/workspaceDetailPage.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/notificationPage.png, id=741, 1003.75pt x 1156.32pt>
+ [54 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/workspaceDetailPage.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/notificationPage.png, id=814, 1003.75pt x 1156.32pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/notificationPage.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/notificationPage.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/notificationPage.png  used on input line 37.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/notificationPage.png  used on input line 39.
 (pdftex.def)             Requested size: 455.24408pt x 524.45024pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 42.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 44.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [50 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/membersManagementPage.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/customizationPage.png, id=749, 1003.75pt x 577.15625pt>
+ [55 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/membersManagementPage.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/customizationPage.png, id=822, 1003.75pt x 577.15625pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/customizationPage.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/customizationPage.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/customizationPage.png  used on input line 45.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/customizationPage.png  used on input line 47.
 (pdftex.def)             Requested size: 455.24408pt x 261.76987pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 50.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 52.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [51 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/notificationPage.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/requestManagementPage.png, id=757, 1003.75pt x 801.99625pt>
+ [56 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/notificationPage.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/requestManagementPage.png, id=830, 1003.75pt x 801.99625pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/requestManagementPage.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/requestManagementPage.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/requestManagementPage.png  used on input line 53.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/requestManagementPage.png  used on input line 55.
 (pdftex.def)             Requested size: 455.24408pt x 363.74629pt.
 )
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 6.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [52 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/customizationPage.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/documents/BusinessLayer.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/businessLayer.png, id=765, 1505.625pt x 283.0575pt>
+ [57 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/customizationPage.png>] (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/documents/BusinessLayer.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/businessLayer.png, id=838, 1505.625pt x 283.0575pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/businessLayer.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/businessLayer.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/businessLayer.png  used on input line 5.
 (pdftex.def)             Requested size: 455.24408pt x 85.58736pt.
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png, id=766, 1003.75pt x 640.3925pt>
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png, id=839, 1003.75pt x 640.3925pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png  used on input line 15.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png  used on input line 16.
 (pdftex.def)             Requested size: 455.24408pt x 290.45074pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 20.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 21.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [53 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/requestManagementPage.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/businessLayer.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png, id=776, 1003.75pt x 400.49625pt>
+ [58 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/requestManagementPage.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/businessLayer.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png, id=849, 1003.75pt x 400.49625pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png  used on input line 23.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png  used on input line 24.
 (pdftex.def)             Requested size: 455.24408pt x 181.64552pt.
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png, id=777, 1003.75pt x 393.47pt>
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png, id=850, 1003.75pt x 393.47pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png  used on input line 31.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png  used on input line 32.
 (pdftex.def)             Requested size: 455.24408pt x 178.45876pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 36.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 37.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [54 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png, id=788, 1003.75pt x 506.89375pt>
+ [59 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png, id=860, 1003.75pt x 506.89375pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png  used on input line 39.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png  used on input line 40.
 (pdftex.def)             Requested size: 455.24408pt x 229.90224pt.
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png, id=789, 1003.75pt x 566.115pt>
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png, id=861, 1003.75pt x 566.115pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png>
-Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png  used on input line 47.
+Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png  used on input line 48.
 (pdftex.def)             Requested size: 455.24408pt x 256.7621pt.
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 52.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 53.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [55 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png>]) (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/documents/PersistenceLayer.tex
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/persistenceLayer.png, id=799, 1003.75pt x 213.79875pt>
+ [60 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png>]) (Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/documents/PersistenceLayer.tex
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/persistenceLayer.png, id=872, 1003.75pt x 213.79875pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/persistenceLayer.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/persistenceLayer.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/persistenceLayer.png  used on input line 5.
 (pdftex.def)             Requested size: 455.24408pt x 96.96866pt.
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/workspacePersistence.png, id=800, 1003.75pt x 652.4375pt>
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/workspacePersistence.png, id=873, 1003.75pt x 652.4375pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/workspacePersistence.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/workspacePersistence.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/workspacePersistence.png  used on input line 14.
@@ -2038,13 +2042,13 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 19.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [56 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/persistenceLayer.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/joinWorkspacePersistence.png, id=810, 1003.75pt x 456.70625pt>
+ [61 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/persistenceLayer.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/joinWorkspacePersistence.png, id=883, 1003.75pt x 456.70625pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/joinWorkspacePersistence.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/joinWorkspacePersistence.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/joinWorkspacePersistence.png  used on input line 22.
 (pdftex.def)             Requested size: 455.24408pt x 207.13963pt.
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/recentOpenedWorkspacePersistence.png, id=811, 1003.75pt x 478.78876pt>
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/recentOpenedWorkspacePersistence.png, id=884, 1003.75pt x 478.78876pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/recentOpenedWorkspacePersistence.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/recentOpenedWorkspacePersistence.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/recentOpenedWorkspacePersistence.png  used on input line 30.
@@ -2053,13 +2057,13 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 35.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [57 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/workspacePersistence.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/joinWorkspacePersistence.png>]
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/requestPersistence.png, id=821, 1003.75pt x 653.44125pt>
+ [62 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/workspacePersistence.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/joinWorkspacePersistence.png>]
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/requestPersistence.png, id=894, 1003.75pt x 653.44125pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/requestPersistence.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/requestPersistence.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/requestPersistence.png  used on input line 38.
 (pdftex.def)             Requested size: 455.24408pt x 296.36902pt.
-<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/notificationPersistence.png, id=822, 1003.75pt x 718.685pt>
+<Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/notificationPersistence.png, id=895, 1003.75pt x 718.685pt>
 File: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/notificationPersistence.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/notificationPersistence.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/notificationPersistence.png  used on input line 46.
@@ -2069,8 +2073,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 1.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [58 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/recentOpenedWorkspacePersistence.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/requestPersistence.png>]
-<Content/Phân tích và thiết kế hệ thống/images/erd.png, id=832, 1003.75pt x 735.74875pt>
+ [63 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/recentOpenedWorkspacePersistence.png> <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/requestPersistence.png>]
+<Content/Phân tích và thiết kế hệ thống/images/erd.png, id=905, 1003.75pt x 735.74875pt>
 File: Content/Phân tích và thiết kế hệ thống/images/erd.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/images/erd.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/images/erd.png  used on input line 5.
@@ -2079,8 +2083,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 8.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [59 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/notificationPersistence.png>]
-<Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png, id=840, 1734.48pt x 244.915pt>
+ [64 <./Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Persistence layer/notificationPersistence.png>]
+<Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png, id=913, 1734.48pt x 244.915pt>
 File: Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png Graphic file (type png)
 <use Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png>
 Package pdftex.def Info: Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png  used on input line 33.
@@ -2093,13 +2097,13 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 62.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-[60 <./Content/Phân tích và thiết kế hệ thống/images/erd.png>]
-<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png, id=851, 2617.78pt x 244.915pt>
+[65 <./Content/Phân tích và thiết kế hệ thống/images/erd.png>]
+<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png, id=923, 2617.78pt x 244.915pt>
 File: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png  used on input line 65.
 (pdftex.def)             Requested size: 455.24408pt x 42.59169pt.
-<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png, id=852, 2212.265pt x 244.915pt>
+<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png, id=924, 2212.265pt x 244.915pt>
 File: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png  used on input line 100.
@@ -2112,7 +2116,7 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 105.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-[61 <./Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png> <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png>]
+[66 <./Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png> <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png>]
 Overfull \hbox (4.69157pt too wide) in paragraph at lines 122--122
 []|\T5/qpl/m/n/10 isWorkspaceDeleted| 
  []
@@ -2126,7 +2130,7 @@ Overfull \hbox (4.69157pt too wide) in paragraph at lines 148--148
 []|\T5/qpl/m/n/10 isWorkspaceDeleted| 
  []
 
-<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png, id=863, 1814.78pt x 248.93pt>
+<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png, id=936, 1814.78pt x 248.93pt>
 File: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png  used on input line 154.
@@ -2153,8 +2157,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 193.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-[62 <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png>]
-<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png, id=875, 4424.53pt x 244.915pt>
+[67 <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png>]
+<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png, id=948, 4424.53pt x 244.915pt>
 File: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png  used on input line 196.
@@ -2168,8 +2172,8 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 227.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
-[63 <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png> <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png>]
-<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png, id=886, 3139.73pt x 248.93pt>
+[68 <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png> <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png>]
+<Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png, id=959, 3139.73pt x 248.93pt>
 File: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png Graphic file (type png)
 <use Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png>
 Package pdftex.def Info: Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png  used on input line 230.
@@ -2179,37 +2183,37 @@ File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 183.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [64 <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png>] (Content/Hiện thực hệ thống/main.tex (Content/Hiện thực hệ thống/documents/Công nghệ sử dụng.tex
+ [69 <./Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png>] (Content/Hiện thực hệ thống/main.tex (Content/Hiện thực hệ thống/documents/Công nghệ sử dụng.tex
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 17.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 49.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [65]
+ [70]
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 30.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 97.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [66]
+ [71]
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
-Package pdftex.def Info: Pictures/logoBK.png  used on input line 56.
+Package pdftex.def Info: Pictures/logoBK.png  used on input line 147.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [67]) (Content/Hiện thực hệ thống/documents/Hiện thực giao diện người dùng.tex))
+ [72]) (Content/Hiện thực hệ thống/documents/Hiện thực giao diện người dùng.tex))
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 186.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [68] (Content/Kết luận/main.tex)
+ [73] (Content/Kết luận/main.tex)
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 191.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [69] (Content/References.tex)
+ [74] (Content/References.tex)
 File: Pictures/logoBK.png Graphic file (type png)
 <use Pictures/logoBK.png>
 Package pdftex.def Info: Pictures/logoBK.png  used on input line 195.
 (pdftex.def)             Requested size: 28.45079pt x 28.45277pt.
- [70] 
+ [75] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (main.aux)
  ***********
@@ -2224,20 +2228,20 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E67B82EF2AD6826DCD5D9A091AF41200;12342.
+(rerunfilecheck)             Checksum: 9A328F63D89DBBAE6A1563A854076F43;13479.
  ) 
 Here is how much of TeX's memory you used:
- 34989 strings out of 474491
- 723234 string characters out of 5743833
+ 35106 strings out of 474491
+ 729497 string characters out of 5743833
  1955473 words of memory out of 5000000
- 56150 multiletter control sequences out of 15000+600000
+ 56227 multiletter control sequences out of 15000+600000
  601851 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,27n,107p,1607b,753s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplb.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplr.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qplri.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplb8v.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/uplr8v.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt10.pfb><C:/Users/levan/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on main.pdf (71 pages, 3869051 bytes).
+Output written on main.pdf (76 pages, 3968087 bytes).
 PDF statistics:
- 1045 PDF objects out of 1200 (max. 8388607)
- 270 named destinations out of 1000 (max. 500000)
- 731 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1122 PDF objects out of 1200 (max. 8388607)
+ 286 named destinations out of 1000 (max. 500000)
+ 802 words of extra memory for PDF output out of 10000 (max. 10000000)
 
