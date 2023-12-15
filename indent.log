@@ -1,7 +1,7 @@
 INFO:  latexindent.pl version 3.23.4, 2023-11-19, a script to indent .tex files
        latexindent.pl lives here: C:/Users/levan/AppData/Local/Programs/MiKTeX/scripts/latexindent/
-       Fri Dec 15 20:00:53 2023
-       Filename: c:/Users/levan/Downloads/report_bpe_231/Content/__latexindent_temp_References.tex
+       Fri Dec 15 21:52:23 2023
+       Filename: c:/Users/levan/Downloads/report_bpe_231/Content/Ph�n t�ch v� thi?t k? h? th?ng/documents/__latexindent_temp_Thi?t k? co s? d? li?u.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
@@ -23,15 +23,11 @@ INFO:  YAML reading settings
        latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
        see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
 INFO:  YAML settings read: -y switch
-       YAML setting: defaultIndent:'    '
-       single-quoted string found in -y switch: '    ', substitute to     
-       Updating mainSettings with defaultIndent:     
-INFO:  Phase 1: searching for objects
-INFO:  Phase 2: finding surrounding indentation
-INFO:  Phase 3: indenting objects
-INFO:  Phase 4: final indentation check
-INFO:  Output routine:
-       Not outputting to file; see -w and -o switches for more options.
+       YAML setting: defaultIndent:'        '
+       single-quoted string found in -y switch: '        ', substitute to         
+       Updating mainSettings with defaultIndent:         
+FATAL I couldn't find c:/Users/levan/Downloads/report_bpe_231/Content/Phân tích và thi?t k? h? th?ng/documents/__latexindent_temp_Thi?t k? co s? d? li?u.tex, are you sure it exists?
+      Exiting, no indentation done.
        --------------
 INFO:  Please direct all communication/issues to:
         https://github.com/cmhughes/latexindent.pl
