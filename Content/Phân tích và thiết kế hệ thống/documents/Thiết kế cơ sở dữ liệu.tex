@@ -2,11 +2,12 @@
 \subsubsection{Lược đồ ERD}
 \begin{figure}[H]
         \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/erd.png}
+        \includegraphics[width=0.8\textwidth]{Content/Phân tích và thiết kế hệ thống/images/erd.png}
         \vspace{0.5cm}
         \caption{Lược đồ ERD}
         \label{fig:Lược đồ ERD}
 \end{figure}
+
 \par
 Lược đồ ERD gồm có một số thực thể như sau: Workspace, Request,
 User, Notification, Project, Process, Process Version với những
@@ -30,106 +31,119 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
     \item Một process có thể có nhiều phiên bản, một phiên bản
     chỉ thuộc về một process.
 \end{itemize}
+
+\newpage
 \subsubsection{Ánh xạ ERD và mô tả chi tiết thực thể}
+
 \paragraph{User: Người dùng của hệ thống}
 \begin{center}
-\begin{table}[!h]
-        \begin{tabular}{|p{3cm} |p{2cm} |p{9cm}|}
-                \hline
-                   Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                \hline
-                \underline{ID} & integer & ID của người dùng. Khoá chính. \\ 
-                \hline
-                email & varchar & Email của người dùng \\
-                \hline
-                password & varchar & Mật khẩu của người dùng \\
-                \hline
-                phoneNumber & varchar & Số điện thoại của người dùng \\
-                \hline
-                name & text & tên người dùng \\ [1ex] 
-                \hline
-                avatar & text & Đường dẫn tới ảnh đại diện của người dùng \\
-                \hline
-                verified & boolean & True nếu tài khoản đã xác thực, False nếu tài khoản chưa xác thực \\
-                \hline
-               \end{tabular}
-                 \caption{Thực thể User}
-\end{table}
+        \begin{table}[!h]
+        \def\arraystretch{2}
+        \resizebox{\textwidth}{!}{
+                \begin{tabular}{|p{3cm} |p{2cm} |p{9cm}|}
+                        \hline
+                        Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                        \hline
+                        \underline{ID} & integer & ID của người dùng. Khoá chính. \\ 
+                        \hline
+                        email & varchar & Email của người dùng \\
+                        \hline
+                        password & varchar & Mật khẩu của người dùng \\
+                        \hline
+                        phoneNumber & varchar & Số điện thoại của người dùng \\
+                        \hline
+                        name & text & tên người dùng \\ [1ex] 
+                        \hline
+                        avatar & text & Đường dẫn tới ảnh đại diện của người dùng \\
+                        \hline
+                        verified & boolean & True nếu tài khoản đã xác thực, False nếu tài khoản chưa xác thực \\
+                        \hline
+                \end{tabular}
+        }
+        \caption{Thực thể User}
+        \end{table}
 \end{center}
 \begin{figure}[H]
         \centering
-        \includegraphics[width=\textwidth]{Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png}
+        \includegraphics[width=\linewidth]{Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png}
         \label{fig:Thực thể User}
 \end{figure}
+
+\newpage
 \paragraph{Project: Dự án trong workspace}
-\begin{center}
-        \begin{table}[!h]
-                \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
-                        \hline
-                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                        \hline
-                                \underline{ID} & integer & ID của project. Khoá chính. \\ 
-                        \hline
-                                projectName & text & Tên của project \\
-                        \hline
-                                description & text & Mô tả của project \\
-                        \hline
-                                isDelete & boolean & Đánh dấu project này đã bị xoá hay chưa \\
-                        \hline
-                                createAt & timestamp & Thời gian project được tạo \\
-                        \hline
-                                ownerId & integer & ID của người sở hữu project.
-                                Khoá ngoại tham chiếu tới trường Id trong bảng User \\
-                        \hline
-                                workspaceId & integer & ID của workspace nơi mà project được tạo. Khoá ngoại tham chiếu tới trường Id trong bảng Workspace \\
-                        \hline
-                                deletedAt & timestamp & Thời gian project được xoá khỏi Workspace \\
-                        \hline
-                                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
-                        \hline
-                \end{tabular}
+\begin{center} 
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
+                                \hline
+                                        Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                        \underline{ID} & integer & ID của project. Khoá chính. \\ 
+                                \hline
+                                        projectName & text & Tên của project \\
+                                \hline
+                                        description & text & Mô tả của project \\
+                                \hline
+                                        isDelete & boolean & Đánh dấu project này đã bị xoá hay chưa \\
+                                \hline
+                                        createAt & timestamp & Thời gian project được tạo \\
+                                \hline
+                                        ownerId & integer & ID của người sở hữu project.
+                                        Khoá ngoại tham chiếu tới trường Id trong bảng User \\
+                                \hline
+                                        workspaceId & integer & ID của workspace nơi mà project được tạo. Khoá ngoại tham chiếu tới trường Id trong bảng Workspace \\
+                                \hline
+                                        deletedAt & timestamp & Thời gian project được xoá khỏi Workspace \\
+                                \hline
+                                        isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
+                                \hline
+                        \end{tabular}
+                }
                 \caption{Thực thể Project}
         \end{table}
 \end{center}
-
 \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png}
         \label{fig:Thực thể Project}
 \end{figure}
 
+\newpage
 \paragraph{Workspace: Không gian làm việc trong hệ thống}
 \begin{center}
-
-\begin{table}[!h]
-        \begin{tabular}{ |p{2cm} |p{3cm} |p{9cm}|} 
-                \hline
-                   Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                \hline
-                \underline{ID} & integer & ID của workspace. Khoá chính. \\ 
-                \hline
-                name & text & Tên của workspace \\
-                \hline
-                description & text & Mô tả của workspace \\
-                \hline
-                isDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
-                \hline
-                createAt & timestamp & Thời gian workspace được tạo \\
-                \hline
-                ownerId & integer & ID của người sở hữu workspace.
-                Khoá ngoại tham chiếu tới trường Id trong bảng User \\
-                \hline
-                background & text & Đường link dẫn tới background của workspace \\
-                \hline
-                icon & text & Đường link dẫn tới icon của workspace \\
-                \hline
-                deletedAt & timestamp & Thời gian Workspace được xoá khỏi hệ thống \\
-                \hline
-                isPersonal & boolean & True nếu đây là workspace cá nhân. False nếu là workspace khác \\
-                \hline
-               \end{tabular}
-                 \caption{Thực thể Workspace}
-\end{table}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{2cm} |p{3cm} |p{9cm}|} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{ID} & integer & ID của workspace. Khoá chính. \\ 
+                                \hline
+                                name & text & Tên của workspace \\
+                                \hline
+                                description & text & Mô tả của workspace \\
+                                \hline
+                                isDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
+                                \hline
+                                createAt & timestamp & Thời gian workspace được tạo \\
+                                \hline
+                                ownerId & integer & ID của người sở hữu workspace.
+                                Khoá ngoại tham chiếu tới trường Id trong bảng User \\
+                                \hline
+                                background & text & Đường link dẫn tới background của workspace \\
+                                \hline
+                                icon & text & Đường link dẫn tới icon của workspace \\
+                                \hline
+                                deletedAt & timestamp & Thời gian Workspace được xoá khỏi hệ thống \\
+                                \hline
+                                isPersonal & boolean & True nếu đây là workspace cá nhân. False nếu là workspace khác \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Workspace}
+        \end{table}
 \end{center}
 \begin{figure}[H]
         \centering
@@ -137,30 +151,34 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
         \label{fig:Thực thể Workspace}
 \end{figure}
 
+\newpage
 \paragraph{Join Workspace: Quan hệ tham gia giữa người dùng và workspace}
 \begin{center}
-\begin{table}[!h]
-        \begin{tabular}{ |p{3cm} |p{2cm} |p{9cm} |} 
-                \hline
-                   Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                \hline
-                \underline{memberId} & integer & ID của member tham gia Workspace. Khoá ngoại tham chiếu tới trường Id trong User. \\ 
-                \hline
-                \underline{workspaceId} & integer & ID của Workspace. Khoá ngoại tham chiếu tới trường Id trong Workspace. \\
-                \hline
-                joinedAt & timestamp & Thời gian người dùng tham gia Workspace \\
-                \hline
-                isDeleted & boolean & Đánh dấu người dùng đã rời khỏi Workspace hay chưa \\
-                \hline
-                permission & text & Quyền hạn của người dùng khi tham gia Workspace \\
-                \hline
-                leftAt & timestamp & Thời gian người dùng rời khỏi Workspace \\
-                \hline
-                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
-                \hline
-               \end{tabular}
-                        \caption{Thực thể Join Workspace}
-\end{table}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{3cm} |p{2cm} |p{9cm} |} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{memberId} & integer & ID của member tham gia Workspace. Khoá ngoại tham chiếu tới trường Id trong User. \\ 
+                                \hline
+                                \underline{workspaceId} & integer & ID của Workspace. Khoá ngoại tham chiếu tới trường Id trong Workspace. \\
+                                \hline
+                                joinedAt & timestamp & Thời gian người dùng tham gia Workspace \\
+                                \hline
+                                isDeleted & boolean & Đánh dấu người dùng đã rời khỏi Workspace hay chưa \\
+                                \hline
+                                permission & text & Quyền hạn của người dùng khi tham gia Workspace \\
+                                \hline
+                                leftAt & timestamp & Thời gian người dùng rời khỏi Workspace \\
+                                \hline
+                                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Join Workspace}
+        \end{table}
 \end{center}
 \begin{figure}[H]
         \centering
@@ -170,26 +188,29 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
 
 \paragraph{Recent Opened Workspace: Quan hệ chỉnh sửa giữa người dùng và workspace}
 \begin{center}
-\begin{table}[!h]
-        \begin{tabular}{ |p{3cm} |p{2cm} |p{9cm}|} 
-                \hline
-                   Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                \hline
-                \underline{userId} & integer & ID của member tham gia Workspace. Khoá ngoại tham chiếu tới trường Id trong User. \\ 
-                \hline
-                \underline{workspaceId} & integer & ID của Workspace. Khoá ngoại tham chiếu tới trường Id trong Workspace. \\
-                \hline
-                openedAt & timestamp & Thời gian người dùng mở Workspace lần cuối.\\
-                \hline
-                isHided & boolean & Đánh dấu người dùng đã ẩn Workspace khỏi danh sách của mình hay chưa \\
-                \hline
-                isPinned & boolean & Đánh dấu người dùng đã pin Workspace vào danh sách ưu tiên hay chưa \\
-                \hline
-                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
-                \hline
-               \end{tabular}
-                        \caption{Thực thể Recent Opened Workspace}
-\end{table}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{3cm} |p{2cm} |p{9cm}|} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{userId} & integer & ID của member tham gia Workspace. Khoá ngoại tham chiếu tới trường Id trong User. \\ 
+                                \hline
+                                \underline{workspaceId} & integer & ID của Workspace. Khoá ngoại tham chiếu tới trường Id trong Workspace. \\
+                                \hline
+                                openedAt & timestamp & Thời gian người dùng mở Workspace lần cuối.\\
+                                \hline
+                                isHided & boolean & Đánh dấu người dùng đã ẩn Workspace khỏi danh sách của mình hay chưa \\
+                                \hline
+                                isPinned & boolean & Đánh dấu người dùng đã pin Workspace vào danh sách ưu tiên hay chưa \\
+                                \hline
+                                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Recent Opened Workspace}
+        \end{table}  
 \end{center}
 \begin{figure}[H]
         \centering
@@ -199,42 +220,45 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
 
 \paragraph{Request: Các yêu cầu trong hệ thống}
 \begin{center}
-\begin{table}[!h]
-        \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
-                \hline
-                   Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                \hline
-                \underline{ID} & integer & ID của request. Khoá chính \\ 
-                \hline
-                type & varchar & Kiểu request \\
-                \hline
-                createdAt & timestamp & Thời gian người dùng tạo request.\\
-                \hline
-                status & text & Trạng thái của request, đang được xử lý hay đã được chấp thuận, từ chối.\\
-                \hline
-                isDeleted & boolean & Đánh dấu request bị xoá hay chưa \\
-                \hline
-                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
-                \hline
-                workspaceId & integer & ID của workspace chứa request đó. Khoá ngoại tham chiếu tới trường Id trong Workspace \\
-                \hline
-                 senderId & integer & ID của người gửi request. Khoá ngoại tham chiếu tới trường Id trong User \\
-                \hline
-                 recipientId & integer & ID của người nhận request đã xử lý. Khoá ngoại tham chiếu tới trường Id trong User \\
-                \hline
-                 handlerId & integer & ID của người xử lý request. Khoá ngoại tham chiếu tới trường Id trong User \\
-                \hline
-                 frPermission & text & permission hiện tại của người gửi. \\
-                \hline
-                 toPermission & text & permission mong muốn của người gửi. \\
-                \hline
-                 rcpPermission & text & permission của người sẽ nhận được lời mời tham gia workspace. \\
-                \hline
-                 deletedAt & timestamp & Thời gian xoá request. \\
-                \hline
-               \end{tabular}
-                        \caption{Thực thể Request}
-\end{table}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{ID} & integer & ID của request. Khoá chính \\ 
+                                \hline
+                                type & varchar & Kiểu request \\
+                                \hline
+                                createdAt & timestamp & Thời gian người dùng tạo request.\\
+                                \hline
+                                status & text & Trạng thái của request, đang được xử lý hay đã được chấp thuận, từ chối.\\
+                                \hline
+                                isDeleted & boolean & Đánh dấu request bị xoá hay chưa \\
+                                \hline
+                                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
+                                \hline
+                                workspaceId & integer & ID của workspace chứa request đó. Khoá ngoại tham chiếu tới trường Id trong Workspace \\
+                                \hline
+                                senderId & integer & ID của người gửi request. Khoá ngoại tham chiếu tới trường Id trong User \\
+                                \hline
+                                recipientId & integer & ID của người nhận request đã xử lý. Khoá ngoại tham chiếu tới trường Id trong User \\
+                                \hline
+                                handlerId & integer & ID của người xử lý request. Khoá ngoại tham chiếu tới trường Id trong User \\
+                                \hline
+                                frPermission & text & permission hiện tại của người gửi. \\
+                                \hline
+                                toPermission & text & permission mong muốn của người gửi. \\
+                                \hline
+                                rcpPermission & text & permission của người sẽ nhận được lời mời tham gia workspace. \\
+                                \hline
+                                deletedAt & timestamp & Thời gian xoá request. \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Request}
+        \end{table}
 \end{center}
 \begin{figure}[H]
         \centering
@@ -244,34 +268,36 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
 
 \paragraph{Notification: Các thông báo của người dùng}
 \begin{center}
-\begin{table}
-        \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
-                \hline
-                   Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                \hline
-                \underline{ID} & integer & ID của thông báo. Khoá chính \\ 
-                \hline
-                notificationType & varchar & Kiểu thông báo \\
-                \hline
-                createdAt & timestamp & Thời gian người dùng nhận được thông báo.\\
-                \hline
-                status & text & Trạng thái của thông báo, đã được chấp thuận hay đồng ý hoặc từ chối lời mời.\\
-                \hline
-                isDeleted & boolean & Đánh dấu thông báo bị xoá hay chưa \\
-                \hline
-                isStarred & boolean & Đánh dấu thông báo đã được đánh dấu ưu tiên hay chưa \\
-                \hline
-                workspaceId & integer & ID của workspace gửi thông báo đó. Khoá ngoại tham chiếu tới trường Id trong Workspace \\
-                \hline
-                 isRead & boolean & Đánh dấu thông báo đã được đọc hay chưa \\
-                \hline
-                 permission & text & permission của người nhận. \\
-                \hline
-                 deletedAt & timestamp & Thời gian xoá request. \\
-                \hline
-               \end{tabular}
-                        \caption{Thực thể Notification}
-\end{table}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
+                        \hline
+                           Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                        \hline
+                        \underline{ID} & integer & ID của thông báo. Khoá chính \\ 
+                        \hline
+                        notificationType & varchar & Kiểu thông báo \\
+                        \hline
+                        createdAt & timestamp & Thời gian người dùng nhận được thông báo.\\
+                        \hline
+                        status & text & Trạng thái của thông báo, đã được chấp thuận hay đồng ý hoặc từ chối lời mời.\\
+                        \hline
+                        isDeleted & boolean & Đánh dấu thông báo bị xoá hay chưa \\
+                        \hline
+                        isStarred & boolean & Đánh dấu thông báo đã được đánh dấu ưu tiên hay chưa \\
+                        \hline
+                        workspaceId & integer & ID của workspace gửi thông báo đó. Khoá ngoại tham chiếu tới trường Id trong Workspace \\
+                        \hline
+                         isRead & boolean & Đánh dấu thông báo đã được đọc hay chưa \\
+                        \hline
+                         permission & text & permission của người nhận. \\
+                        \hline
+                         deletedAt & timestamp & Thời gian xoá request. \\
+                        \hline
+                \end{tabular}}
+                \caption{Thực thể Notification}
+        \end{table}
 \end{center}
 \begin{figure}[H]
         \centering
