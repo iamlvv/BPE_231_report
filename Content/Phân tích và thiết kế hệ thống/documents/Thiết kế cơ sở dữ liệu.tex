@@ -1,5 +1,5 @@
-\subsection{Thiết kế cơ sở dữ liệu}
-\subsubsection{Lược đồ ERD}
+\section{Thiết kế cơ sở dữ liệu}
+\subsection{Lược đồ ERD}
 \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\textwidth]{Content/Phân tích và thiết kế hệ thống/images/erd.png}
@@ -33,9 +33,9 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
 \end{itemize}
 
 \newpage
-\subsubsection{Ánh xạ ERD và mô tả chi tiết thực thể}
+\subsection{Ánh xạ ERD và mô tả chi tiết thực thể}
 
-\paragraph{User: Người dùng của hệ thống}
+\subsubsection{User: Người dùng của hệ thống}
 \begin{center}
         \begin{table}[!h]
         \def\arraystretch{2}
@@ -70,7 +70,7 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
 \end{figure}
 
 \newpage
-\paragraph{Project: Dự án trong workspace}
+\subsubsection{Project: Dự án trong workspace}
 \begin{center} 
         \begin{table}[H]
                 \def\arraystretch{2}%
@@ -110,7 +110,7 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
 \end{figure}
 
 \newpage
-\paragraph{Workspace: Không gian làm việc trong hệ thống}
+\subsubsection{Workspace: Không gian làm việc trong hệ thống}
 \begin{center}
         \begin{table}[H]
                 \def\arraystretch{2}%
@@ -152,7 +152,7 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
 \end{figure}
 
 \newpage
-\paragraph{Join Workspace: Quan hệ tham gia giữa người dùng và workspace}
+\subsubsection{Join Workspace: Quan hệ tham gia giữa người dùng và workspace}
 \begin{center}
         \begin{table}[H]
                 \def\arraystretch{2}%
@@ -186,7 +186,7 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
         \label{fig:Thực thể Join Workspace}
 \end{figure}
 
-\paragraph{Recent Opened Workspace: Quan hệ chỉnh sửa giữa người dùng và workspace}
+\subsubsection{Recent Opened Workspace: Quan hệ chỉnh sửa giữa người dùng và workspace}
 \begin{center}
         \begin{table}[H]
                 \def\arraystretch{2}%
@@ -218,7 +218,7 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
         \label{fig:Thực thể Recent Opened Workspace}
 \end{figure}
 
-\paragraph{Request: Các yêu cầu trong hệ thống}
+\subsubsection{Request: Các yêu cầu trong hệ thống}
 \begin{center}
         \begin{table}[H]
                 \def\arraystretch{2}%
@@ -266,7 +266,7 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
         \label{fig:Thực thể request}
 \end{figure}
 
-\paragraph{Notification: Các thông báo của người dùng}
+\subsubsection{Notification: Các thông báo của người dùng}
 \begin{center}
         \begin{table}[H]
                 \def\arraystretch{2}%
