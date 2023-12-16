@@ -63,35 +63,35 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
 \end{figure}
 \paragraph{Project: Dự án trong workspace}
 \begin{center}
-\begin{table}[!h]
-        \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
-                \hline
-                   Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                \hline
-                \underline{ID} & integer & ID của project. Khoá chính. \\ 
-                \hline
-                projectName & text & Tên của project \\
-                \hline
-                description & text & Mô tả của project \\
-                \hline
-                isDelete & boolean & Đánh dấu project này đã bị xoá hay chưa \\
-                \hline
-                createAt & timestamp & Thời gian project được tạo \\
-                \hline
-                ownerId & integer & ID của người sở hữu project.
-                Khoá ngoại tham chiếu tới trường Id trong bảng User \\
-                \hline
-                workspaceId & integer & ID của workspace nơi mà project được tạo. Khoá ngoại tham chiếu tới trường Id trong bảng Workspace \\
-                \hline
-                deletedAt & timestamp & Thời gian project được xoá khỏi Workspace \\
-                \hline
-                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
-                \hline
-               \end{tabular}
-
-                        \caption{Thực thể Project}
-\end{table}
+        \begin{table}[!h]
+                \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
+                        \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                        \hline
+                                \underline{ID} & integer & ID của project. Khoá chính. \\ 
+                        \hline
+                                projectName & text & Tên của project \\
+                        \hline
+                                description & text & Mô tả của project \\
+                        \hline
+                                isDelete & boolean & Đánh dấu project này đã bị xoá hay chưa \\
+                        \hline
+                                createAt & timestamp & Thời gian project được tạo \\
+                        \hline
+                                ownerId & integer & ID của người sở hữu project.
+                                Khoá ngoại tham chiếu tới trường Id trong bảng User \\
+                        \hline
+                                workspaceId & integer & ID của workspace nơi mà project được tạo. Khoá ngoại tham chiếu tới trường Id trong bảng Workspace \\
+                        \hline
+                                deletedAt & timestamp & Thời gian project được xoá khỏi Workspace \\
+                        \hline
+                                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
+                        \hline
+                \end{tabular}
+                \caption{Thực thể Project}
+        \end{table}
 \end{center}
+
 \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png}

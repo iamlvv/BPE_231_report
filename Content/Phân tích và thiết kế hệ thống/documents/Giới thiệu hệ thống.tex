@@ -76,31 +76,36 @@ chức năng kế thừa từ đề tài trước đó:
 \begin{center}
     \begin{tabular}{ |m{2.5cm}|m{11.5cm}|}
         \hline
-        Performance    & \begin{itemize}
-                             \item Đối với màn hình input: tối đa 5 trường dữ liệu, không tính toán dữ liệu phức tạp, không tương tác với hệ thống ngoài, có thể lưu trữ dữ liệu trực
-                                   tiếp ngay xuống database, không lưu trữ các tệp nội dung lớn như hình ảnh, video, tập tin quá 3 MB.
-                             \item Đối với màn hình output: dữ liệu được truy vấn trực tiếp từ database, hạn chế những câu lệnh truy vấn phức tạp, những truy vấn từ hệ thống ngoài.
-                                   Hiển thị tối đa 10 dòng dữ liệu, có độ dài nhỏ hơn 100 ký tự
-                         \end{itemize} \\
+        Performance    & 
+      \begin{itemize}
+            \item Đối với màn hình input: tối đa 5 trường dữ liệu, không tính toán dữ liệu phức tạp, không tương tác với hệ thống ngoài, có thể lưu trữ dữ liệu trực
+                  tiếp ngay xuống database, không lưu trữ các tệp nội dung lớn như hình ảnh, video, tập tin quá 3 MB.
+            \item Đối với màn hình output: dữ liệu được truy vấn trực tiếp từ database, hạn chế những câu lệnh truy vấn phức tạp, những truy vấn từ hệ thống ngoài.
+                  Hiển thị tối đa 10 dòng dữ liệu, có độ dài nhỏ hơn 100 ký tự
+      \end{itemize} \\
         \hline
-        Usability      & \begin{itemize}
-                             \item Tất cả thông tin quan trọng phải được hiển thị trong 1 màn hình (không cần phải
-                                   thực hiện thêm thao tác cuộn).
-                             \item Giao diện của hệ thống cần có sự nhất quán, về mặt hình ảnh biểu tượng cũng như
-                                   vị trí các đối tượng trên màn hình để người dùng làm quen dễ dàng hơn.
-                             \item Người dùng có thể thành thạo các thao tác trên màn hình trong 15 phút sử dụng.
-                         \end{itemize}                                                                    \\
+        Usability      & 
+        \begin{itemize}
+            \item Tất cả thông tin quan trọng phải được hiển thị trong 1 màn hình (không cần phải
+                  thực hiện thêm thao tác cuộn).
+            \item Giao diện của hệ thống cần có sự nhất quán, về mặt hình ảnh biểu tượng cũng như
+                  vị trí các đối tượng trên màn hình để người dùng làm quen dễ dàng hơn.
+            \item Người dùng có thể thành thạo các thao tác trên màn hình trong 15 phút sử dụng.
+      \end{itemize}\\
         \hline
-        Supportability & \begin{itemize}
-                             \item Hệ thống có thể được sử dụng hiệu quả trên các trình duyệt web (Opera, UC
-                                   Browser, Safari, Microsoft Edge, Google Chrome, Samsung Internet Browser).
-                             \item Hệ thống không chạy trên các phiên bản trình duyệt quá cũ.
-                         \end{itemize}                                                                          \\
+        Supportability & 
+            \begin{itemize}
+                  \item Hệ thống có thể được sử dụng hiệu quả trên các trình duyệt web (Opera, UC
+                        Browser, Safari, Microsoft Edge, Google Chrome, Samsung Internet Browser).
+                  \item Hệ thống không chạy trên các phiên bản trình duyệt quá cũ.
+            \end{itemize}\\
         \hline
-        Scalability    & \begin{itemize}
-            \item Có khả năng tách database trên một server riêng và backend trên một
-            server riêng      
-        \end{itemize}                                                                                                                                                       \\
+        Scalability    & 
+            \begin{itemize}
+                  \item Có khả năng tách database trên một server riêng và backend trên một
+                  server riêng
+            \end{itemize}\\
         \hline
     \end{tabular}
+    \caption{Bảng liệt kê tiêu chí về yêu cầu phi chức năng của hệ thống}
 \end{center}

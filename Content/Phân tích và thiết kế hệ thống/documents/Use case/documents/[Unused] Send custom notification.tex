@@ -1,0 +1,29 @@
+\subsubsection{Send custom notification}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}    & Send custom notification                                              \\ \hline
+\textbf{Actor}            & Workspace owner                                                       \\ \hline
+\textbf{Description}      & Workspace owner gửi thông báo cá nhân tới thành viên trong Workspace. \\ \hline
+\textbf{Trigger}          & Không                                                                 \\ \hline
+\textbf{Pre-conditions}   & Workspace owner đã đăng nhập vào hệ thống                             \\ \hline
+\textbf{Post-conditions}  & Gửi thông báo thành công.                                             \\ \hline
+\textbf{Normal Flow} &
+  \begin{enumerate}
+      \item Workspace owner chọn workspace.
+      \item Hệ thống hiển thị trang workspace.
+      \item Người dùng chọn nút “Send custom notification” trên thanh công cụ.
+      \item Hệ thống hiển thị 1 popup window.
+      \item Người dùng nhập văn bản và nhấn submit.
+      \item Hệ thống tắt popup window và gửi thông báo đi. 
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative Flow} & Không.                                                                \\ \hline
+\textbf{Exceptions}       & Không                                                                 \\ \hline
+\end{tabular}%
+}
+\end{table}

@@ -1,4 +1,4 @@
-\subsubsection{Create new workspace}
+\subsubsection{Tạo mới workspace}
 
 \begin{table}[H]
 \def\arraystretch{2}%
@@ -6,23 +6,23 @@
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|p{3cm}|p{11cm}|}
 \hline
-\textbf{Use-case name}     & Create new workspace
+\textbf{Use-case name}     & Tạo mới workspace
 \\ \hline
-\textbf{Actor}             & Registered user
+\textbf{Actor}             & Người dùng có tài khoản trong hệ thống
 \\ \hline
 \textbf{Description}       & Người dùng tạo mới workspace
 \\ \hline
 \textbf{Trigger}           & Không
 \\ \hline
-\textbf{Pre-conditions}    & Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang ở giao diện Default homepage
+\textbf{Pre-conditions}    & Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang ở giao diện mặc định ban đầu - Default homepage
 \\ \hline
-\textbf{Post-conditions}   & Người dùng tạo mới workspace thành công, và trở thành workspace owner của workspace đó
+\textbf{Post-conditions}   & Người dùng tạo mới workspace thành công, và trở thành người sở hữu - workspace owner của workspace đó
 \\ \hline
 \textbf{Normal flow} &
   \begin{enumerate}
       \item Người dùng ở giao diện Default homepage, hiện đang hiển thị danh sách workspace của người dùng đó
       \item Người dùng chọn nút “Create workspace”
-      \item Hệ thống mở modal yêu cầu thông tin của workspace: Workspace name, workspace description
+      \item Hệ thống mở modal yêu cầu thông tin của workspace: Workspace name (tên của workspace), workspace description (mô tả của workspace).
       \item Người dùng nhập tên (Name) của workspace
       \item Người dùng nhập mô tả (Description) của workspace
       \item Người dùng chọn nút “Save” để lưu thông tin và hoàn tất tạo mới workspace
@@ -53,4 +53,5 @@
   \\ \hline
 \end{tabular}
 }
+\caption{Use-case scenario cho use-case Tạo mới workspace}
 \end{table}

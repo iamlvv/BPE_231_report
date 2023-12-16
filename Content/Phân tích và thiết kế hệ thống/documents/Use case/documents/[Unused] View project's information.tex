@@ -1,0 +1,30 @@
+\subsubsection{View project's information}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & View project’s information                                                                                                                \\ \hline
+\textbf{Actor}             & Shared member (Can view, share, edit)                                                                                                     \\ \hline
+\textbf{Description}       & Xem thông tin về project bên trong workspace                                                                                              \\ \hline
+\textbf{Trigger}           & Không                                                                                                                                     \\ \hline
+\textbf{Pre-conditions}    & Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang đứng ở giao diện workspace đã chọn                              \\ \hline
+\textbf{Post-conditions}   & Người dùng xem được thông tin về project bên trong workspace                                                                              \\ \hline
+\textbf{Normal flow} &  
+  \begin{enumerate}
+      \item Người dùng ở giao diện của workspace đã chọn
+      \item Người dùng chọn icon “Information” của project để hiển thị modal chứa thông tin của project:
+      \begin{enumerate}[label=\alph*]
+          \item Thời gian tạo project
+          \item Thành viên bên trong project
+      \end{enumerate}
+      \item Người dùng chọn “Close” để đóng modal
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} & Không                                                                                                                                     \\ \hline
+\textbf{Exceptions}        & \begin{tabular}[c]{@{}l@{}}3a. Người dùng chọn vùng bên ngoài modal\\ 3a.1. Modal sẽ tự động đóng tương tự với khi chọn “Close”\end{tabular} \\ \hline
+\end{tabular}%
+}
+\end{table}
