@@ -38,6 +38,23 @@
 \usepackage[normalem]{ulem}
 \usepackage{cite}%Tai lieu tham khao
 \usepackage{indentfirst}%Lui dau dong
+\usepackage[acronym]{glossaries}
+\makenoidxglossaries
+\newacronym{ces}{CES}{Customer Effort Score}
+\newacronym{csat}{CSAT}{Customer Satisfaction Score}
+\newacronym{nps}{NPS}{Net Promoter Score}
+\newacronym{musa}{MUSA}{Multicriteria Satisfaction Analysis}
+\newacronym{bpm}{BPM}{Business process model}
+\newacronym{erd}{ERD}{Entity Relationship Model}
+\newacronym{bpmn}{BPMN}{Business Process Model and Notation}
+\newacronym{ceb}{CEB}{Corporate Executive Board}
+\newacronym{api}{API}{Application Programming Interface}
+\newacronym{spa}{SPA}{Single Page Application}
+\newacronym{dom}{DOM}{Document Object Model}
+\newacronym{http}{HTTP}{Hypertext Transfer Protocol}
+\newacronym{tcp}{TCP}{Transmission Control Protocol}
+\newacronym{ajax}{AJAX}{Asynchronous JavaScript and XML}
+
 \hypersetup{urlcolor=cyan,linkcolor=black,citecolor=black,colorlinks=true} 
 \usetikzlibrary{arrows,decorations,backgrounds}
 \usepackage{pstricks}%PSTricks with the standard color package
@@ -173,6 +190,9 @@
 \pagebreak
 \listoftables
 \pagebreak
+% \printnoidxglossaries
+\printnoidxglossary[type=\acronymtype,title=Danh sách từ ngữ viết tắt]
+\pagebreak
 
 % Make itemize list items become hyphen
 \setlist[itemize,1]{label=--}
@@ -197,6 +217,5 @@
 \input{Content/Kết luận/main}
 \newpage
 \input{Content/References}
-
 
 \end{document}

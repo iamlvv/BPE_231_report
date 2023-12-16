@@ -2,8 +2,7 @@
 \subsubsection{ReactJS}
 React là một thư viện Javascript mã nguồn mở, được phát triển và hỗ trợ bởi
 Meta (trước đây là Facebook), ra mắt vào năm 2013 với mục đích xây dựng giao
-diện người dùng. React được sử dụng rộng rãi để xây dựng các trang web SPA
-(Single Page Application) và các ứng dụng trên nền tảng di động. React tổ chức
+diện người dùng. React được sử dụng rộng rãi để xây dựng các trang web \acrfull*{spa} và các ứng dụng trên nền tảng di động. React tổ chức
 các thành phần của trang web thành các component, cho phép chúng ta nhóm các
 logic xử lý của các phần nhỏ của giao diện lại với nhau, từ đó có thể tái sử
 dụng nhiều lần và mở rộng thêm chức năng cho mỗi thành phần đó. Mỗi component
@@ -11,7 +10,7 @@ có thể tự quản lý trạng thái (state) của riêng mình, cũng như n
 thuộc tính (props) được truyền từ component cha. React tối ưu việc render trang
 web bằng cách chỉ cho phép render khi phát hiện có sự thay đổi trong state và
 props, từ đó giảm thiểu số lần phải re - render. React còn nổi tiếng với việc
-sử dụng Virtual DOM để cải thiện hiệu năng, khi so sánh DOM gốc của trang web
+sử dụng Virtual \acrshort*{dom} để cải thiện hiệu năng, khi so sánh DOM gốc của trang web
 và Virtual DOM để tìm ra những sự khác nhau, và chỉ render lại những điểm khác
 nhau đó, thay vì re - render cả cây DOM, điều mà sẽ làm hiệu năng của trang web
 giảm đi đáng kể.
@@ -66,14 +65,14 @@ và nhận tín hiệu cùng một lúc. Chế độ truyền song công toàn p
 cùng một lúc. Ví dụ, trong một cuộc trò chuyện qua điện thoại, hai người giao
 tiếp và cả hai có thể tự do nói và nghe cùng một lúc. Một kết nối Websocket sẽ
 bắt đầu với một HTTP request/response handshake. Nếu handshake khởi tạo thành
-công, máy chủ và máy khách đồng ý sử dụng kết nối TCP có sẵn đã được thiết lập
+công, máy chủ và máy khách đồng ý sử dụng kết nối \acrshort*{tcp} có sẵn đã được thiết lập
 cho một kết nối Websocket. Kết nối này sẽ tồn tại lâu nhất có thể (theo lý
 thuyết có thể tồn tại mãi mãi), cho phép máy chủ và máy khách có thể độc lập
 gửi dữ liệu cho nhau.
 \par
 Một số ưu điểm của Websocket:
 \begin{itemize}
-    \item Trước khi có Websocket, các kỹ thuật HTTP như AJAX long polling và Comet là
+    \item Trước khi có Websocket, các kỹ thuật \acrshort*{http} như \acrshort*{ajax} long polling và Comet là
           những tiêu chuẩn để xây dựng các ứng dụng thời gian thực. Tuy nhiên, ở
           Websocket đã lược bỏ đi việc thiết lập kết nối mỗi khi có request, và giảm kích
           thước của mỗi message vì không còn HTTP headers. Điều này giúp tiết kiệm băng

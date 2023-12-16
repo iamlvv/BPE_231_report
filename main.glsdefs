@@ -1,0 +1,392 @@
+\glsdefs@newdocentry{ces}%
+{%
+name={\acronymfont {\glsentryshort {ces}}},%
+sort={CES},%
+type={acronym},%
+first={CES},%
+firstplural={CESs},%
+text={CES},%
+plural={CESs},%
+description={Customer Effort Score},%
+descriptionplural={Customer Effort Score},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Customer Effort Score},%
+longplural={Customer Effort Scores},%
+short={CES},%
+shortplural={CESs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{csat}%
+{%
+name={\acronymfont {\glsentryshort {csat}}},%
+sort={CSAT},%
+type={acronym},%
+first={CSAT},%
+firstplural={CSATs},%
+text={CSAT},%
+plural={CSATs},%
+description={Customer Satisfaction Score},%
+descriptionplural={Customer Satisfaction Score},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Customer Satisfaction Score},%
+longplural={Customer Satisfaction Scores},%
+short={CSAT},%
+shortplural={CSATs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{nps}%
+{%
+name={\acronymfont {\glsentryshort {nps}}},%
+sort={NPS},%
+type={acronym},%
+first={NPS},%
+firstplural={NPSs},%
+text={NPS},%
+plural={NPSs},%
+description={Net Promoter Score},%
+descriptionplural={Net Promoter Score},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Net Promoter Score},%
+longplural={Net Promoter Scores},%
+short={NPS},%
+shortplural={NPSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{musa}%
+{%
+name={\acronymfont {\glsentryshort {musa}}},%
+sort={MUSA},%
+type={acronym},%
+first={MUSA},%
+firstplural={MUSAs},%
+text={MUSA},%
+plural={MUSAs},%
+description={Multicriteria Satisfaction Analysis},%
+descriptionplural={Multicriteria Satisfaction Analysis},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Multicriteria Satisfaction Analysis},%
+longplural={Multicriteria Satisfaction Analysiss},%
+short={MUSA},%
+shortplural={MUSAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{bpm}%
+{%
+name={\acronymfont {\glsentryshort {bpm}}},%
+sort={BPM},%
+type={acronym},%
+first={BPM},%
+firstplural={BPMs},%
+text={BPM},%
+plural={BPMs},%
+description={Business process model},%
+descriptionplural={Business process model},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Business process model},%
+longplural={Business process models},%
+short={BPM},%
+shortplural={BPMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{erd}%
+{%
+name={\acronymfont {\glsentryshort {erd}}},%
+sort={ERD},%
+type={acronym},%
+first={ERD},%
+firstplural={ERDs},%
+text={ERD},%
+plural={ERDs},%
+description={Entity Relationship Model},%
+descriptionplural={Entity Relationship Model},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Entity Relationship Model},%
+longplural={Entity Relationship Models},%
+short={ERD},%
+shortplural={ERDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{bpmn}%
+{%
+name={\acronymfont {\glsentryshort {bpmn}}},%
+sort={BPMN},%
+type={acronym},%
+first={BPMN},%
+firstplural={BPMNs},%
+text={BPMN},%
+plural={BPMNs},%
+description={Business Process Model and Notation},%
+descriptionplural={Business Process Model and Notation},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Business Process Model and Notation},%
+longplural={Business Process Model and Notations},%
+short={BPMN},%
+shortplural={BPMNs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ceb}%
+{%
+name={\acronymfont {\glsentryshort {ceb}}},%
+sort={CEB},%
+type={acronym},%
+first={CEB},%
+firstplural={CEBs},%
+text={CEB},%
+plural={CEBs},%
+description={Corporate Executive Board},%
+descriptionplural={Corporate Executive Board},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Corporate Executive Board},%
+longplural={Corporate Executive Boards},%
+short={CEB},%
+shortplural={CEBs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{api}%
+{%
+name={\acronymfont {\glsentryshort {api}}},%
+sort={API},%
+type={acronym},%
+first={API},%
+firstplural={APIs},%
+text={API},%
+plural={APIs},%
+description={Application Programming Interface},%
+descriptionplural={Application Programming Interface},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Programming Interface},%
+longplural={Application Programming Interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{spa}%
+{%
+name={\acronymfont {\glsentryshort {spa}}},%
+sort={SPA},%
+type={acronym},%
+first={SPA},%
+firstplural={SPAs},%
+text={SPA},%
+plural={SPAs},%
+description={Single Page Application},%
+descriptionplural={Single Page Application},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Single Page Application},%
+longplural={Single Page Applications},%
+short={SPA},%
+shortplural={SPAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{dom}%
+{%
+name={\acronymfont {\glsentryshort {dom}}},%
+sort={DOM},%
+type={acronym},%
+first={DOM},%
+firstplural={DOMs},%
+text={DOM},%
+plural={DOMs},%
+description={Document Object Model},%
+descriptionplural={Document Object Model},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Document Object Model},%
+longplural={Document Object Models},%
+short={DOM},%
+shortplural={DOMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{http}%
+{%
+name={\acronymfont {\glsentryshort {http}}},%
+sort={HTTP},%
+type={acronym},%
+first={HTTP},%
+firstplural={HTTPs},%
+text={HTTP},%
+plural={HTTPs},%
+description={Hypertext Transfer Protocol},%
+descriptionplural={Hypertext Transfer Protocol},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Hypertext Transfer Protocol},%
+longplural={Hypertext Transfer Protocols},%
+short={HTTP},%
+shortplural={HTTPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{tcp}%
+{%
+name={\acronymfont {\glsentryshort {tcp}}},%
+sort={TCP},%
+type={acronym},%
+first={TCP},%
+firstplural={TCPs},%
+text={TCP},%
+plural={TCPs},%
+description={Transmission Control Protocol},%
+descriptionplural={Transmission Control Protocol},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission Control Protocol},%
+longplural={Transmission Control Protocols},%
+short={TCP},%
+shortplural={TCPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ajax}%
+{%
+name={\acronymfont {\glsentryshort {ajax}}},%
+sort={AJAX},%
+type={acronym},%
+first={AJAX},%
+firstplural={AJAXs},%
+text={AJAX},%
+plural={AJAXs},%
+description={Asynchronous JavaScript and XML},%
+descriptionplural={Asynchronous JavaScript and XML},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Asynchronous JavaScript and XML},%
+longplural={Asynchronous JavaScript and XMLs},%
+short={AJAX},%
+shortplural={AJAXs},%
+counter={page},%
+parent={},%
+%
+}%
+

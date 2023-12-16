@@ -18,7 +18,7 @@ liệu, hiển thị dữ liệu, kiểm tra tính đúng đắn của dữ li�
 nhất, đây là nơi đáp ứng các yêu cầu thao tác dữ liệu của \emph{Presentation
     layer}, xử lý chính nguồn dữ liệu từ \emph{Presentation layer} trước khi truyền
 xuống \emph{Persistence layer} và lưu xuống hệ quản trị cơ sở dữ liệu. \emph{Persistence
-    layer} có chức năng giao tiếp với hệ quản trị CSDL như thực hiện các công việc
+    layer} có chức năng giao tiếp với hệ quản trị cơ sở dữ liệu như thực hiện các công việc
 liên quan đến lưu trữ và truy vấn dữ liệu ( tìm kiếm, thêm, xóa, sửa,…).
 \par
 Kiến trúc này có một số ưu điểm như sau:
@@ -43,7 +43,7 @@ service có thể được triển khai và chạy độc lập. Chúng tách bi
 nguồn, về hoạt động và dữ liệu. Mỗi microservice có nơi chứa dữ liệu của riêng
 của nó và chỉ có nó có quyền truy cập vào vùng dữ liệu này. Do các microservice
 là độc lập, chúng không giao tiếp trực tiếp với nhau mà qua một thành phần
-trung gian được gọi là API gateway. Có thể thấy vai trò của API gateway rất
+trung gian được gọi là API gateway. Có thể thấy vai trò của \acrshort*{api} gateway rất
 quan trọng trong mô hình microservice. Nó là điểm đến và đi của mọi yêu cầu hay
 phản hồi.
 \par
