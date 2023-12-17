@@ -1,0 +1,36 @@
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Bảng kế hoạch công việc chi tiết}}{14}{table.caption.10}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Bảng kế hoạch công việc chi tiết - tiếp theo}}{15}{table.caption.11}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Các hình thức câu hỏi được sử dụng trong bảng khảo sát}}{30}{table.caption.29}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Tên các câu hỏi được sử dụng trong bảng khảo sát}}{30}{table.caption.30}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Tổng hợp các câu hỏi trong bảng khảo sát}}{34}{table.caption.32}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Bảng liệt kê tiêu chí về yêu cầu phi chức năng của hệ thống}}{38}{table.caption.34}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Use-case scenario cho use-case Tạo mới workspace}}{40}{table.caption.36}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Use-case scenario cho use-case Hiển thị danh sách workspace mà người dùng tham gia}}{41}{table.caption.37}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Use-case scenario cho use-case Ghim workspace}}{42}{table.caption.38}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Use-case scenario cho use-case Gửi lời mời đến người dùng khác vào workspace}}{43}{table.caption.39}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Use-case scenario cho use-case Gửi yêu cầu mời người dùng khác vào workspace}}{44}{table.caption.40}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Use-case scenario cho use-case Gửi yêu cầu điều chỉnh quyền hạn trong workspace}}{45}{table.caption.41}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Use-case scenario cho use-case Hiển thị thông báo của người dùng}}{46}{table.caption.42}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Use-case scenario cho use-case Hiển thị thông tin chi tiết thông báo của người dùng}}{47}{table.caption.43}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Use-case scenario cho use-case Ghim thông báo của người dùng}}{48}{table.caption.44}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Use-case scenario cho use-case Xóa thông báo của người dùng}}{49}{table.caption.45}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Use-case scenario cho use-case Tham gia workspace thông qua lời mời}}{50}{table.caption.46}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Use-case scenario cho use-case Truy cập trang quản lý thành viên trong workspace}}{51}{table.caption.47}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Use-case scenario cho use-case Truy cập giao diện quản lý yêu cầu từ người dùng trong workspace}}{52}{table.caption.48}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Use-case scenario cho use-case Xét duyệt yêu cầu từ phía người dùng}}{53}{table.caption.49}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Use-case scenario cho use-case Xóa yêu cầu từ thành viên trong workspace gửi đến}}{54}{table.caption.50}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Use-case scenario cho use-case Xóa thành viên khỏi workspace}}{55}{table.caption.51}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Use-case scenario cho use-case Truy cập vào nội dung trong workspace}}{56}{table.caption.52}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Use-case scenario cho use-case Tạo mới project trong workspace}}{57}{table.caption.53}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces Use-case scenario cho use-case Xóa project trong Workspace}}{58}{table.caption.54}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces Thực thể User}}{94}{table.caption.98}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces Thực thể Project}}{95}{table.caption.100}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces Thực thể Workspace}}{96}{table.caption.102}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces Thực thể Join Workspace}}{97}{table.caption.104}%
+\contentsline {table}{\numberline {3.25}{\ignorespaces Thực thể Recent Opened Workspace}}{97}{table.caption.106}%
+\contentsline {table}{\numberline {3.26}{\ignorespaces Thực thể Request}}{98}{table.caption.108}%
+\contentsline {table}{\numberline {3.27}{\ignorespaces Thực thể Notification}}{99}{table.caption.110}%
+\addvspace {10\p@ }
