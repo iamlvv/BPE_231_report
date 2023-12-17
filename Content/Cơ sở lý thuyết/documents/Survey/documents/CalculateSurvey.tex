@@ -7,22 +7,22 @@ Hiện nay có nhiều phương pháp sử dụng để chuẩn hoá dữ liệu
 Ở đây chúng tôi chọn một miền giá trị phổ biến là [0, 1], và đưa ra công thức chuẩn hoá cụ thể cho từng độ đo như sau, vận dụng phương pháp chuẩn hoá \emph{Min-Max} được trình bày ở trên:
 
 \textbf{Độ đo CES:}
-\[ \text{\emph{Normalized CES}} = (\frac{CES - CES_{Min}}{CES_{Max} - CES_{Min}}) \times 100\]
+\[ \text{\emph{Normalized CES} (\%)} = (\frac{CES - CES_{Min}}{CES_{Max} - CES_{Min}}) \times 100\]
 \par
 Trong đó, \emph{CES} là giá trị \emph{CES} tính được từ kết quả khảo sát, $CES_{Min}$ và $CES_{Max}$ lần lượt là giá trị nhỏ nhất và giá trị lớn nhất của điểm \emph{CES}, hay cận dưới và cận trên của thang điểm của độ đo \emph{CES}. Ví dụ, trên miền giá trị của điểm CES là [0, 1], ta có $CES_{Min} = 0$ và $CES_{Max} = 1$
 
 \textbf{Độ đo CSAT:}
-\[ \text{\emph{Normalized CSAT}} = (\frac{CSAT - CSAT_{Min}}{CSAT_{Max} - CSAT_{Min}}) \times 100\]
+\[ \text{\emph{Normalized CSAT} (\%)} = (\frac{CSAT - CSAT_{Min}}{CSAT_{Max} - CSAT_{Min}}) \times 100\]
 \par
 Trong đó, \emph{CSAT} là giá trị \emph{CSAT} tính được từ kết quả khảo sát, $CSAT_{Min}$ và $CSAT_{Max}$ lần lượt là giá trị nhỏ nhất và giá trị lớn nhất của điểm \emph{CSAT}, hay cận dưới và cận trên của thang điểm của độ đo \emph{CSAT}. Ví dụ, trên miền giá trị của điểm CSAT là [0, 1], ta có $CSAT_{Min} = 0$ và $CSAT_{Max} = 1$
 
 \textbf{Độ đo NPS:}
-\[ \text{\emph{Normalized NPS}} = (\frac{NPS - NPS_{Min}}{NPS_{Max} - NPS_{Min}}) \times 100\]
+\[ \text{\emph{Normalized NPS} (\%)} = (\frac{NPS - NPS_{Min}}{NPS_{Max} - NPS_{Min}}) \times 100\]
 \par
 Trong đó, \emph{NPS} là giá trị \emph{NPS} tính được từ kết quả khảo sát, $NPS_{Min}$ và $NPS_{Max}$ lần lượt là giá trị nhỏ nhất và giá trị lớn nhất của điểm \emph{NPS}, hay cận dưới và cận trên của thang điểm của độ đo \emph{NPS}. Ví dụ, trên miền giá trị của điểm NPS là [-1, 1], ta có $NPS_{Min} = -1$ và $NPS_{Max} = 1$
 \par
 Tuỳ vào mỗi loại quy trình nghiệp vụ mà người thiết kế sẽ ưu tiên xem xét độ đo nào chiếm tỉ trọng lớn hơn trong giá trị chung của bảng khảo sát. Vì thế, ứng dụng phương pháp MUSA đã được trình bày ở trên, chúng tôi đề xuất công thức tính giá trị chung như sau:
-\[ \text{Survey Score} = (w_{CES} \times \text{Normalized CES}) + (w_{NPS} \times \text{Normalized NPS}) + (w_{CSAT} \times \text{Normalized CSAT})\]
+\[ \text{Survey Score}= (w_{CES} \times \text{Normalized CES}) + (w_{NPS} \times \text{Normalized NPS}) + (w_{CSAT} \times \text{Normalized CSAT})\]
 \[ w_{CES} + w_{CSAT} + w_{NPS} = 1\]
 \par
 Trong đó, $w_{CES}$, $w_{CSAT}$, $w_{NPS}$ lần lượt là trọng số của giá trị CES, NPS và CSAT đã chuẩn hóa. Trọng số này có thể được quy định bởi người thiết kế bảng khảo sát, tuỳ thuộc vào độ ưu tiên của họ đối với độ đo nào cho bảng khảo sát hay quy trình nghiệp vụ.
