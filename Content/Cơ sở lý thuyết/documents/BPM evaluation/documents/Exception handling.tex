@@ -1,6 +1,6 @@
 \subsection{Khả năng xử lý ngoại lệ}
 Ngoại lệ là những sự kiện khiến cho quy trình đi từ luồng thông thường sang tình huống không mong đợi và không thường xảy ra. Có thể đó là những lỗi trong quy trình nghiệp vụ hoặc lỗi về mặt kỹ thuật. Công thức tính độ xử lý ngoại lệ như sau:
-\[ \text{Exception handling level } = \frac{\text{Num of handled exceptions}}{\text{Num of handled exceptions + Num of unhandled exceptions}}\]
+\[ \text{Exception handling level } = \frac{\text{Num of handled exceptions}}{\text{Num of handled exceptions + Num of unhandled exceptions}} \tag*{\cite{prereport}}\]
 \par
 Chúng tôi cùng với đề tài trước quy định để biểu
 diễn một ngoại lệ, người dùng phải biểu diễn bằng error event, nếu như event đó dẫn ra một hoạt động khác thì ngoại lệ đó được xem như là đã được xử lý. Còn lại các ngoại lệ khác sẽ được xem như chưa được xử lý.

@@ -3,15 +3,15 @@ Thời gian chu kỳ của một quy trình được tính toán dựa trên th�
 Quy trình nghiệp vụ được chia thành các khối nhỏ hơn. Khi tính toán được thời gian chu kỳ của từng khối, có thể dễ dàng tính toán được chu kỳ của cả quy trình.
 \begin{itemize}
     \item Khối tuần tự (sequential fragment): thời gian chu kỳ của 1 khối tuần tự bằng với thời gian chu kỳ của các hoạt động trong khối đó:
- \[ CT =\sum_{i=1}^{n} T_i \]
+ \[ CT =\sum_{i=1}^{n} T_i \tag*{\cite{prereport}}\]
    \item Khối XOR (Exclusive gateway): khối được bắt đầu và kết thúc bởi 2 cổng XOR, trong trường hợp này cần quan tâm tới xác suất rẽ nhánh của từng nhánh đi ra từ cổng XOR, ta ký hiệu là p:
-   \[ CT =\sum_{i=1}^{n} p_i \times T_i \]
+   \[ CT =\sum_{i=1}^{n} p_i \times T_i \tag*{\cite{prereport}}\]
    \item Khối AND (parallel gateway): Khối được bắt đầu và kết thúc bởi 2 cổng AND, ta cần biết thời gian lớn nhất mà các nhánh cần để thực thi khối AND này.
-   \[ CT = Max(T_1, T_2,..., T_n) \]
+   \[ CT = Max(T_1, T_2,..., T_n) \tag*{\cite{prereport}}\]
    \item Vòng lặp (rework pattern): Một chuỗi các hoạt động hoặc một hoạt động được lặp đi lặp lại với tần suất $r$ nào đó, ta có công thức tính thời gian chu kỳ của vòng lặp:
-   \[ CT = \frac{T}{1 - r}\]
+   \[ CT = \frac{T}{1 - r} \tag*{\cite{prereport}}\]
    Với T là tổng thời gian chu kỳ của khối lặp này
    \item Khối OR (inclusive gateway): Khối được bắt đầu và kết thúc bởi 2 cổng OR, cho phép ta chọn được một hoặc nhiều hơn một nhánh được rẽ ra từ cổng này. Công thức tổng quát cho khối OR:
-   \[ CT = Max(T_1, T_2,..., T_i)\]
+   \[ CT = Max(T_1, T_2,..., T_i) \tag*{\cite{prereport}}\]
    Với $T_1$, $T_2$,..., $T_i$ là những nhánh được xác định sẽ được chạy trong khối OR này và $i <= n$ với $n$ là tất cả các nhánh trong khối OR. Các nhánh được chạy sẽ được xác định ngay từ đầu.
 \end{itemize}

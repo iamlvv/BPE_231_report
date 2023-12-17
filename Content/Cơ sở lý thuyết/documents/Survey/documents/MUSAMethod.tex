@@ -16,8 +16,8 @@ Multicriteria Satisfaction Analysis (MUSA) là phương pháp để đo lường
 Mục đích chính của phương pháp MUSA là kết hợp các đánh giá độc lập thành một hàm thu thập giá trị, giả sử như độ hài lòng tổng thể của người dùng sẽ phụ thuộc vào tập n tiêu chí hay biến số đại diện cho các yếu tố khác nhau của dịch vụ. Tập các tiêu chí này được ký hiệu $X = (X_1, X_2,..., X_n)$ với mỗi tiêu chí cụ thể $i$ được đại diện bằng một biến đơn $X_i$. Bằng cách này, việc đánh giá sự hài lòng của người dùng có thể được xem như một bài toán phân tích nhiều tiêu chí.
 \par
 Phương pháp MUSA đánh giá độ hài lòng tổng thể và độ hài lòng ở từng yếu tố lần lượt $Y^*$ và $X_i^*$. Cần chú ý rằng phương pháp này tuân theo những nguyên tắc của phân tích hồi quy tuần tự với một số ràng buộc, sử dụng các kỹ thuật quy hoạch tuyến tính (Jacquet-Lagreze and Siskos, 1982; Siskos and Yannacopoulos, 1985; Siskos, 1985). Công thức của phân tích hồi quy tuần tự trình bày như sau:
-\[ Y^* = \sum_{i=1}^{n} b_iX_i^*\]
-\[ \sum_{i=1}^{n} b_i = 1\]
+\[ Y^* = \sum_{i=1}^{n} b_iX_i^* \tag*{\cite{grigor02}}\]
+\[ \sum_{i=1}^{n} b_i = 1 \tag*{\cite{grigor02}}\]
 \par
 Với $b_i$ là trọng số của tiêu chí thứ $i$ và giá trị của $Y^*$ và $X_i^*$ đã được chuẩn hoá về miền giá trị [0, 1].
 Các hàm dự đoán giá trị là những kết quả quan trọng nhất của phương pháp MUSA, chúng cho thấy giá trị thực trong miền giá trị [0, 1] là giá trị mà người dùng đánh giá cho mỗi mức độ hài lòng, từng yếu tố hay tổng thể.

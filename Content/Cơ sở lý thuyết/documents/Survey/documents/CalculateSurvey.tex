@@ -2,7 +2,7 @@
 Như đã đề cập, bài khảo sát sẽ có những câu hỏi để tính toán các giá trị để đánh giá mức độ hài lòng của người dùng đối với một quy trình nghiệp vụ. Các độ đo ở những thang điểm khác nhau, cụ thể CES và CSAT tính trên thang điểm 1 - 7, NPS trên thang điểm 0 - 10. Vì thế, chúng tôi nhận thấy cần phải chuẩn hóa các độ đo về một miền giá trị duy nhất. 
 \par
 Hiện nay có nhiều phương pháp sử dụng để chuẩn hoá dữ liệu, và \emph{Min-Max} là một trong số đó. Chuẩn hoá \emph{Min-Max} biểu diễn sự biến đổi tuyến tính trên dữ liệu ban đầu. Biết rằng $min_a$ và $max_a$ lần lượt là giá trị nhỏ nhất và giá trị lớn nhất của thuộc tính A. Phương pháp chuẩn hoá \emph{Min-Max} sẽ ánh xạ một giá trị $v$ của $A$ thành $v'$ trong khoảng $(new-min_a,$ $new-max_a)$ bằng việc tính toán như công thức dưới đây:
-\[ v' = (\frac{(v - min_a}{max_a - min_a}) \times ((new-max_a) - (new-min_a)) + new-min_a\]
+\[ v' = (\frac{v - min_a}{max_a - min_a}) \times ((new-max_a) - (new-min_a)) + new-min_a \tag*{\cite{akanbi15}}\]
 
 Ở đây chúng tôi chọn một miền giá trị phổ biến là [0, 1], và đưa ra công thức chuẩn hoá cụ thể cho từng độ đo như sau, vận dụng phương pháp chuẩn hoá \emph{Min-Max} được trình bày ở trên:
 
