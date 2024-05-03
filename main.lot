@@ -26,30 +26,41 @@
 \contentsline {table}{\numberline {3.18}{\ignorespaces Use-case scenario cho use-case Truy cập vào nội dung trong workspace}}{56}{table.caption.52}%
 \contentsline {table}{\numberline {3.19}{\ignorespaces Use-case scenario cho use-case Tạo mới project trong workspace}}{57}{table.caption.53}%
 \contentsline {table}{\numberline {3.20}{\ignorespaces Use-case scenario cho use-case Xóa project trong Workspace}}{58}{table.caption.54}%
-\contentsline {table}{\numberline {3.21}{\ignorespaces Thực thể User}}{94}{table.caption.98}%
-\contentsline {table}{\numberline {3.22}{\ignorespaces Thực thể Project}}{95}{table.caption.100}%
-\contentsline {table}{\numberline {3.23}{\ignorespaces Thực thể Workspace}}{96}{table.caption.102}%
-\contentsline {table}{\numberline {3.24}{\ignorespaces Thực thể Join Workspace}}{97}{table.caption.104}%
-\contentsline {table}{\numberline {3.25}{\ignorespaces Thực thể Recent Opened Workspace}}{97}{table.caption.106}%
-\contentsline {table}{\numberline {3.26}{\ignorespaces Thực thể Request}}{98}{table.caption.108}%
-\contentsline {table}{\numberline {3.27}{\ignorespaces Thực thể Notification}}{99}{table.caption.110}%
-\contentsline {table}{\numberline {3.28}{\ignorespaces Thực thể Process Version}}{100}{table.caption.112}%
-\contentsline {table}{\numberline {3.29}{\ignorespaces Thực thể Survey}}{101}{table.caption.114}%
-\contentsline {table}{\numberline {3.30}{\ignorespaces Thực thể Health}}{102}{table.caption.116}%
-\contentsline {table}{\numberline {3.31}{\ignorespaces Thực thể Strategic Importance}}{102}{table.caption.118}%
-\contentsline {table}{\numberline {3.32}{\ignorespaces Thực thể Feasibility}}{103}{table.caption.120}%
-\contentsline {table}{\numberline {3.33}{\ignorespaces Thực thể Survey Result}}{103}{table.caption.122}%
-\contentsline {table}{\numberline {3.34}{\ignorespaces Thực thể Response}}{104}{table.caption.124}%
-\contentsline {table}{\numberline {3.35}{\ignorespaces Thực thể Respondent}}{104}{table.caption.126}%
-\contentsline {table}{\numberline {3.36}{\ignorespaces Thực thể Answer}}{105}{table.caption.128}%
-\contentsline {table}{\numberline {3.37}{\ignorespaces Thực thể Question in section}}{106}{table.caption.130}%
-\contentsline {table}{\numberline {3.38}{\ignorespaces Thực thể Section in survey}}{106}{table.caption.132}%
-\contentsline {table}{\numberline {3.39}{\ignorespaces Thực thể Question option}}{107}{table.caption.134}%
-\contentsline {table}{\numberline {3.40}{\ignorespaces Thực thể Question option Section mapping}}{107}{table.caption.136}%
-\contentsline {table}{\numberline {3.41}{\ignorespaces Thực thể Question}}{108}{table.caption.138}%
-\contentsline {table}{\numberline {3.42}{\ignorespaces Thực thể Survey Recipient}}{109}{table.caption.140}%
-\contentsline {table}{\numberline {3.43}{\ignorespaces Thực thể Send Survey}}{109}{table.caption.142}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces Use-case scenario cho use-case Khởi tạo bảng khảo sát}}{59}{table.caption.55}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces Use-case scenario cho use-case Chỉnh sửa nội dung bảng khảo sát}}{60}{table.caption.56}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces Use-case scenario cho use-case Tuỳ chỉnh thiết lập bảng khảo sát}}{61}{table.caption.57}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces Use-case scenario cho use-case Quản lý kết quả thực hiện bảng khảo sát}}{62}{table.caption.58}%
+\contentsline {table}{\numberline {3.25}{\ignorespaces Use-case scenario cho use-case Xem trước bảng khảo sát}}{63}{table.caption.59}%
+\contentsline {table}{\numberline {3.26}{\ignorespaces Use-case scenario cho use-case Công bố bảng khảo sát}}{64}{table.caption.60}%
+\contentsline {table}{\numberline {3.27}{\ignorespaces Use-case scenario cho use-case Thêm câu hỏi mới vào bảng khảo sát}}{65}{table.caption.61}%
+\contentsline {table}{\numberline {3.28}{\ignorespaces Use-case scenario cho use-case Xoá câu hỏi trong bảng khảo sát}}{66}{table.caption.62}%
+\contentsline {table}{\numberline {3.29}{\ignorespaces Use-case scenario cho use-case Di chuyển câu hỏi trong bảng khảo sát}}{67}{table.caption.63}%
+\contentsline {table}{\numberline {3.30}{\ignorespaces Use-case scenario cho use-case Chỉnh sửa thiết lập câu hỏi trong bảng khảo sát}}{68}{table.caption.64}%
+\contentsline {table}{\numberline {3.31}{\ignorespaces Use-case scenario cho use-case Thực hiện bài khảo sát}}{69}{table.caption.65}%
+\contentsline {table}{\numberline {3.32}{\ignorespaces Thực thể User}}{106}{table.caption.109}%
+\contentsline {table}{\numberline {3.33}{\ignorespaces Thực thể Project}}{107}{table.caption.111}%
+\contentsline {table}{\numberline {3.34}{\ignorespaces Thực thể Workspace}}{108}{table.caption.113}%
+\contentsline {table}{\numberline {3.35}{\ignorespaces Thực thể Join Workspace}}{109}{table.caption.115}%
+\contentsline {table}{\numberline {3.36}{\ignorespaces Thực thể Recent Opened Workspace}}{109}{table.caption.117}%
+\contentsline {table}{\numberline {3.37}{\ignorespaces Thực thể Request}}{110}{table.caption.119}%
+\contentsline {table}{\numberline {3.38}{\ignorespaces Thực thể Notification}}{111}{table.caption.121}%
+\contentsline {table}{\numberline {3.39}{\ignorespaces Thực thể Process Version}}{112}{table.caption.123}%
+\contentsline {table}{\numberline {3.40}{\ignorespaces Thực thể Survey}}{113}{table.caption.125}%
+\contentsline {table}{\numberline {3.41}{\ignorespaces Thực thể Health}}{114}{table.caption.127}%
+\contentsline {table}{\numberline {3.42}{\ignorespaces Thực thể Strategic Importance}}{114}{table.caption.129}%
+\contentsline {table}{\numberline {3.43}{\ignorespaces Thực thể Feasibility}}{115}{table.caption.131}%
+\contentsline {table}{\numberline {3.44}{\ignorespaces Thực thể Survey Result}}{115}{table.caption.133}%
+\contentsline {table}{\numberline {3.45}{\ignorespaces Thực thể Response}}{116}{table.caption.135}%
+\contentsline {table}{\numberline {3.46}{\ignorespaces Thực thể Respondent}}{116}{table.caption.137}%
+\contentsline {table}{\numberline {3.47}{\ignorespaces Thực thể Answer}}{117}{table.caption.139}%
+\contentsline {table}{\numberline {3.48}{\ignorespaces Thực thể Question in section}}{117}{table.caption.141}%
+\contentsline {table}{\numberline {3.49}{\ignorespaces Thực thể Section in survey}}{118}{table.caption.143}%
+\contentsline {table}{\numberline {3.50}{\ignorespaces Thực thể Question option}}{118}{table.caption.145}%
+\contentsline {table}{\numberline {3.51}{\ignorespaces Thực thể Question option Section mapping}}{119}{table.caption.147}%
+\contentsline {table}{\numberline {3.52}{\ignorespaces Thực thể Question}}{120}{table.caption.149}%
+\contentsline {table}{\numberline {3.53}{\ignorespaces Thực thể Survey Recipient}}{120}{table.caption.151}%
+\contentsline {table}{\numberline {3.54}{\ignorespaces Thực thể Send Survey}}{121}{table.caption.153}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Bảng kế hoạch công việc chi tiết cho giai đoạn luận văn}}{126}{table.caption.156}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Bảng kế hoạch công việc chi tiết cho giai đoạn luận văn - tiếp theo}}{127}{table.caption.157}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Bảng kế hoạch công việc chi tiết cho giai đoạn luận văn}}{138}{table.caption.167}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Bảng kế hoạch công việc chi tiết cho giai đoạn luận văn - tiếp theo}}{139}{table.caption.168}%

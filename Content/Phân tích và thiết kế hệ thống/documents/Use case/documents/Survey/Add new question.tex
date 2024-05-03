@@ -1,0 +1,29 @@
+\subsection{Thêm câu hỏi mới}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & Thêm câu hỏi mới                          \\ \hline
+\textbf{Actor}             & Người sở hữu Project    \\ \hline
+\textbf{Description}       & Người sở hữu Project thêm câu hỏi mới trong bảng khảo sát                      \\ \hline
+\textbf{Trigger}           & Không                                    \\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang đứng ở giao diện \textbf{Survey Builder} \\ \hline
+\textbf{Post-conditions}   & Người dùng thêm câu hỏi thành công \\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng chọn nút biểu tượng dấu cộng ở trên hoặc dưới câu hỏi bất kỳ.
+      \item Hệ thống hiển thị modal.
+      \item Người dùng chỉnh sửa nội dung câu hỏi.
+      \item Hệ thống lưu lại những thay đổi của người dùng và tạo câu hỏi mới tại vị trí được chỉ định.
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} & Không                 \\ \hline
+\textbf{Exceptions}        & Không                                    \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Thêm câu hỏi mới vào bảng khảo sát}
+\end{table}

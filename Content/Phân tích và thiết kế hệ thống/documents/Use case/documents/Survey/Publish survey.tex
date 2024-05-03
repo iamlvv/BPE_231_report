@@ -1,0 +1,43 @@
+\subsection{Công bố bảng khảo sát}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & Công bố bảng khảo sát                         \\ \hline
+\textbf{Actor}             & Người sở hữu Project    \\ \hline
+\textbf{Description}       & Người sở hữu Project công bố bảng khảo sát                      \\ \hline
+\textbf{Trigger}           & Không                                    \\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang đứng ở giao diện \textbf{Survey Builder} \\ \hline
+\textbf{Post-conditions}   & Người dùng công bố bảng khảo sát thành công \\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng chọn nút \textbf{Publish}.
+      \item Hệ thống hiển thị modal.
+      \item Người dùng nhập email cần được gửi bảng khảo sát tới.
+      \item Người dùng chọn biểu tượng dấu cộng để thêm email vào danh sách cần gửi.
+      \item Hệ thống hiển thị những email đã được thêm vào ở bên dưới ô nhập email.
+      \item Người dùng chọn ngày giờ bắt đầu và kết thúc bảng khảo sát.
+      \item Người dùng chọn nút \textbf{Publish}.
+      \item Survey được chuyển sang trạng thái pending. Dựa vào thời gian được thiết lập, hệ thống gửi email tới những người có trong danh sách, sau đó survey được chuyển sang trạng thái published.
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} &
+    \begin{tabular}{p{10cm}}
+        Người dùng công bố ngay lập tức. \\
+        6a. Người dùng chọn nút Publish sau khi modal được hiển thị. \\
+        7a. Hệ thống gửi email ngay lập tức nếu có, survey được chuyển sang trạng thái published.
+    \end{tabular}             \\ \hline
+\textbf{Exceptions}        & 
+    \begin{tabular}{p{10cm}}
+        3c. Người dùng chọn nút Cancel. \\
+        4c. Hệ thống tắt cửa sổ popup. \\ 
+        Usecase kết thúc.
+    \end{tabular}                                    \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Công bố bảng khảo sát}
+\end{table}

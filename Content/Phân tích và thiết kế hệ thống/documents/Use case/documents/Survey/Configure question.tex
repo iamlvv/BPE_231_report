@@ -1,0 +1,30 @@
+\subsection{Chỉnh sửa thiết lập câu hỏi trong bảng khảo sát}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & Configure question                          \\ \hline
+\textbf{Actor}             & Người sở hữu Project    \\ \hline
+\textbf{Description}       & Người sở hữu Project chỉnh sửa chi tiết câu hỏi trong bảng khảo sát                      \\ \hline
+\textbf{Trigger}           & Không                                    \\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang đứng ở giao diện Survey Builder \\ \hline
+\textbf{Post-conditions}   & Người dùng chỉnh sửa thiết lập câu hỏi thành công \\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng chọn một câu hỏi trong bảng khảo sát.
+      \item Hệ thống hiển thị thông tin câu hỏi ở sidebar bên cạnh.
+      \item Người dùng thay đổi các thông tin trong cột sidebar: Loại câu hỏi, Nội dung câu hỏi, Câu hỏi có bắt buộc hay không,\ldots
+      \item Người dùng chọn Apply.
+      \item Hệ thống lưu lại thay đổi của người dùng.
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} & Không                 \\ \hline
+\textbf{Exceptions}        & Không                                    \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Chỉnh sửa thiết lập câu hỏi trong bảng khảo sát}
+\end{table}

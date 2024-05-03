@@ -1,0 +1,27 @@
+\subsection{Xem trước bảng khảo sát}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & Xem trước bảng khảo sát                          \\ \hline
+\textbf{Actor}             & Người sở hữu Project    \\ \hline
+\textbf{Description}       & Người sở hữu Project xem trước bảng khảo sát trước khi công bố                      \\ \hline
+\textbf{Trigger}           & Không                                    \\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang đứng ở giao diện \textbf{Survey Builder} \\ \hline
+\textbf{Post-conditions}   & Người dùng xem trước bảng khảo sát thành công \\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng chọn nút Preview.
+      \item Hệ thống hiển thị giao diện survey sẽ được publish cho người khác.
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} & Không                 \\ \hline
+\textbf{Exceptions}        & Không                                    \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Xem trước bảng khảo sát}
+\end{table}
