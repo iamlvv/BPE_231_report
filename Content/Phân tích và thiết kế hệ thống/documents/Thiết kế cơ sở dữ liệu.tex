@@ -2,15 +2,16 @@
 \subsection{Lược đồ ERD}
 \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth]{Content/Phân tích và thiết kế hệ thống/images/erd.png}
+        \includegraphics[width=0.8\textwidth]{Content/Phân tích và thiết kế hệ thống/images/erd2-resize.png}
         \vspace{0.5cm}
         \caption{Lược đồ ERD}
         \label{fig:Lược đồ ERD}
 \end{figure}
 
 \par
-Lược đồ ERD gồm có một số thực thể như sau: Workspace, Request,
-User, Notification, Project, Process, Process Version với những
+Lược đồ ERD của hệ thống bao gồm các thực thể sau: Workspace, Request,
+User, Notification, Project, Process, Process Version, Survey, Survey result, Health, Strategic importance, Feasibility,
+Question, Question in survey, Question option, Section, Response, Answer, Respondent, Survey recipient với những
 thuộc tính như đã được mô tả ở trên. Các thực thể này có một số
 quan hệ như sau, và một số quan hệ cũng có những thuộc tính riêng nó:
 \begin{itemize}
@@ -20,16 +21,17 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
     chỉ được tạo bởi một người dùng.
     \item Một workspace có thể quản lý nhiều request, một request
     chỉ thuộc về một workspace.
-    \item Một người dùng có thể nhận nhiều notification, một
-    notification chỉ được gửi bởi một người dùng.
-    \item Một người dùng có thể tạo nhiều project, một project
-    chỉ được tạo bởi một người dùng.
     \item Một workspace có thể có nhiều project, một project
     chỉ thuộc về một workspace.
     \item Một project có thể có nhiều process, một process
     chỉ thuộc về một project.
     \item Một process có thể có nhiều phiên bản, một phiên bản
     chỉ thuộc về một process.
+    \item Một phiên bản process chỉ có thể có một survey.
+    \item Một survey có thể có nhiều response, một response chỉ thuộc về một survey.
+    \item Một survey chỉ có thể có một survey result.
+    \item Một survey có thể có nhiều question, một question chỉ thuộc về một survey.
+    \item Một question có thể có nhiều question option, một question option chỉ thuộc về một question.
 \end{itemize}
 
 \newpage

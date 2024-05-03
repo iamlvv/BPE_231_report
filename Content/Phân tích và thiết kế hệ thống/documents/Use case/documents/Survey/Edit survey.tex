@@ -1,0 +1,29 @@
+\subsection{Chỉnh sửa nội dung bảng khảo sát}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & Chỉnh sửa bảng khảo sát                          \\ \hline
+\textbf{Actor}             & Người sở hữu Project    \\ \hline
+\textbf{Description}       & Người sở hữu Project chỉnh sửa bảng khảo sát                       \\ \hline
+\textbf{Trigger}           & Không                                    \\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang đứng ở giao diện \textbf{Process Editor} \\ \hline
+\textbf{Post-conditions}   & Người dùng chỉnh sửa survey thành công \\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng chọn nút Launch survey trên thanh công cụ.
+      \item Hệ thống điều hướng người dùng đến trang quản lý bảng khảo sát, mặc định là trang \textbf{Survey Builder}
+      \item Người dùng thực hiện chỉnh sửa nội dung bảng khảo sát.
+      \item Hệ thống tự động lưu lại những thay đổi của người dùng.
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} & Không                 \\ \hline
+\textbf{Exceptions}        & Không                                    \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Chỉnh sửa nội dung bảng khảo sát}
+\end{table}

@@ -1,0 +1,34 @@
+\subsection{Di chuyển câu hỏi trong bảng khảo sát}
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+\hline
+\textbf{Use-case name}     & Di chuyển câu hỏi trong bảng khảo sát                          \\ \hline
+\textbf{Actor}             & Người sở hữu Project    \\ \hline
+\textbf{Description}       & Người sở hữu Project di chuyển câu hỏi trong phần của bảng khảo sát                      \\ \hline
+\textbf{Trigger}           & Không                                    \\ \hline
+\textbf{Pre-conditions} &
+  Người dùng đã đăng ký vào hệ thống và đăng nhập thành công, hiện tại đang đứng ở giao diện \textbf{Survey Builder} \\ \hline
+\textbf{Post-conditions}   & Người dùng di chuyển câu hỏi thành công \\ \hline
+\textbf{Normal flow} &
+  \begin{enumerate}
+      \item Người dùng nhấn giữ 1 câu hỏi trong bảng khảo sát.
+      \item Người dùng kéo thả câu hỏi tới vị trí mới.
+      \item Hệ thống xác nhận thao tác và đặt câu hỏi ở vị trí mới.
+  \end{enumerate}
+  \\ \hline
+\textbf{Alternative flows} & 
+    \begin{tabular}{p{10cm}}
+        1a. Người dùng chọn 1 câu hỏi trong bảng khảo sát. \\
+        2a. Hệ thống hiển thị chi tiết câu hỏi ở sidebar bên cạnh. \\
+        3a. Người dùng chọn biểu tượng dấu cộng hoặc trừ ở mục \textbf{Position in section} để di chuyển câu hỏi lên xuống. \\
+        4a. Người dùng chọn Apply để xác nhận thay đổi. \\
+        Tiếp tục Normal Flow ở bước 3.
+    \end{tabular}                 \\ \hline
+\textbf{Exceptions}        & Không                                    \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Di chuyển câu hỏi trong bảng khảo sát}
+\end{table}
