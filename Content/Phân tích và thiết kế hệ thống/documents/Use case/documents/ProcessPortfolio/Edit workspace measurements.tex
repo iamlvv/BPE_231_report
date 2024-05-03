@@ -1,0 +1,72 @@
+\subsection{Chỉnh sửa giá trị thang đo của workspace}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+  \hline
+  \textbf{Use-case name}     & Chỉnh sửa giá trị thang đo của workspace
+  \\ \hline
+  \textbf{Actor}             & Chủ sở hữu workspace
+  \\ \hline
+  \textbf{Description}       & Thay đổi giá trị thang đo của workspace
+  \\ \hline
+  \textbf{Trigger}           & Không                                                      
+  \\ \hline
+  \textbf{Pre-conditions}    & Người dùng đã đăng nhập vào hệ thống. Người dùng sở hữu một workspace và đang truy cập vào giao diện quản lý workspace (workspace management)   
+  \\ \hline
+  \textbf{Post-conditions}   & Người dùng thành công thay đổi giá trị thang đo của workspace, thang đo này áp dụng cho toàn bộ quy trình trong workspace. 
+  \\ \hline
+  \textbf{Normal flow} &
+    \begin{enumerate}
+        \item Người dùng chọn “Process portfolio” trên sidebar, hệ thống điều hướng tới giao diện quản lý process portfolio.
+        \item Người dùng chọn nút “Performance level”, hệ thống mở modal “Configure performance level”.
+        \item Người dùng nhập thông tin được yêu cầu.
+        \item Người dùng chọn nút “Save” để lưu thông tin về thang đo, hệ thống đóng modal.
+    \end{enumerate}
+  \\ \hline
+  \textbf{Alternative flows} & 
+    \begin{tabular}{p{10cm}}
+      3a. Người dùng không nhập thông tin, chọn nút “Save” để lưu thông tin về thang đo, hệ thống đóng modal.
+    \end{tabular}
+  \\ \hline
+  \textbf{Exceptions}        &
+    \begin{tabular}{p{10cm}}
+      3. Người dùng nhập kiểu dữ liệu không hợp lệ
+      \begin{enumerate}[label=\alph*)]
+        \item Người dùng chọn nút “Save” để lưu lại thông tin về thang đo, hệ thống hiện cảnh báo
+        \item Quay lại bước 2
+      \end{enumerate}
+      \\
+      3. Người dùng nhập giá trị Target cycle time/cost lớn hơn giá trị Worst cycle time/cost hoặc nhập giá trị Target quality/flexibility nhỏ hơn Worst quality/flexibility
+      \begin{enumerate}[label=\alph*)]
+        \item Người dùng chọn nút “Save” để lưu lại thông tin về thang đo, hệ thống hiện cảnh báo
+        \item Quay lại bước 2
+      \end{enumerate}
+    \end{tabular}
+  \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Chỉnh sửa giá trị thang đo của workspace}
+\end{table}
+
+\begin{table}[H]
+  \def\arraystretch{2}%
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|p{3cm}|p{11cm}|}
+      \hline
+      \textbf{Tên trường} & \textbf{Mô tả}                                                  \\ \hline
+      Target cycle time   & Giá trị độ đo thời gian người dùng mong muốn đạt được           \\ \hline
+      Worst cycle time    & Giá trị độ đo thời gian người dùng tối đa cho phép đạt được     \\ \hline
+      Target cost         & Giá trị độ đo chi phí người dùng mong muốn đạt được             \\ \hline
+      Worst cost          & Giá trị độ đo chi phí người dùng tối đa cho phép đạt được       \\ \hline
+      Target quality      & Giá trị độ đo chất lượng người dùng mong muốn đạt được          \\ \hline
+      Worst quality       & Giá trị độ đo chất lượng người dùng tối thiểu cho phép đạt được \\ \hline
+      Target flexibility  & Giá trị độ đo linh hoạt người dùng mong muốn đạt được           \\ \hline
+      Worst flexibility   & Giá trị độ đo linh hoạt người dùng tối thiểu cho phép đạt được  \\ \hline
+    \end{tabular}%
+  }
+  \caption{Thông tin về yêu cầu đầu vào của use-case Chỉnh sửa giá trị thang đo của workspace}
+\end{table}

@@ -1,0 +1,89 @@
+\subsection{Chỉnh sửa thông tin của process version}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+  \hline
+  \textbf{Use-case name}     & Chỉnh sửa thông tin của process version
+  \\ \hline
+  \textbf{Actor}             & Chủ sở hữu workspace
+  \\ \hline
+  \textbf{Description}       & Thay đổi thông tin của process version như các giá trị health/feasibility/strategic importance của process version
+  \\ \hline
+  \textbf{Trigger}           & Không                                                      
+  \\ \hline
+  \textbf{Pre-conditions}    & Người dùng đã đăng nhập vào hệ thống. Người dùng sở hữu một workspace và đang truy cập vào giao diện quản lý workspace (workspace management)
+  \\ \hline
+  \textbf{Post-conditions}   & Người dùng thành công thay đổi giá trị thay đổi giá trị health/feasibility/strategic importance của process version, những giá trị này sẽ được sử dụng để khởi tạo process portfolio.
+  \\ \hline
+  \textbf{Normal flow} &
+    \begin{enumerate}
+        \item Người dùng chọn “Process portfolio” trên sidebar, hệ thống điều hướng tới giao diện quản lý process portfolio.
+        \item Hệ thống hiển thị danh sách project/process/process version có trong workspace.
+        \item Người dùng chọn icon “ba dấu chấm” và chọn “Edit”, hệ thống mở modal cho phép người dùng chỉnh sửa giá trị health/feasibility/strategic importance của process version tương ứng.
+        \item Người dùng nhập thông tin được yêu cầu.
+        \item Người dùng chọn nút “Save” để lưu thông tin của process version, hệ thống đóng modal.
+        
+    \end{enumerate}
+  \\ \hline
+  \textbf{Alternative flows} & 
+    \begin{tabular}{p{10cm}}
+      3. Người dùng chọn “Activate” để kích hoạt trạng thái active của process version này.
+      \\ 
+      4. Người dùng không nhập thông tin
+      \begin{enumerate}
+        \item Người dùng chọn nút “Save” để lưu thông tin về thang đo, hệ thống đóng modal.
+      \end{enumerate}
+    \end{tabular}
+  \\ \hline
+  \textbf{Exceptions}        &
+    \begin{tabular}{p{10cm}}
+      3. Người dùng nhập kiểu dữ liệu không hợp lệ
+      \begin{enumerate}[label=\alph*)]
+        \item Người dùng chọn nút “Save” để lưu lại thông tin về thang đo, hệ thống hiện cảnh báo
+        \item Quay lại bước 3
+      \end{enumerate}
+    \end{tabular}
+  \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Chỉnh sửa thông tin của process version}
+\end{table}
+
+\begin{table}[H]
+  \def\arraystretch{2}%
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|p{3cm}|p{11cm}|}
+      \hline
+      \textbf{Tên trường} & \textbf{Mô tả}                                                           \\ \hline
+      Current cycle time  & Giá trị độ đo thời gian của quy trình hiện tại được người dùng cung cấp  \\ \hline
+      Current cost        & Giá trị độ đo chi phí của quy trình hiện tại được người dùng cung cấp    \\ \hline
+      Current quality     & Giá trị độ đo chất lượng của quy trình hiện tại được người dùng cung cấp \\ \hline
+      Current flexibility & Giá trị độ đo linh hoạt của quy trình hiện tại được người dùng cung cấp  \\ \hline
+      Feasibility         & Đánh giá tính khả thi của quy trình hiện tại được người dùng cung cấp    \\ \hline
+      Strategic importance & Đánh giá mức độ quan trọng chiến lược của quy trình hiện tại được người dùng cung cấp \\ \hline
+      Target flexibility  & Giá trị độ đo linh hoạt người dùng mong muốn đạt được                    \\ \hline
+      Worst flexibility   & Giá trị độ đo linh hoạt người dùng tối thiểu cho phép đạt được           \\ \hline
+    \end{tabular}%
+  }
+  \caption{Thông tin về yêu cầu đầu vào của use-case Chỉnh sửa thông tin của process version}
+\end{table}
+
+\begin{table}[H]
+  \def\arraystretch{2}%
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|p{3cm}|p{11cm}|}
+      \hline
+      \textbf{Tên trường} & \textbf{Mô tả}                                                           \\ \hline
+      Evaluated cycle time  & Giá trị độ đo thời gian của quy trình hiện tại được hệ thống tính toán dựa trên mô hình của quy trình  \\ \hline
+      Evaluated cost        & Giá trị độ đo chi phí của quy trình hiện tại được hệ thống tính toán dựa trên mô hình của quy trình    \\ \hline
+      Evaluated quality     & Giá trị độ đo chất lượng của quy trình hiện tại được hệ thống tính toán dựa trên mô hình của quy trình \\ \hline
+      Evaluated flexibility & Giá trị độ đo linh hoạt của quy trình hiện tại được hệ thống tính toán dựa trên mô hình của quy trình  \\ \hline
+    \end{tabular}%
+  }
+  \caption{Thông tin hệ thống cung cấp của use-case Chỉnh sửa thông tin của process version}
+\end{table}

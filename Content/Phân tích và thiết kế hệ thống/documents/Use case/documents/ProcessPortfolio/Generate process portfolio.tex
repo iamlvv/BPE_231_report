@@ -1,0 +1,46 @@
+\subsection{Khởi tạo process portfolio}
+
+\begin{table}[H]
+\def\arraystretch{2}%
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|p{3cm}|p{11cm}|}
+  \hline
+  \textbf{Use-case name}     & Khởi tạo process portfolio
+  \\ \hline
+  \textbf{Actor}             & Chủ sở hữu workspace
+  \\ \hline
+  \textbf{Description}       & Khởi tạo process portfolio cho workspace
+  \\ \hline
+  \textbf{Trigger}           & Không                                                      
+  \\ \hline
+  \textbf{Pre-conditions}    & Người dùng đã đăng nhập vào hệ thống. Người dùng sở hữu một workspace và đang truy cập vào giao diện quản lý workspace (workspace management)
+  \\ \hline
+  \textbf{Post-conditions}   & Người dùng thành công khởi tạo biểu đồ process portfolio của workspace
+  \\ \hline
+  \textbf{Normal flow} &
+    \begin{enumerate}
+      \item Người dùng chọn “Process portfolio” trên sidebar, hệ thống điều hướng tới giao diện quản lý process portfolio.
+      \item Người dùng chọn nút “Process portfolio”.
+      \item Hệ thống mở modal và khởi tạo process portfolio.
+      \item Người dùng chọn “Close” để đóng modal      
+    \end{enumerate}
+  \\ \hline
+  \textbf{Alternative flows} & 
+    \begin{tabular}{p{10cm}}
+      3. Trong workspace còn có những active version còn bị khuyết giá trị
+      \begin{enumerate}[label=\alph*)]
+        \item Hệ thống hiển thị danh sách những active version còn bị khuyết giá trị (feasibility/health/strategic importance)
+        \item Người dùng chọn icon “ba dấu chấm” và chọn “Edit”, hệ thống mở modal cho phép người dùng \item chỉnh sửa giá trị health/feasibility/strategic importance của process version tương ứng.
+        \item Người dùng nhập thông tin được yêu cầu.
+        \item Người dùng chọn nút “Save” để lưu thông tin của process version, hệ thống đóng modal Edit.
+        \item Quay lại bước 3
+      \end{enumerate}
+    \end{tabular}
+  \\ \hline
+  \textbf{Exceptions}        & Không
+  \\ \hline
+\end{tabular}%
+}
+\caption{Use-case scenario cho use-case Khởi tạo process portfolio}
+\end{table}
