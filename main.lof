@@ -56,15 +56,31 @@
 \contentsline {figure}{\numberline {3.51}{\ignorespaces Lược đồ ERD}}{121}{figure.caption.121}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Giao diện trang default homepage}}{143}{figure.caption.168}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Dropdown menu}}{143}{figure.caption.169}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dropdown menu}}{144}{figure.caption.169}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Giao diện create modal khi người dùng tạo mới workspace}}{144}{figure.caption.170}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Giao diện rename modal khi người dùng đổi tên workspace}}{144}{figure.caption.171}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Giao diện share modal khi người dùng muốn mời/gửi yêu cầu mời người dùng khác vào workspace}}{145}{figure.caption.172}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Giao diện trang Workspace detail}}{146}{figure.caption.173}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Giao diện trang thông báo của người dùng}}{147}{figure.caption.174}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của thông báo}}{148}{figure.caption.175}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Giao diện trang quản lý thành viên trong Workspace}}{149}{figure.caption.176}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Giao diện trang quản lý yêu cầu từ thành viên trong workspace}}{150}{figure.caption.177}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của yêu cầu}}{150}{figure.caption.178}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Giao diện rename modal khi người dùng đổi tên workspace}}{145}{figure.caption.171}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Giao diện share modal khi người dùng muốn mời/gửi yêu cầu mời người dùng khác vào workspace}}{146}{figure.caption.172}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Giao diện trang Workspace detail}}{147}{figure.caption.173}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Giao diện trang thông báo của người dùng}}{148}{figure.caption.174}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của thông báo}}{149}{figure.caption.175}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Giao diện trang quản lý thành viên trong Workspace}}{150}{figure.caption.176}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Giao diện trang quản lý yêu cầu từ thành viên trong workspace}}{151}{figure.caption.177}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của yêu cầu}}{151}{figure.caption.178}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Giao diện quản lý process portfolio của workspace}}{152}{figure.caption.179}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Giao diện chỉnh sửa giá trị thang đo cho process portfolio của workspace}}{153}{figure.caption.180}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Giao diện menu của process version}}{153}{figure.caption.181}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Giao diện chỉnh sửa giá trị của process version trong workspace}}{154}{figure.caption.182}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Giao diện biểu đồ process portfolio của workspace}}{155}{figure.caption.183}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Giao diện hiển thị danh sách process version không có/thiếu dữ liệu}}{156}{figure.caption.184}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Giao diện chỉnh sửa mô hình quy trình nghiệp vụ}}{156}{figure.caption.185}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Giao diện chỉnh sửa nội dung khảo sát}}{157}{figure.caption.186}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Giao diện xem trước bảng khảo sát}}{158}{figure.caption.187}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Giao diện xem trước bảng khảo sát - trang mở đầu}}{158}{figure.caption.188}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Giao diện xem trước bảng khảo sát - trang kết thúc}}{159}{figure.caption.189}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Giao diện công bố khảo sát}}{160}{figure.caption.190}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Giao diện cấu hình thông tin chung của bảng khảo sát}}{161}{figure.caption.191}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Giao diện cấu hình phản hồi của bảng khảo sát}}{162}{figure.caption.192}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Giao diện kết quả bảng khảo sát}}{163}{figure.caption.193}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Biểu đồ Gantt cho kế hoạch làm việc dự kiến cho giai đoạn luận văn}}{154}{figure.caption.179}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Biểu đồ Gantt cho kế hoạch làm việc dự kiến cho giai đoạn luận văn}}{166}{figure.caption.194}%
