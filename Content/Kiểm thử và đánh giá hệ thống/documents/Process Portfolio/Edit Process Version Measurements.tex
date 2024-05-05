@@ -1,0 +1,274 @@
+\subsection{Thay đổi giá trị của process version trong quản lý process portfolio}
+
+\begin{table}[H]
+    \def\arraystretch{2}%
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{3cm}|p{1.5cm}|p{0.5cm}|p{4cm}|p{4cm}|>{\centering\arraybackslash}p{1cm}|}
+            \hline
+            \multicolumn{1}{|c|}{\textbf{Test case}} &
+            \multicolumn{1}{c|}{\textbf{Flow}} &
+            \multicolumn{1}{c|}{\textbf{STT}} &
+            \multicolumn{1}{c|}{\textbf{Mô tả}} &
+            \multicolumn{1}{c|}{\textbf{Mong đợi}} &
+            \multicolumn{1}{c|}{\textbf{Kết quả}} \\ \hline
+            \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Thay đổi giá trị của \\ process version \\ trong quản lý \\ process portfolio\end{tabular}} &
+            \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Normal \\ flow\end{tabular}} &
+            \multicolumn{1}{c|}{1} &
+            Người dùng truy cập vào giao diện Quản lý workspace (Workspace management). &
+            Hệ thống điều hướng tới giao diện quản lý workspace, mặc định ở trang quản lý thành viên trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{2} &
+            Người dùng chọn “Process portfolio” trên sidebar. &
+            Hệ thống điều hướng tới giao diện quản lý process portfolio. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{3} &
+            Người dùng xem danh sách project/process/version có trong workspace. &
+            Hệ thống hiển thị danh sách project/process/version có trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{4} &
+            Người dùng chọn icon “ba dấu chấm” của version item. &
+            Hệ thống mở menu thao tác trên version tương ứng. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{5} &
+            Người dùng chọn “Edit”. &
+            Hệ thống mở modal chỉnh sửa thông tin của version. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{6} &
+            Người dùng nhấn “Save”. &
+            Hệ thống lưu thông tin thành công và đóng modal. &
+            Đạt \\ \cline{3-6} \hline
+        \end{tabular}
+    }
+    \caption{Test case Thay đổi giá trị của process version trong quản lý process portfolio}
+\end{table}
+
+\subsection{Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio với kiểu dữ liệu chữ cái/ký tự đặc biệt}
+
+\begin{table}[H]
+    \def\arraystretch{2}%
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{3cm}|p{1.5cm}|p{0.5cm}|p{4cm}|p{4cm}|>{\centering\arraybackslash}p{1cm}|}
+            \hline
+            \multicolumn{1}{|c|}{\textbf{Test case}} &
+            \multicolumn{1}{c|}{\textbf{Flow}} &
+            \multicolumn{1}{c|}{\textbf{STT}} &
+            \multicolumn{1}{c|}{\textbf{Mô tả}} &
+            \multicolumn{1}{c|}{\textbf{Mong đợi}} &
+            \multicolumn{1}{c|}{\textbf{Kết quả}} \\ \hline
+            \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Người dùng thực \\ hiện thay đổi giá  \\ trị của  process \\ version trong quản \\ lý process portfolio \\ với kiểu dữ liệu \\ chữ cái/ký tự đặc \\ biệt\end{tabular}} &
+            \multirow{6}{*}{Exception} &
+            \multicolumn{1}{c|}{1} &
+            Người dùng truy cập vào giao diện Quản lý workspace (Workspace management). &
+            Hệ thống điều hướng tới giao diện quản lý workspace, mặc định ở trang quản lý thành viên trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{2} &
+            Người dùng chọn “Process portfolio” trên sidebar. &
+            Hệ thống điều hướng tới giao diện quản lý process portfolio. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{3} &
+            Người dùng xem danh sách project/process/version có trong workspace. &
+            Hệ thống hiển thị danh sách project/process/version có trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{4} &
+            Người dùng chọn icon “ba dấu chấm” của version item. &
+            Hệ thống mở menu thao tác trên version tương ứng. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{5} &
+            Người dùng chọn “Edit”. &
+            Hệ thống mở modal chỉnh sửa thông tin của version. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{6} &
+            Người dùng nhập giá trị với kiểu dữ liệu chữ cái (Ví dụ: “abc”) vào ô bất kỳ và nhấn “Save”. &
+            Hệ thống hiển thị cảnh báo “Data type is not supported”. &
+            Đạt \\ \cline{3-6} \hline
+        \end{tabular}
+    }
+    \caption{Test case Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio với kiểu dữ liệu chữ cái/ký tự đặc biệt}
+\end{table}
+
+\subsection{Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị bất kỳ với số âm}
+
+\begin{table}[H]
+    \def\arraystretch{2}%
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{3cm}|p{1.5cm}|p{0.5cm}|p{4cm}|p{4cm}|>{\centering\arraybackslash}p{1cm}|}
+            \hline
+            \multicolumn{1}{|c|}{\textbf{Test case}} &
+            \multicolumn{1}{c|}{\textbf{Flow}} &
+            \multicolumn{1}{c|}{\textbf{STT}} &
+            \multicolumn{1}{c|}{\textbf{Mô tả}} &
+            \multicolumn{1}{c|}{\textbf{Mong đợi}} &
+            \multicolumn{1}{c|}{\textbf{Kết quả}} \\ \hline
+            \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Người dùng thực \\ hiện thay đổi giá \\ trị của process \\ version trong quản \\ lý process portfolio: \\ Thay đổi giá trị \\ bất kỳ với số âm\end{tabular}} &
+            \multirow{6}{*}{Exception} &
+            \multicolumn{1}{c|}{1} &
+            Người dùng truy cập vào giao diện Quản lý workspace (Workspace management). &
+            Hệ thống điều hướng tới giao diện quản lý workspace, mặc định ở trang quản lý thành viên trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{2} &
+            Người dùng chọn “Process portfolio” trên sidebar. &
+            Hệ thống điều hướng tới giao diện quản lý process portfolio. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{3} &
+            Người dùng xem danh sách project/process/version có trong workspace. &
+            Hệ thống hiển thị danh sách project/process/version có trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{4} &
+            Người dùng chọn icon “ba dấu chấm” của version item. &
+            Hệ thống mở menu thao tác trên version tương ứng. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{5} &
+            Người dùng chọn “Edit”. &
+            Hệ thống mở modal chỉnh sửa thông tin của version. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{6} &
+            Người dùng nhập giá trị số âm (Ví dụ: -10) vào ô bất kỳ và nhấn “Save”. &
+            Hệ thống mặc định đặt giá trị về 0, lưu thông tin thành công và đóng modal. &
+            Đạt \\ \cline{3-6} \hline
+        \end{tabular}
+    }
+    \caption{Test case Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị bất kỳ với số âm}
+\end{table}
+
+\subsection{Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị cycle time/cost với kiểu dữ liệu số thập phân}
+
+\begin{table}[H]
+    \def\arraystretch{2}%
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{3cm}|p{1.5cm}|p{0.5cm}|p{4cm}|p{4cm}|>{\centering\arraybackslash}p{1cm}|}
+            \hline
+            \multicolumn{1}{|c|}{\textbf{Test case}} &
+            \multicolumn{1}{c|}{\textbf{Flow}} &
+            \multicolumn{1}{c|}{\textbf{STT}} &
+            \multicolumn{1}{c|}{\textbf{Mô tả}} &
+            \multicolumn{1}{c|}{\textbf{Mong đợi}} &
+            \multicolumn{1}{c|}{\textbf{Kết quả}} \\ \hline
+            \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Người dùng thực \\ hiện thay đổi giá \\ trị của process \\ version trong quản \\ lý process portfolio: \\ Thay đổi giá trị \\ cycle time/cost với \\ kiểu dữ liệu số \\ thập phân\end{tabular}} &
+            \multirow{6}{*}{Exception} &
+            \multicolumn{1}{c|}{1} &
+            Người dùng truy cập vào giao diện Quản lý workspace (Workspace management). &
+            Hệ thống điều hướng tới giao diện quản lý workspace, mặc định ở trang quản lý thành viên trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{2} &
+            Người dùng chọn “Process portfolio” trên sidebar. &
+            Hệ thống điều hướng tới giao diện quản lý process portfolio. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{3} &
+            Người dùng xem danh sách project/process/version có trong workspace. &
+            Hệ thống hiển thị danh sách project/process/version có trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{4} &
+            Người dùng chọn icon “ba dấu chấm” của version item. &
+            Hệ thống mở menu thao tác trên version tương ứng. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{5} &
+            Người dùng chọn “Edit”. &
+            Hệ thống mở modal chỉnh sửa thông tin của version. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{6} &
+            Người dùng nhập giá trị cho nhóm cycle time/cost là số thập phân (Ví dụ: 0.1) và chọn nút “Save”. &
+            Hệ thống mặc định làm tròn giá trị về số nguyên gần nhất, lưu thông tin thành công và đóng modal. &
+            Đạt \\ \cline{3-6} \hline
+        \end{tabular}
+    }
+    \caption{Test case Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị cycle time/cost với kiểu dữ liệu số thập phân}
+\end{table}
+
+\subsection{Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị quality, flexibility, feasibility hoặc streategic importance với số nằm ngoài khoảng [0, 1]}
+
+\begin{table}[H]
+    \def\arraystretch{2}%
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{3cm}|p{1.5cm}|p{0.5cm}|p{4cm}|p{4cm}|>{\centering\arraybackslash}p{1cm}|}
+            \hline
+            \multicolumn{1}{|c|}{\textbf{Test case}} &
+            \multicolumn{1}{c|}{\textbf{Flow}} &
+            \multicolumn{1}{c|}{\textbf{STT}} &
+            \multicolumn{1}{c|}{\textbf{Mô tả}} &
+            \multicolumn{1}{c|}{\textbf{Mong đợi}} &
+            \multicolumn{1}{c|}{\textbf{Kết quả}} \\ \hline
+            \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Người dùng thực \\ hiện thay đổi giá \\ trị của process \\ version trong quản \\ lý process portfolio: \\ Thay đổi giá trị \\ quality, flexibility, \\ feasibility hoặc \\ streategic importan \\ -ce với số nằm ngoài \\ khoảng [0, 1]\end{tabular}} &
+            \multirow{6}{*}{Exception} &
+            \multicolumn{1}{c|}{1} &
+            Người dùng truy cập vào giao diện Quản lý workspace (Workspace management). &
+            Hệ thống điều hướng tới giao diện quản lý workspace, mặc định ở trang quản lý thành viên trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{2} &
+            Người dùng chọn “Process portfolio” trên sidebar. &
+            Hệ thống điều hướng tới giao diện quản lý process portfolio. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{3} &
+            Người dùng xem danh sách project/process/version có trong workspace. &
+            Hệ thống hiển thị danh sách project/process/version có trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{4} &
+            Người dùng chọn icon “ba dấu chấm” của version item. &
+            Hệ thống mở menu thao tác trên version tương ứng. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{5} &
+            Người dùng chọn “Edit”. &
+            Hệ thống mở modal chỉnh sửa thông tin của version. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{6} &
+            Người dùng nhập giá trị cho nhóm quality/flexibility nằm ngoài khoảng [0,1] (Ví dụ: 2) và chọn nút “Save”. &
+            Hệ thống mặc định làm tròn về 1 nếu giá trị nhập vào lớn hơn 1 hoặc 0 nếu giá trị nhập vào nhỏ hơn 0, lưu thông tin thành công và đóng modal. &
+            Đạt \\ \cline{3-6} \hline
+        \end{tabular}
+    }
+    \caption{Test case Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị quality, flexibility, feasibility hoặc streategic importance với số nằm ngoài khoảng [0, 1]}
+\end{table}

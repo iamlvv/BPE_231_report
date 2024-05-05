@@ -1,0 +1,48 @@
+\subsection{Kích hoạt process version}
+
+\begin{table}[H]
+    \def\arraystretch{2}%
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{3cm}|p{1.5cm}|p{0.5cm}|p{4cm}|p{4cm}|>{\centering\arraybackslash}p{1cm}|}
+            \hline
+            \multicolumn{1}{|c|}{\textbf{Test case}} &
+            \multicolumn{1}{c|}{\textbf{Flow}} &
+            \multicolumn{1}{c|}{\textbf{STT}} &
+            \multicolumn{1}{c|}{\textbf{Mô tả}} &
+            \multicolumn{1}{c|}{\textbf{Mong đợi}} &
+            \multicolumn{1}{c|}{\textbf{Kết quả}} \\ \hline
+            \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Kích hoạt \\ process version\end{tabular}} &
+            \multirow{6}{*}{\begin{tabular}[c]{@{}l@{}}Normal \\ flow\end{tabular}} &
+            \multicolumn{1}{c|}{1} &
+            Người dùng truy cập vào giao diện Quản lý workspace (Workspace management). &
+            Hệ thống điều hướng tới giao diện quản lý workspace, mặc định ở trang quản lý thành viên trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{2} &
+            Người dùng chọn “Process portfolio” trên sidebar. &
+            Hệ thống điều hướng tới giao diện quản lý process portfolio. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{3} &
+            Người dùng xem danh sách project/process/version có trong workspace. &
+            Hệ thống hiển thị danh sách project/process/version có trong workspace. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{4} &
+            Người dùng chọn icon “ba dấu chấm” của version item đang hiện không trong trạng thái active. &
+            Hệ thống mở menu thao tác trên version tương ứng. &
+            Đạt \\ \cline{3-6} 
+            &
+            &
+            \multicolumn{1}{c|}{5} &
+            Người dùng chọn “Activate”. &
+            Hệ thống chuyển trạng thái của version sang active. &
+            Đạt \\ \cline{3-6} \hline
+        \end{tabular}
+    }
+    \caption{Test case Kích hoạt process version}
+\end{table}
