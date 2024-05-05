@@ -1,7 +1,13 @@
 INFO:  latexindent.pl version 3.23.4, 2023-11-19, a script to indent .tex files
+<<<<<<< HEAD
        latexindent.pl lives here: C:/Users/Admin/AppData/Local/Programs/MiKTeX/scripts/latexindent/
        Sun May  5 01:00:23 2024
        Filename: c:/Users/Admin/Desktop/BPE_231_report/Content/Hi?n th?c h? th?ng/documents/Hi?n th?c giao di?n ngu?i d�ng/documents/__latexindent_temp_MemberManagement.tex
+=======
+       latexindent.pl lives here: C:/Users/levan/AppData/Local/Programs/MiKTeX/scripts/latexindent/
+       Sun May  5 10:09:57 2024
+       Filename: c:/Users/levan/Downloads/report_bpe_231/Content/Ki?m th? v� d�nh gi� h? th?ng/documents/Survey/__latexindent_temp_Do survey.tex
+>>>>>>> 95a8847f7d4ef295e68653a712e3b68d8b304c79
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
@@ -26,7 +32,11 @@ INFO:  YAML settings read: -y switch
        YAML setting: defaultIndent:'    '
        single-quoted string found in -y switch: '    ', substitute to     
        Updating mainSettings with defaultIndent:     
+<<<<<<< HEAD
 FATAL I couldn't find c:/Users/Admin/Desktop/BPE_231_report/Content/Hi?n th?c h? th?ng/documents/Hi?n th?c giao di?n ngu?i dùng/documents/__latexindent_temp_MemberManagement.tex, are you sure it exists?
+=======
+FATAL I couldn't find c:/Users/levan/Downloads/report_bpe_231/Content/Ki?m th? và dánh giá h? th?ng/documents/Survey/__latexindent_temp_Do survey.tex, are you sure it exists?
+>>>>>>> 95a8847f7d4ef295e68653a712e3b68d8b304c79
       Exiting, no indentation done.
        --------------
 INFO:  Please direct all communication/issues to:

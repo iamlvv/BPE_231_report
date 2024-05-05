@@ -1,0 +1,23 @@
+\subsubsection{Publish survey}
+\begin{table}[H]
+\begin{tabular}{|p{2cm}|p{2.5cm}|p{0.5cm}|p{4cm}|p{4cm}|p{1cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Test case}} & \multicolumn{1}{c|}{\textbf{Flow}} & \textbf{STT} & \multicolumn{1}{c|}{\textbf{Mô tả}} & \multicolumn{1}{c|}{\textbf{Mong đợi}} & \textbf{Kết quả} \\ \hline
+\multirow{14}{*}{\begin{tabular}[c]{@{}l@{}}Publish \\ survey\end{tabular}} & \multirow{6}{*}{Normal Flow} & 1 & Người dùng nhấn nút Launch Survey & Hệ thống chuyển tới trang Survey builder & Đạt \\ \cline{3-6} 
+ &  & 2 & Người dùng chọn nút Publish & Hiển thị màn hình Publish & Đạt \\ \cline{3-6} 
+ &  & 3 & Người dùng nhập email người cần được gửi survey tới & Cho phép nhập dữ liệu & Đạt \\ \cline{3-6} 
+ &  & 4 & Người dùng nhấn nút + để thêm email vào & Hiển thị danh sách email được thêm ở bên dưới phần nhập dữ liệu & Đạt \\ \cline{3-6} 
+ &  & 5 & Người dùng chọn ngày bắt đầu và kết thúc survey & Hệ thống ghi nhận dữ liệu được chọn & Đạt \\ \cline{3-6} 
+ &  & 6 & Người dùng chọn nút Publish & Survey chuyển trạng thái sang pending, khi đến thời gian publish được chọn sẽ chuyển trạng thái sang published, đồng thời gửi email đến những email được thêm vào trước đó & Đạt \\ \cline{2-6} 
+ & \multirow{5}{*}{\begin{tabular}[c]{@{}l@{}}Alternative \\ Flow 1\end{tabular}} & 1 & Người dùng nhấn nút Launch Survey & Hệ thống chuyển tới trang Survey builder & Đạt \\ \cline{3-6} 
+ &  & 2 & Người dùng chọn nút Publish & Hiển thị màn hình Publish & Đạt \\ \cline{3-6} 
+ &  & 3 & Người dùng copy đường dẫn survey & Cho phép người dùng copy và lưu vào clipboard & Đạt \\ \cline{3-6} 
+ &  & 4 & Người dùng chọn ngày bắt đầu và kết thúc survey & Hệ thống ghi nhận dữ liệu được chọn & Đạt \\ \cline{3-6} 
+ &  & 5 & Người dùng chọn nút Publish & Survey chuyển trạng thái sang pending, khi đến thời gian publish được chọn sẽ chuyển trạng thái sang published & Đạt \\ \cline{2-6} 
+ & \multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Alternative \\ Flow 2\end{tabular}} & 1 & Người dùng nhấn nút Launch Survey & Hệ thống chuyển tới trang Survey builder & Đạt \\ \cline{3-6} 
+ &  & 2 & Người dùng chọn nút Publish & Hiển thị màn hình Publish & Đạt \\ \cline{3-6} 
+ &  & 3 & Người dùng chọn nút Publish & Hệ thống lập tức publish survey mà không cần chuyển sang trạng thái pending & Đạt \\ \hline
+\end{tabular}
+\caption{Test case Publish survey}
+% \label{tab:my-table}
+\end{table}
