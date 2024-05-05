@@ -1,0 +1,14 @@
+\subsubsection{Xoá survey}
+\begin{table}[H]
+\begin{tabular}{|p{2cm}|p{2.5cm}|p{0.5cm}|p{4cm}|p{4cm}|p{1cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Test case}} & \multicolumn{1}{c|}{\textbf{Flow}} & \textbf{STT} & \multicolumn{1}{c|}{\textbf{Mô tả}} & \multicolumn{1}{c|}{\textbf{Mong đợi}} & \textbf{Kết quả} \\ \hline
+\multirow{5}{*}{\begin{tabular}[c]{@{}l@{}}Delete \\ survey\end{tabular}} & \multirow{5}{*}{Normal Flow} & 1 & Người dùng nhấn nút Launch Survey & Hệ thống chuyển tới trang Survey builder & Đạt \\ \cline{3-6} 
+ &  & 2 & Người dùng chọn Configuration & Hệ thống hiển thị trang Configuration, mặc định hiển thị nội dung tab General & Đạt \\ \cline{3-6} 
+ &  & 3 & Người dùng chọn tab Response & Hiển thị nội dung tab Response & Đạt \\ \cline{3-6} 
+ &  & 4 & Người dùng nhấn Delete survey & Hiển thị popup cảnh bảo & Đạt \\ \cline{3-6} 
+ &  & 5 & Người dùng nhấn Delete & Xoá survey, reset kết quả survey & Đạt \\ \hline
+\end{tabular}
+\caption{Test case Xoá survey}
+\label{tab:my-table}
+\end{table}
