@@ -1,0 +1,136 @@
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Bảng kế hoạch công việc học kỳ HK231}}{20}{table.caption.10}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Bảng kế hoạch công việc học kỳ HK231 - tiếp theo}}{21}{table.caption.11}%
+\contentsline {table}{\numberline {1.3}{\ignorespaces Bảng kế hoạch công việc học kỳ HK232}}{22}{table.caption.13}%
+\contentsline {table}{\numberline {1.4}{\ignorespaces Bảng kế hoạch công việc học kỳ HK232 - tiếp theo}}{23}{table.caption.14}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Các hình thức câu hỏi được sử dụng trong bảng khảo sát}}{38}{table.caption.32}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Tên các câu hỏi được sử dụng trong bảng khảo sát}}{38}{table.caption.33}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Tổng hợp các câu hỏi trong bảng khảo sát}}{42}{table.caption.35}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Bảng liệt kê tiêu chí về yêu cầu phi chức năng của hệ thống}}{46}{table.caption.37}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Use-case scenario cho use-case Tạo mới workspace}}{48}{table.caption.39}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Use-case scenario cho use-case Hiển thị danh sách workspace mà người dùng tham gia}}{49}{table.caption.40}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Use-case scenario cho use-case Ghim workspace}}{50}{table.caption.41}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Use-case scenario cho use-case Gửi lời mời đến người dùng khác vào workspace}}{51}{table.caption.42}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Use-case scenario cho use-case Gửi yêu cầu mời người dùng khác vào workspace}}{52}{table.caption.43}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Use-case scenario cho use-case Gửi yêu cầu điều chỉnh quyền hạn trong workspace}}{53}{table.caption.44}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Use-case scenario cho use-case Hiển thị thông báo của người dùng}}{54}{table.caption.45}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Use-case scenario cho use-case Hiển thị thông tin chi tiết thông báo của người dùng}}{55}{table.caption.46}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Use-case scenario cho use-case Ghim thông báo của người dùng}}{56}{table.caption.47}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Use-case scenario cho use-case Xóa thông báo của người dùng}}{57}{table.caption.48}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Use-case scenario cho use-case Tham gia workspace thông qua lời mời}}{58}{table.caption.49}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Use-case scenario cho use-case Truy cập trang quản lý thành viên trong workspace}}{59}{table.caption.50}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Use-case scenario cho use-case Truy cập giao diện quản lý yêu cầu từ người dùng trong workspace}}{60}{table.caption.51}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Use-case scenario cho use-case Xét duyệt yêu cầu từ phía người dùng}}{61}{table.caption.52}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Use-case scenario cho use-case Xóa yêu cầu từ thành viên trong workspace gửi đến}}{62}{table.caption.53}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Use-case scenario cho use-case Xóa thành viên khỏi workspace}}{63}{table.caption.54}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Use-case scenario cho use-case Truy cập vào nội dung trong workspace}}{64}{table.caption.55}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Use-case scenario cho use-case Tạo mới project trong workspace}}{65}{table.caption.56}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces Use-case scenario cho use-case Xóa project trong Workspace}}{66}{table.caption.57}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces Use-case scenario cho use-case Khởi tạo bảng khảo sát}}{67}{table.caption.58}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces Use-case scenario cho use-case Chỉnh sửa nội dung bảng khảo sát}}{68}{table.caption.59}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces Use-case scenario cho use-case Tuỳ chỉnh thiết lập bảng khảo sát}}{69}{table.caption.60}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces Use-case scenario cho use-case Quản lý kết quả thực hiện bảng khảo sát}}{70}{table.caption.61}%
+\contentsline {table}{\numberline {3.25}{\ignorespaces Use-case scenario cho use-case Xem trước bảng khảo sát}}{71}{table.caption.62}%
+\contentsline {table}{\numberline {3.26}{\ignorespaces Use-case scenario cho use-case Công bố bảng khảo sát}}{72}{table.caption.63}%
+\contentsline {table}{\numberline {3.27}{\ignorespaces Use-case scenario cho use-case Thêm câu hỏi mới vào bảng khảo sát}}{73}{table.caption.64}%
+\contentsline {table}{\numberline {3.28}{\ignorespaces Use-case scenario cho use-case Xoá câu hỏi trong bảng khảo sát}}{74}{table.caption.65}%
+\contentsline {table}{\numberline {3.29}{\ignorespaces Use-case scenario cho use-case Di chuyển câu hỏi trong bảng khảo sát}}{75}{table.caption.66}%
+\contentsline {table}{\numberline {3.30}{\ignorespaces Use-case scenario cho use-case Chỉnh sửa thiết lập câu hỏi trong bảng khảo sát}}{76}{table.caption.67}%
+\contentsline {table}{\numberline {3.31}{\ignorespaces Use-case scenario cho use-case Thực hiện bài khảo sát}}{77}{table.caption.68}%
+\contentsline {table}{\numberline {3.32}{\ignorespaces Use-case scenario cho use-case Chỉnh sửa thông tin của process version}}{78}{table.caption.69}%
+\contentsline {table}{\numberline {3.33}{\ignorespaces Thông tin về yêu cầu đầu vào của use-case Chỉnh sửa thông tin của process version}}{79}{table.caption.70}%
+\contentsline {table}{\numberline {3.34}{\ignorespaces Thông tin hệ thống cung cấp của use-case Chỉnh sửa thông tin của process version}}{79}{table.caption.71}%
+\contentsline {table}{\numberline {3.35}{\ignorespaces Use-case scenario cho use-case Chỉnh sửa giá trị thang đo của workspace}}{80}{table.caption.72}%
+\contentsline {table}{\numberline {3.36}{\ignorespaces Thông tin về yêu cầu đầu vào của use-case Chỉnh sửa giá trị thang đo của workspace}}{81}{table.caption.73}%
+\contentsline {table}{\numberline {3.37}{\ignorespaces Use-case scenario cho use-case Khởi tạo process portfolio}}{82}{table.caption.74}%
+\contentsline {table}{\numberline {3.38}{\ignorespaces Thực thể User}}{127}{table.caption.125}%
+\contentsline {table}{\numberline {3.39}{\ignorespaces Thực thể Project}}{128}{table.caption.127}%
+\contentsline {table}{\numberline {3.40}{\ignorespaces Thực thể Workspace}}{129}{table.caption.129}%
+\contentsline {table}{\numberline {3.41}{\ignorespaces Thực thể Join Workspace}}{130}{table.caption.131}%
+\contentsline {table}{\numberline {3.42}{\ignorespaces Thực thể Recent Opened Workspace}}{130}{table.caption.133}%
+\contentsline {table}{\numberline {3.43}{\ignorespaces Thực thể Request}}{131}{table.caption.135}%
+\contentsline {table}{\numberline {3.44}{\ignorespaces Thực thể Notification}}{132}{table.caption.137}%
+\contentsline {table}{\numberline {3.45}{\ignorespaces Thực thể Process Version}}{133}{table.caption.139}%
+\contentsline {table}{\numberline {3.46}{\ignorespaces Thực thể Survey}}{134}{table.caption.141}%
+\contentsline {table}{\numberline {3.47}{\ignorespaces Thực thể Health}}{135}{table.caption.143}%
+\contentsline {table}{\numberline {3.48}{\ignorespaces Thực thể Strategic Importance}}{135}{table.caption.145}%
+\contentsline {table}{\numberline {3.49}{\ignorespaces Thực thể Feasibility}}{136}{table.caption.147}%
+\contentsline {table}{\numberline {3.50}{\ignorespaces Thực thể Survey Result}}{136}{table.caption.149}%
+\contentsline {table}{\numberline {3.51}{\ignorespaces Thực thể Response}}{137}{table.caption.151}%
+\contentsline {table}{\numberline {3.52}{\ignorespaces Thực thể Respondent}}{137}{table.caption.153}%
+\contentsline {table}{\numberline {3.53}{\ignorespaces Thực thể Answer}}{138}{table.caption.155}%
+\contentsline {table}{\numberline {3.54}{\ignorespaces Thực thể Question in section}}{138}{table.caption.157}%
+\contentsline {table}{\numberline {3.55}{\ignorespaces Thực thể Section in survey}}{139}{table.caption.159}%
+\contentsline {table}{\numberline {3.56}{\ignorespaces Thực thể Question option}}{140}{table.caption.161}%
+\contentsline {table}{\numberline {3.57}{\ignorespaces Thực thể Question option Section mapping}}{140}{table.caption.163}%
+\contentsline {table}{\numberline {3.58}{\ignorespaces Thực thể Question}}{141}{table.caption.165}%
+\contentsline {table}{\numberline {3.59}{\ignorespaces Thực thể Survey Recipient}}{141}{table.caption.167}%
+\contentsline {table}{\numberline {3.60}{\ignorespaces Thực thể Send Survey}}{142}{table.caption.169}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Test case Tạo mới Workspace}}{169}{table.caption.197}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Test case Truy cập vào Workspace}}{170}{table.caption.198}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Test case Ghim Workspace}}{170}{table.caption.199}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Test case Đổi tên Workspace}}{171}{table.caption.200}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Test case Xoá Workspace}}{171}{table.caption.201}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Test case Chia sẻ Workspace cho người dùng khác (Sharer, Editor, Workspace Owner)}}{172}{table.caption.202}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Test case Chia sẻ Workspace cho người dùng khác (Viewer)}}{172}{table.caption.203}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Test case Tìm kiếm Workspace}}{173}{table.caption.204}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Test case Filter Workspace}}{173}{table.caption.205}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Test case Truy cập trang Workspace Management}}{173}{table.caption.206}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Test case Tìm kiếm projects trong Workspace}}{173}{table.caption.207}%
+\contentsline {table}{\numberline {5.12}{\ignorespaces Test case Filter projects trong Workspace}}{174}{table.caption.208}%
+\contentsline {table}{\numberline {5.13}{\ignorespaces Test case Truy cập trang Members Management}}{174}{table.caption.209}%
+\contentsline {table}{\numberline {5.14}{\ignorespaces Test case Chỉnh sửa quyền member trong Workspace}}{174}{table.caption.210}%
+\contentsline {table}{\numberline {5.15}{\ignorespaces Test case Tìm kiếm member theo tên trong Workspace}}{175}{table.caption.211}%
+\contentsline {table}{\numberline {5.16}{\ignorespaces Test case Filter member trong Workspace}}{175}{table.caption.212}%
+\contentsline {table}{\numberline {5.17}{\ignorespaces Test case Mời người dùng vào Workspace (Workspace Owner)}}{175}{table.caption.213}%
+\contentsline {table}{\numberline {5.18}{\ignorespaces Test case Xoá member khỏi Workspace}}{176}{table.caption.214}%
+\contentsline {table}{\numberline {5.19}{\ignorespaces Test case Truy cập trang Requests management}}{176}{table.caption.215}%
+\contentsline {table}{\numberline {5.20}{\ignorespaces Test case Filter requests}}{176}{table.caption.216}%
+\contentsline {table}{\numberline {5.21}{\ignorespaces Test case Approve requests}}{177}{table.caption.217}%
+\contentsline {table}{\numberline {5.22}{\ignorespaces Test case Decline requests}}{177}{table.caption.218}%
+\contentsline {table}{\numberline {5.23}{\ignorespaces Test case Xoá requests}}{177}{table.caption.219}%
+\contentsline {table}{\numberline {5.24}{\ignorespaces Test case Tìm kiếm requests}}{178}{table.caption.220}%
+\contentsline {table}{\numberline {5.25}{\ignorespaces Test case Nhận requests}}{178}{table.caption.221}%
+\contentsline {table}{\numberline {5.26}{\ignorespaces Test case Nhận thông báo}}{178}{table.caption.222}%
+\contentsline {table}{\numberline {5.27}{\ignorespaces Test case Chấp nhận lời mời tham gia Workspace}}{179}{table.caption.223}%
+\contentsline {table}{\numberline {5.28}{\ignorespaces Test case Từ chối lời mời tham gia Workspace}}{179}{table.caption.224}%
+\contentsline {table}{\numberline {5.29}{\ignorespaces Test case Xoá thông báo}}{179}{table.caption.225}%
+\contentsline {table}{\numberline {5.30}{\ignorespaces Test case Filter notification}}{180}{table.caption.226}%
+\contentsline {table}{\numberline {5.31}{\ignorespaces Test case Tìm kiếm thông báo}}{180}{table.caption.227}%
+\contentsline {table}{\numberline {5.32}{\ignorespaces Test case Ghim thông báo}}{180}{table.caption.228}%
+\contentsline {table}{\numberline {5.33}{\ignorespaces Test case Xem chi tiết thông báo}}{180}{table.caption.229}%
+\contentsline {table}{\numberline {5.34}{\ignorespaces Test case Truy cập trang Notification}}{181}{table.caption.230}%
+\contentsline {table}{\numberline {5.35}{\ignorespaces Test case Tạo survey}}{181}{table.caption.231}%
+\contentsline {table}{\numberline {5.36}{\ignorespaces Test case Thêm câu hỏi mới trong survey}}{181}{table.caption.232}%
+\contentsline {table}{\numberline {5.37}{\ignorespaces Test case Chỉnh sửa chi tiết câu hỏi trong survey}}{182}{table.caption.233}%
+\contentsline {table}{\numberline {5.38}{\ignorespaces Test case Xoá câu hỏi trong survey}}{182}{table.caption.234}%
+\contentsline {table}{\numberline {5.39}{\ignorespaces Test case Kéo thả vị trí câu hỏi trong survey}}{182}{table.caption.235}%
+\contentsline {table}{\numberline {5.40}{\ignorespaces Test case Preview survey}}{183}{table.caption.236}%
+\contentsline {table}{\numberline {5.41}{\ignorespaces Test case Publish survey}}{184}{table.caption.237}%
+\contentsline {table}{\numberline {5.42}{\ignorespaces Test case Đóng survey}}{185}{table.caption.238}%
+\contentsline {table}{\numberline {5.43}{\ignorespaces Test case Thực hiện survey}}{185}{table.caption.239}%
+\contentsline {table}{\numberline {5.44}{\ignorespaces Test case Xem kết quả survey}}{185}{table.caption.240}%
+\contentsline {table}{\numberline {5.45}{\ignorespaces Test case Configure survey}}{186}{table.caption.241}%
+\contentsline {table}{\numberline {5.46}{\ignorespaces Test case Xoá survey}}{186}{table.caption.242}%
+\contentsline {table}{\numberline {5.47}{\ignorespaces Test case Chỉnh sửa thông tin thang đo của workspace}}{187}{table.caption.243}%
+\contentsline {table}{\numberline {5.48}{\ignorespaces Test case Chỉnh sửa thông tin thang đo của workspace: Thay đổi giá trị bất kỳ với kiểu dữ liệu chữ cái/ký tự đặc biệt}}{187}{table.caption.244}%
+\contentsline {table}{\numberline {5.49}{\ignorespaces Test case Chỉnh sửa thông tin thang đo của workspace: Người dùng thực hiện thay đổi giá trị bất kỳ với số âm}}{188}{table.caption.245}%
+\contentsline {table}{\numberline {5.50}{\ignorespaces Test case Chỉnh sửa thông tin thang đo của workspace: Người dùng thực hiện thay đổi giá trị cycle time/cost với kiểu dữ liệu số thập phân}}{188}{table.caption.246}%
+\contentsline {table}{\numberline {5.51}{\ignorespaces Test case Chỉnh sửa thông tin thang đo của workspace: Người dùng thực hiện thay đổi giá trị quality/flexibility với số nằm ngoài khoảng [0, 1]}}{189}{table.caption.247}%
+\contentsline {table}{\numberline {5.52}{\ignorespaces Test case Chỉnh sửa thông tin thang đo của workspace: Người dùng thực hiện thay đổi giá trị cycle time/cost với target > worst}}{190}{table.caption.248}%
+\contentsline {table}{\numberline {5.53}{\ignorespaces Test case Chỉnh sửa thông tin thang đo của workspace: Người dùng thực hiện thay đổi giá trị quality/flexibility với target < worst}}{191}{table.caption.249}%
+\contentsline {table}{\numberline {5.54}{\ignorespaces Test case Thay đổi giá trị của process version trong quản lý process portfolio}}{192}{table.caption.250}%
+\contentsline {table}{\numberline {5.55}{\ignorespaces Test case Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio với kiểu dữ liệu chữ cái/ký tự đặc biệt}}{193}{table.caption.251}%
+\contentsline {table}{\numberline {5.56}{\ignorespaces Test case Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị bất kỳ với số âm}}{194}{table.caption.252}%
+\contentsline {table}{\numberline {5.57}{\ignorespaces Test case Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị cycle time/cost với kiểu dữ liệu số thập phân}}{195}{table.caption.253}%
+\contentsline {table}{\numberline {5.58}{\ignorespaces Test case Người dùng thực hiện thay đổi giá trị của process version trong quản lý process portfolio: Thay đổi giá trị quality, flexibility, feasibility hoặc streategic importance với số nằm ngoài khoảng [0, 1]}}{196}{table.caption.254}%
+\contentsline {table}{\numberline {5.59}{\ignorespaces Test case Kích hoạt process version}}{197}{table.caption.255}%
+\contentsline {table}{\numberline {5.60}{\ignorespaces Test case Khởi tạo process portfolio}}{197}{table.caption.256}%
+\contentsline {table}{\numberline {5.61}{\ignorespaces Test case Khởi tạo process portfolio: Workspace có process version bị khuyết giá trị}}{198}{table.caption.257}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Bảng kế hoạch công việc chi tiết cho giai đoạn luận văn}}{201}{table.caption.259}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Bảng kế hoạch công việc chi tiết cho giai đoạn luận văn - tiếp theo}}{202}{table.caption.260}%
