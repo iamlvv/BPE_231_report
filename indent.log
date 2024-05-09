@@ -1,7 +1,7 @@
 INFO:  latexindent.pl version 3.23.4, 2023-11-19, a script to indent .tex files
        latexindent.pl lives here: C:/Users/Admin/AppData/Local/Programs/MiKTeX/scripts/latexindent/
-       Fri May 10 01:02:17 2024
-       Filename: c:/Users/Admin/Desktop/BPE_231_report/Content/K?t lu?n/__latexindent_temp_main.tex
+       Fri May 10 02:24:44 2024
+       Filename: c:/Users/Admin/Desktop/BPE_231_report/Content/Hi?n th?c h? th?ng/documents/Tri?n khai h? th?ng/__latexindent_temp_Tri?n khai Frontend.tex
 INFO:  Processing switches:
        -y|--yaml: YAML settings specified via command line
        -c|--cruft: cruft directory
@@ -26,7 +26,7 @@ INFO:  YAML settings read: -y switch
        YAML setting: defaultIndent:'    '
        single-quoted string found in -y switch: '    ', substitute to     
        Updating mainSettings with defaultIndent:     
-FATAL I couldn't find c:/Users/Admin/Desktop/BPE_231_report/Content/K?t lu?n/__latexindent_temp_main.tex, are you sure it exists?
+FATAL I couldn't find c:/Users/Admin/Desktop/BPE_231_report/Content/Hi?n th?c h? th?ng/documents/Tri?n khai h? th?ng/__latexindent_temp_Tri?n khai Frontend.tex, are you sure it exists?
       Exiting, no indentation done.
        --------------
 INFO:  Please direct all communication/issues to:
