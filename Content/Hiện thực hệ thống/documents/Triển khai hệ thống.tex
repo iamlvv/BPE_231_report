@@ -1,1 +1,27 @@
 \section{Triển khai hệ thống}
+Hiện nay có rất nhiều cách để triển khai của hệ thống phần mềm cho người dùng, sau đây là một số cách triển khai:
+\begin{enumerate}
+    \item Tự triển khai server: Đây là cách thủ công nhất để triển khai ứng dụng web, lập trình viên sẽ cài đặt các công cụ như web server (Apache, Nginx, IIS,...), database server (MySQL, PostgreSQL,...) và triển khai ứng dụng lên server của mình. Phương pháp này đòi hỏi kiến thức về quản trị hệ thống và bảo mật, tuy nhiên nó cung cấp cho lập trình viên sự linh hoạt cao để tùy chỉnh và điều khiển ứng dụng của mình.
+    \item Platform-as-a-Service (PaaS): Đây là phương pháp triển khai ứng dụng web trên một nền tảng được quản lý bởi một nhà cung cấp dịch vụ. Lập trình viên chỉ cần đưa mã nguồn của ứng dụng lên nền tảng PaaS và các công cụ và hạ tầng sẽ được quản lý bởi nhà cung cấp dịch vụ. Các ví dụ về PaaS là Heroku, Google App Engine, Microsoft Azure và Amazon Web Services.
+    \item Infrastructure-as-a-Service (IaaS): Đây là phương pháp triển khai ứng dụng web trên một hạ tầng đám mây được cung cấp bởi một nhà cung cấp dịch vụ. Lập trình viên có thể tự cấu hình môi trường của mình trên hạ tầng đám mây, bao gồm cả máy chủ ảo, lưu trữ, mạng và các công cụ khác. Các ví dụ về IaaS là Amazon Web Services, Google Cloud Platform và Microsoft Azure.
+    \item Docker containers: Đây là phương pháp triển khai ứng dụng web trên các container Docker. Docker cho phép lập trình viên đóng gói ứng dụng và các phụ thuộc của nó trong một container, và triển khai các container này trên bất kỳ máy chủ nào. Phương pháp này đảm bảo tính di động và tương thích với mọi môi trường.
+\end{enumerate}
+
+Sau khi cân nhắc thì chúng tôi đã chọn cách tiếp cận là sử dụng PaaS để triển khai ứng dụng. Đây là một số ưu điểm cách tiếp cận này: 
+\begin{enumerate}
+    \item Tiết kiệm thời gian và chi phí: Không cần phải chi một khoản tiền lớn cho việc xây dựng, cài đặt phần cứng hay chi phí phát sinh trong khi hệ thống tạm ngừng hoạt động, và không phải tốn thời gian để thiết lập cũng như bảo trì phần lõi.
+    \item Tăng tốc độ phát triển: Thiết lập và triển khai đơn giản, nhanh chóng đưa ứng dụng lên giai đoạn production.
+    \item Mở rộng dễ dàng: Có thể mở rộng thêm về khả năng lưu trữ cũng như khả năng xử lý khi cần.
+    \item Tính linh hoạt cao: cho phép các nhà phát triển có thể tham gia và làm việc trên các ứng dụng ở bất cứ nơi đâu.
+\end{enumerate}
+Tuy nhiên, PaaS cũng có một số hạn chế, như:
+\begin{enumerate}
+    \item Phụ thuộc vào nhà cung cấp dịch vụ: việc triển khai hệ thống trên các nền tảng này sẽ phụ thuộc khá nhiều vào khả năng của nhà cung cấp dịch vụ, chẳng hạn như băng thông, dung lượng,... Chỉ có thể chọn lựa những giải pháp có sẵn mà khó lòng tự điều chỉnh theo ý muốn và nhu cầu của nhà phát triển.
+    \item Nguy cơ về bảo mật: Mặc dù các nhà cung cấp dịch vụ luôn cố gắng nâng cao và phát triển việc bảo mật nền tảng và cơ sở hạ tầng, vấn đề bảo mật của ứng dụng lại phụ thuộc khá nhiều vào mức độ bảo mật của nền tảng đó.
+\end{enumerate}
+
+\subsection{Triển khai phần Frontend của hệ thống}
+\subsection{Triển khai phần Backend của hệ thống}
+\input{Content/Hiện thực hệ thống/documents/Triển khai hệ thống/Triển khai Backend.tex}
+\subsection{Triển khai phần Database của hệ thống}
+\input{Content/Hiện thực hệ thống/documents/Triển khai hệ thống/Triển khai Database.tex}
