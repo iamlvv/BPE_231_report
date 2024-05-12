@@ -36,63 +36,68 @@
 \contentsline {figure}{\numberline {3.29}{\ignorespaces Mô hình kiến trúc đa lớp [6]}}{109}{figure.caption.104}%
 \contentsline {figure}{\numberline {3.30}{\ignorespaces Mô hình kiến trúc Microservices [10]}}{111}{figure.caption.105}%
 \contentsline {figure}{\numberline {3.31}{\ignorespaces Sơ đồ lớp cho toàn bộ hệ thống}}{112}{figure.caption.106}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Tổng quan Presentation Layer}}{113}{figure.caption.107}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Tổng quan Presentation Layer}}{112}{figure.caption.107}%
 \contentsline {figure}{\numberline {3.33}{\ignorespaces Class DefaultHomepage trong Presentation layer}}{113}{figure.caption.108}%
 \contentsline {figure}{\numberline {3.34}{\ignorespaces Class WorkspaceDetailPage trong Presentation layer}}{114}{figure.caption.109}%
 \contentsline {figure}{\numberline {3.35}{\ignorespaces Class MemberManagementPage trong Presentation layer}}{114}{figure.caption.110}%
 \contentsline {figure}{\numberline {3.36}{\ignorespaces Class RequestManagementPage trong Presentation layer}}{115}{figure.caption.111}%
 \contentsline {figure}{\numberline {3.37}{\ignorespaces Class CustomizationPage trong Presentation layer}}{115}{figure.caption.112}%
 \contentsline {figure}{\numberline {3.38}{\ignorespaces Class NotificationPage trong Presentation layer}}{116}{figure.caption.113}%
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Tổng quan Business Layer}}{116}{figure.caption.114}%
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Class WorkspaceBusiness trong Business layer}}{117}{figure.caption.115}%
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Class JoinWorkspaceBusiness trong Business layer}}{118}{figure.caption.116}%
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Class RecentOpenedWorkspaceBusiness trong Business layer}}{118}{figure.caption.117}%
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Class RequestBusiness trong Business layer}}{119}{figure.caption.118}%
-\contentsline {figure}{\numberline {3.44}{\ignorespaces Class NotificationBusiness trong Business layer}}{119}{figure.caption.119}%
-\contentsline {figure}{\numberline {3.45}{\ignorespaces Tổng quan Persistence Layer}}{120}{figure.caption.120}%
-\contentsline {figure}{\numberline {3.46}{\ignorespaces Class WorkspacePersistence trong Persistence layer}}{120}{figure.caption.121}%
-\contentsline {figure}{\numberline {3.47}{\ignorespaces Class JoinWorkspacePersistence trong Persistence layer}}{121}{figure.caption.122}%
-\contentsline {figure}{\numberline {3.48}{\ignorespaces Class RecentOpenedWorkspacePersistence trong Persistence layer}}{121}{figure.caption.123}%
-\contentsline {figure}{\numberline {3.49}{\ignorespaces Class RequestPersistence trong Persistence layer}}{122}{figure.caption.124}%
-\contentsline {figure}{\numberline {3.50}{\ignorespaces Class NotificationPersistence trong Persistence layer}}{123}{figure.caption.125}%
-\contentsline {figure}{\numberline {3.51}{\ignorespaces Lược đồ ERD}}{124}{figure.caption.126}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Class SurveyBuilderPage trong Presentation layer}}{117}{figure.caption.114}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Class SurveyConfigurationPage trong Presentation layer}}{118}{figure.caption.115}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Class SurveyResultPage trong Presentation layer}}{118}{figure.caption.116}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Class SurveyLauncherPage trong Presentation layer}}{119}{figure.caption.117}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Class ProcessPortfolioPage trong Presentation layer}}{120}{figure.caption.118}%
+\contentsline {figure}{\numberline {3.44}{\ignorespaces Tổng quan Business Layer}}{120}{figure.caption.119}%
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Class WorkspaceBusiness trong Business layer}}{121}{figure.caption.120}%
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Class JoinWorkspaceBusiness trong Business layer}}{122}{figure.caption.121}%
+\contentsline {figure}{\numberline {3.47}{\ignorespaces Class RecentOpenedWorkspaceBusiness trong Business layer}}{122}{figure.caption.122}%
+\contentsline {figure}{\numberline {3.48}{\ignorespaces Class RequestBusiness trong Business layer}}{123}{figure.caption.123}%
+\contentsline {figure}{\numberline {3.49}{\ignorespaces Class NotificationBusiness trong Business layer}}{123}{figure.caption.124}%
+\contentsline {figure}{\numberline {3.50}{\ignorespaces Tổng quan Persistence Layer}}{124}{figure.caption.125}%
+\contentsline {figure}{\numberline {3.51}{\ignorespaces Class WorkspacePersistence trong Persistence layer}}{124}{figure.caption.126}%
+\contentsline {figure}{\numberline {3.52}{\ignorespaces Class JoinWorkspacePersistence trong Persistence layer}}{125}{figure.caption.127}%
+\contentsline {figure}{\numberline {3.53}{\ignorespaces Class RecentOpenedWorkspacePersistence trong Persistence layer}}{125}{figure.caption.128}%
+\contentsline {figure}{\numberline {3.54}{\ignorespaces Class RequestPersistence trong Persistence layer}}{126}{figure.caption.129}%
+\contentsline {figure}{\numberline {3.55}{\ignorespaces Class NotificationPersistence trong Persistence layer}}{127}{figure.caption.130}%
+\contentsline {figure}{\numberline {3.56}{\ignorespaces Lược đồ ERD}}{128}{figure.caption.131}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Giao diện trang default homepage}}{146}{figure.caption.173}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Dropdown menu}}{147}{figure.caption.174}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Giao diện create modal khi người dùng tạo mới workspace}}{147}{figure.caption.175}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Giao diện rename modal khi người dùng đổi tên workspace}}{148}{figure.caption.176}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Giao diện share modal khi người dùng muốn mời/gửi yêu cầu mời người dùng khác vào workspace}}{149}{figure.caption.177}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Giao diện trang Workspace detail}}{150}{figure.caption.178}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Giao diện trang thông báo của người dùng}}{151}{figure.caption.179}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của thông báo}}{152}{figure.caption.180}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Giao diện trang quản lý thành viên trong Workspace}}{153}{figure.caption.181}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Giao diện trang quản lý yêu cầu từ thành viên trong workspace}}{154}{figure.caption.182}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của yêu cầu}}{154}{figure.caption.183}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Giao diện quản lý process portfolio của workspace}}{155}{figure.caption.184}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Giao diện chỉnh sửa giá trị thang đo cho process portfolio của workspace}}{156}{figure.caption.185}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Giao diện menu của process version}}{156}{figure.caption.186}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Giao diện chỉnh sửa giá trị của process version trong workspace}}{157}{figure.caption.187}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Giao diện biểu đồ process portfolio của workspace}}{158}{figure.caption.188}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Giao diện hiển thị danh sách process version không có/thiếu dữ liệu}}{159}{figure.caption.189}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Giao diện chỉnh sửa mô hình quy trình nghiệp vụ}}{159}{figure.caption.190}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Giao diện chỉnh sửa nội dung khảo sát}}{160}{figure.caption.191}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Giao diện xem trước bảng khảo sát}}{161}{figure.caption.192}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Giao diện xem trước bảng khảo sát - trang mở đầu}}{161}{figure.caption.193}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Giao diện xem trước bảng khảo sát - trang kết thúc}}{162}{figure.caption.194}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Giao diện công bố khảo sát}}{163}{figure.caption.195}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Giao diện cấu hình thông tin chung của bảng khảo sát}}{164}{figure.caption.196}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Giao diện cấu hình phản hồi của bảng khảo sát}}{165}{figure.caption.197}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Giao diện kết quả bảng khảo sát}}{166}{figure.caption.198}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Giao diện tạo project mới trong Vercel}}{168}{figure.caption.199}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Giao diện tạo project mới trong Vercel}}{168}{figure.caption.200}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Giao diện tạo project mới trong Vercel}}{169}{figure.caption.201}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Giao diện tạo project mới trong Vercel}}{169}{figure.caption.202}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Giao diện tạo Web service trên Render}}{170}{figure.caption.203}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Chọn kết nối với Repository}}{170}{figure.caption.204}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Kết nối với Repository của Backend}}{171}{figure.caption.205}%
-\contentsline {figure}{\numberline {4.34}{\ignorespaces Thiết lập service}}{171}{figure.caption.206}%
-\contentsline {figure}{\numberline {4.35}{\ignorespaces Giao diện tạo Database trên Neon.tech}}{172}{figure.caption.207}%
-\contentsline {figure}{\numberline {4.36}{\ignorespaces Điều chỉnh thông tin Database trên Neon.tech}}{173}{figure.caption.208}%
-\contentsline {figure}{\numberline {4.37}{\ignorespaces Khởi tạo Database thành công}}{174}{figure.caption.209}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Giao diện trang default homepage}}{150}{figure.caption.178}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dropdown menu}}{151}{figure.caption.179}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Giao diện create modal khi người dùng tạo mới workspace}}{151}{figure.caption.180}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Giao diện rename modal khi người dùng đổi tên workspace}}{152}{figure.caption.181}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Giao diện share modal khi người dùng muốn mời/gửi yêu cầu mời người dùng khác vào workspace}}{153}{figure.caption.182}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Giao diện trang Workspace detail}}{154}{figure.caption.183}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Giao diện trang thông báo của người dùng}}{155}{figure.caption.184}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của thông báo}}{156}{figure.caption.185}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Giao diện trang quản lý thành viên trong Workspace}}{157}{figure.caption.186}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Giao diện trang quản lý yêu cầu từ thành viên trong workspace}}{158}{figure.caption.187}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của yêu cầu}}{158}{figure.caption.188}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Giao diện quản lý process portfolio của workspace}}{159}{figure.caption.189}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Giao diện chỉnh sửa giá trị thang đo cho process portfolio của workspace}}{160}{figure.caption.190}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Giao diện menu của process version}}{160}{figure.caption.191}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Giao diện chỉnh sửa giá trị của process version trong workspace}}{161}{figure.caption.192}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Giao diện biểu đồ process portfolio của workspace}}{162}{figure.caption.193}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Giao diện hiển thị danh sách process version không có/thiếu dữ liệu}}{163}{figure.caption.194}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Giao diện chỉnh sửa mô hình quy trình nghiệp vụ}}{163}{figure.caption.195}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Giao diện chỉnh sửa nội dung khảo sát}}{164}{figure.caption.196}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Giao diện xem trước bảng khảo sát}}{165}{figure.caption.197}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Giao diện xem trước bảng khảo sát - trang mở đầu}}{165}{figure.caption.198}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Giao diện xem trước bảng khảo sát - trang kết thúc}}{166}{figure.caption.199}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Giao diện công bố khảo sát}}{167}{figure.caption.200}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Giao diện cấu hình thông tin chung của bảng khảo sát}}{168}{figure.caption.201}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Giao diện cấu hình phản hồi của bảng khảo sát}}{169}{figure.caption.202}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Giao diện kết quả bảng khảo sát}}{170}{figure.caption.203}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Giao diện tạo project mới trong Vercel}}{172}{figure.caption.204}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Giao diện import repository vào Vercel}}{172}{figure.caption.205}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Giao diện chỉnh sửa biến môi trường trong Vercel}}{173}{figure.caption.206}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Giao diện deploy thành công trên Vercel}}{173}{figure.caption.207}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Giao diện tạo Web service trên Render}}{174}{figure.caption.208}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Chọn kết nối với Repository}}{174}{figure.caption.209}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Kết nối với Repository của Backend}}{175}{figure.caption.210}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Thiết lập service}}{175}{figure.caption.211}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces Giao diện tạo Database trên Neon.tech}}{176}{figure.caption.212}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces Điều chỉnh thông tin Database trên Neon.tech}}{177}{figure.caption.213}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces Khởi tạo Database thành công}}{178}{figure.caption.214}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

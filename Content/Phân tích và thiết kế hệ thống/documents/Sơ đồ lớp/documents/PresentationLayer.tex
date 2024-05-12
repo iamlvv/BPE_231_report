@@ -62,3 +62,48 @@ Giao diện này sẽ hiện thực những chức năng dành cho người sở
     \label{fig:Class NotificationPage trong Presentation layer}
 \end{figure}
 Giao diện thông báo cá nhân là giao diện phụ trách việc hiển thị và giúp người dùng phản hồi những thông báo gửi đến họ. Sẽ có nhiều loại thông báo nhưng trong đó sẽ có thông báo yêu cầu xác nhận từ người dùng (lời mời vào workspace của thành viên trong workspace), hệ thống còn ghi nhận những thông báo đã được đọc và trạng thái của chúng để giúp người dùng có trải nghiệm tốt hơn khi truy xuất những thông báo cần xử lý.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/surveyBuilderPage.png}
+    \vspace{0.5cm}
+    \caption{Class SurveyBuilderPage trong Presentation layer}
+    \label{fig:Class SurveyBuilderPage trong Presentation layer}
+\end{figure}
+Giao diện chỉnh sửa khảo sát sẽ bao gồm 2 phần là khu vực để hiển thị danh sách những câu hỏi có trong khảo sát và khu vực để chỉnh sửa thuộc tính của câu hỏi, bao gồm nội dung câu hỏi, các lựa chọn (nếu câu hỏi thuộc loại multiple choice), cài đặt yêu cầu người dùng bắt buộc phải trả lời câu hỏi hay không, cài đặt trọng số của câu hỏi. Ngoài ra, người dùng có thể thay đổi vị trí của hỏi trong khảo sát thông qua thao tác kéo thả.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/surveyConfigurationPage.png}
+    \vspace{0.5cm}
+    \caption{Class SurveyConfigurationPage trong Presentation layer}
+    \label{fig:Class SurveyConfigurationPage trong Presentation layer}
+\end{figure}
+Giao diện chỉnh sửa cấu hình của khảo sát cho phép người dùng cài đặt thời gian công bố/đóng khảo sát, cũng như cài đặt cho phép người dùng thực hiện khảo sát nhiều lần. Ngoài ra, cũng có thể chỉnh sửa tên và mô tả của khảo sát tại đây.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/surveyResultPage.png}
+    \vspace{0.5cm}
+    \caption{Class SurveyResultPage trong Presentation layer}
+    \label{fig:Class SurveyResultPage trong Presentation layer}
+\end{figure}
+Giao diện hiển thị kết quả khảo sát sẽ hiển thị kết quả tổng hợp của khảo sát và kết quả của từng câu hỏi. Kết quả sẽ được biểu diễn thông qua biểu đồ cột và tròn tương ứng với loại câu hỏi.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/surveyLauncherPage.png}
+    \vspace{0.5cm}
+    \caption{Class SurveyLauncherPage trong Presentation layer}
+    \label{fig:Class SurveyLauncherPage trong Presentation layer}
+\end{figure}
+Giao diện này cho phép người dùng gửi phản hồi cho khảo sát, người dùng có thể truy cập vào khảo sát thông qua đường dẫn được người tạo khảo sát gửi trực tiếp hoặc thông qua hòm thư điện tử. Khảo sát sẽ chia thành nhiều phần khác nhau, người dùng có thể chọn đến phần tiếp theo hoặc quay trở lại phần trước đó để chỉnh sửa phản hồi của mình. Để gửi khảo sát người dùng cần cung cấp email và tên người dùng để nhận kết quả sau khi khảo sát tổng kết kết quả.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Presentation layer/processPortfolioPage.png}
+    \vspace{0.5cm}
+    \caption{Class ProcessPortfolioPage trong Presentation layer}
+    \label{fig:Class ProcessPortfolioPage trong Presentation layer}
+\end{figure}
+Giao diện quản lý danh mục quy trình (process portfolio), người dùng có thể xem danh sách của những phiên bản quy trình đang hoạt động trong quy trình. Để hệ thống tạo danh mục quy trình, người dùng cần cung cấp đủ hai thông tin: thông tin về thang đo được dùng cho quá trình đánh giá hiệu suất của quy trình và thông tin của quy trình thực tế. Thang đo hỗ trợ hệ thống quy đổi các đại lượng khác nhau về cùng một thang đo chung khi đánh giá hiệu suất của quy trình, ngoài ra cũng cần cung cấp các thông tin của quy trình về tính khả thi khi vận hành quy trình và mức độ ảnh hưởng đến chiến lược hoạt động của doanh nghiệp.
