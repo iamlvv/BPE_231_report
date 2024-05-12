@@ -1,0 +1,122 @@
+Nhóm quyết định chọn 2 quy trình nghiệp vụ, đó là quy trình đổi vé máy bay và quy trình mua vé máy bay để thực hiện cho việc case study cũng như kiểm chứng
+kết quả tính toán được sử dụng cơ sở lý thuyết được trình bày ở trên, so với kết quả thực tế của hệ thống.
+\begin{center}
+    \begin{table}[H]
+        \begin{tabular}{|p{2cm}|p{12cm}|}
+        \hline
+        \textbf{STT} & \multicolumn{1}{c|}{\textbf{Câu hỏi}} \\ \hline
+        1 & Do you use any services or products provided by this process? \\ \hline
+        2 & What is your role in this process? \\ \hline
+        3 & To what extent do you agree with this statement: "It is easy to handle exceptions in your process". \\ \hline
+        4 & To what extent do you agree with this statement: "It is easy to execute your process." \\ \hline
+        5 & How frequently do exceptions happen in practice? \\ \hline
+        6 & Which handled exceptions do you think the way to handle them needs optimizing? Can you suggest some solutions to those? \\ \hline
+        7 & Can you suggest any exceptions that need handling and the way to handle them? \\ \hline
+        8 & How satisfied are you with the way exceptions are handled in your process? \\ \hline
+        9 & How satisfied are you with the amount of time you have to spend on this process? \\ \hline
+        10 & A flexible process means it has variations for different conditions. How satisfied are you with those variations of the process? \\ \hline
+        11 & How satisfied are you with the cost of products or services of this process? \\ \hline
+        12 & How satisfied are you with the products or services provided by this process? \\ \hline
+        13 & How satisfied are you with the total time you have to spend on waiting for the output of this process? \\ \hline
+        14 & Do you encounter any problems while using products or services provided by this process? \\ \hline
+        15 & How likely is it that you would recommend this process to others? \\ \hline
+        \end{tabular}
+        \vspace{0.5cm}
+        \caption{Bảng câu hỏi khảo sát}
+        \end{table}
+\end{center}
+Đây là tất cả câu hỏi mẫu có sẵn trong bảng khảo sát, được thiết kế để có thể được sử dụng ở nhiều loại quy trình tương ứng với những nghiệp vụ khác nhau. 
+Ở đây, chúng tôi sẽ kiểm chứng kết quả đánh giá của hệ thống, so với kết quả chúng tôi tự tính toán được bằng tay. Trong trường hợp này, 
+chúng tôi sẽ lấy dữ liệu từ 10 người dùng khác nhau. Và để kiểm chứng kết quả, chúng tôi sẽ chỉ lấy dữ liệu ở những loại câu hỏi được sử dụng để 
+tính giá trị các độ đo cũng như kết quả cuối cùng của bài khảo sát. Cụ thể, chúng tôi sẽ quan tâm dữ liệu ở các câu:
+\begin{enumerate}
+    \item CES: 3, 4
+    \item CSAT: 8, 9, 10, 11, 12, 13
+    \item NPS: 15
+    \item Câu 1: được dùng để phân loại nhóm người dùng.
+\end{enumerate}
+
+\subsection{Quy trình đổi vé máy bay}
+
+Ở đây, để dễ dàng cho việc tính toán bằng tay, chúng tôi thiết lập trọng số cho mỗi câu hỏi trong mỗi nhóm độ đo là như nhau. Bên dưới là dữ liệu thu thập được từ bảng khảo sát:
+\begin{center}
+\begin{table}[H]
+    \begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
+        \hline
+        \textbf{Người dùng (STT)} & \textbf{Nhóm} & \textbf{Câu 3} & \textbf{Câu 4} & \textbf{Câu 8} & \textbf{Câu 9} & \textbf{Câu 10} & \multicolumn{1}{c|}{\textbf{Câu 11}} & \multicolumn{1}{c|}{\textbf{Câu 12}} & \multicolumn{1}{c|}{\textbf{Câu 13}} & \textbf{Câu 15} \\ \hline
+        \textbf{1} & user & 6 & 5 & 7 & 4 & 3 &  &  &  & 8 \\ \hline
+        \textbf{2} & guest & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{7} & \multicolumn{1}{c|}{6} & \multicolumn{1}{c|}{4} & 9 \\ \hline
+        \textbf{3} & guest & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{6} & \multicolumn{1}{c|}{7} & \multicolumn{1}{c|}{5} & 6 \\ \hline
+        \textbf{4} & user & 7 & 4 & 2 & 4 & 5 &  &  &  & 5 \\ \hline
+        \textbf{5} & guest & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{5} & \multicolumn{1}{c|}{7} & \multicolumn{1}{c|}{7} & 10 \\ \hline
+        \textbf{6} & user & 7 & 7 & 5 & 6 & 4 &  &  &  & 9 \\ \hline
+        \textbf{7} & user & 6 & 6 & 7 & 2 & 7 &  &  &  & 8 \\ \hline
+        \textbf{8} & user & 5 & 4 & 5 & 3 & 5 &  &  &  & 7 \\ \hline
+        \textbf{9} & user & 6 & 7 & 6 & 7 & 4 &  &  &  & 9 \\ \hline
+        \textbf{10} & guest & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{7} & \multicolumn{1}{c|}{5} & \multicolumn{1}{c|}{6} & 8 \\ \hline
+        \vspace{0.5cm}
+        \end{tabular}
+        \caption{Bảng chi tiết lựa chọn của người dùng cho mỗi câu hỏi}
+    \end{table}
+\end{center}
+Như vậy, theo như lý thuyết về các độ đo trong bảng khảo sát, ta có thể tính toán được các biến số cần để tinh ra giá trị cuối cùng của mỗi độ đo.
+Nhắc lại, số người đồng ý với câu hỏi (CES) hay số người hài lòng (CSAT) được tính khi người đó cho số điểm nằm trong khoảng [5, 7] cho câu hỏi CES 
+hoặc CSAT. Số người thuộc nhóm Promoters khi họ cho điểm cho câu hỏi NPS thuộc tập giá trị {9, 10} và thuộc nhóm Detractors khi họ cho điểm cho câu hỏi 
+NPS thuộc tập giá trị \{0, 6\}.
+\begin{table}[H]
+    \begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+    \hline
+    \textbf{Câu hỏi} & \textbf{\begin{tabular}[c]{@{}c@{}}Loại \\ câu hỏi\end{tabular}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Số người \\ đồng \\ ý với \\ câu hỏi \\ (CES)\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}c@{}}Số người \\ hài lòng \\ (CSAT)\end{tabular}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Số người \\ thuộc \\ nhóm \\ Promoters\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Số người \\ thuộc \\ nhóm \\ Detractors\end{tabular}}} & \textbf{Điểm} \\ \hline
+    \textbf{3} & CES & \multicolumn{1}{c|}{6} & \multicolumn{1}{l|}{} &  &  & 0.6 \\ \hline
+    \textbf{4} & CES & \multicolumn{1}{c|}{4} & \multicolumn{1}{l|}{} &  &  & 0.4 \\ \hline
+    \textbf{8} & CSAT &  & 5 &  &  & 0.5 \\ \hline
+    \textbf{9} & CSAT &  & 2 &  &  & 0.2 \\ \hline
+    \textbf{10} & CSAT &  & 3 &  &  & 0.3 \\ \hline
+    \textbf{11} & CSAT &  & 4 &  &  & 0.4 \\ \hline
+    \textbf{12} & CSAT &  & 4 &  &  & 0.4 \\ \hline
+    \textbf{13} & CSAT &  & 3 &  &  & 0.3 \\ \hline
+    \textbf{15} & NPS &  & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{4} & \multicolumn{1}{c|}{2} & 0.2 \\ \hline
+    \vspace{0.5cm}
+    \end{tabular}
+    \caption{Bảng kết quả tính toán mỗi câu hỏi}
+\end{table}
+Mỗi câu hỏi đều có trọng số như nhau, và mỗi độ đo đều có trọng số như nhau trong bảng khảo sát, như vậy ta có điểm số của từng độ đo và của bài khảo sát:
+\begin{center}
+    \begin{table}[H]
+        \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Độ đo} & \textbf{Điểm} \\ \hline
+        \textbf{CES} & 0.5 \\ \hline
+        \textbf{CSAT} & 0.35 \\ \hline
+        \textbf{NPS} & 0.2 \\ \hline
+        \end{tabular}
+        \vspace{0.5cm}
+        \caption{Bảng kết quả cuối cùng của bài khảo sát}
+        \end{table}
+\end{center}
+Như vậy, ta tính được điểm tổng của bài khảo sát là 0.35.
+Đối chiếu với kết quả tính được từ hệ thống như sau:
+\begin{center}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[ width = 0.7\linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/surveyResult1.png}
+        \vspace{0.5cm}
+        \caption{Kết quả bài khảo sát cho quy trình đổi vé máy bay}
+        \label{fig:Kết quả bài khảo sát cho quy trình đổi vé máy bay}
+    \end{figure}
+\end{center}
+Từ kết quả trên, ta thấy rằng kết quả của hệ thống và kết quả tính toán bằng tay khá giống nhau, với điểm số của hệ thống là 0.35, và điểm số của bài khảo sát là 0.35.
+Điểm tổng bài khảo sát cũng là giá trị External Quality của quy trình nghiệp vụ. Giả sử 2 loại quality đều có trọng số như nhau, ta có giá trị trung bình của độ đo 
+chất lượng của quy trình nghiệp vụ: 0.175.
+\begin{center}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[ width = 0.7\linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/quality1.png}
+        \vspace{0.5cm}
+        \caption{Kết quả đánh giá chất lượng của quy trình đổi vé máy bay}
+        \label{fig:Kết quả đánh giá chất lượng của quy trình đổi vé máy bay}
+    \end{figure}
+\end{center}
+Như vậy, ta thấy rằng kết quả đánh giá chất lượng của hệ thống và kết quả tính toán bằng tay khá giống nhau, với điểm số của hệ thống là 0.175, và điểm số của tính toán bằng tay là 0.175.
+    
+\subsection{Quy trình mua vé máy bay}
