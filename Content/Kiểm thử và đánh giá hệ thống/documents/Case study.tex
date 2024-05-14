@@ -281,19 +281,19 @@ NPS thuộc tập giá trị \{0, 6\}.
     }
     \caption{Bảng kết quả tính toán mỗi câu hỏi}
 \end{table}
-Mỗi câu hỏi đều có trọng số như nhau, và mỗi độ đo đều có trọng số như nhau trong bảng khảo sát, như vậy ta có điểm số của từng độ đo và của bài khảo sát:
-\begin{table}[H]
-    \centering
-    \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|}
-    \hline
-    \textbf{Độ đo} & \textbf{Điểm} & \textbf{Độ đo} & \textbf{Điểm} & \textbf{Độ đo} & \textbf{Điểm} \\ \hline
-    CES            & 0.833           & CSAT           & 0.736          & NPS            & 0.2           \\ \hline
-    \end{tabular}%
-    }
-    \caption{Bảng kết quả tổng hợp của khảo sát}
-\end{table}
-Như vậy, ta tính được điểm tổng của bài khảo sát là 0.59.
+Mỗi câu hỏi đều có trọng số như nhau, và mỗi độ đo đều có trọng số như nhau trong bảng khảo sát, như vậy ta có điểm số của từng độ đo và của bài khảo sát: CES = 0.833, CSAT = 0.736, NPS = 0.2.
+% \begin{table}[H]
+%     \centering
+%     \resizebox{\textwidth}{!}{%
+%     \begin{tabular}{|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|}
+%     \hline
+%     \textbf{Độ đo} & \textbf{Điểm} & \textbf{Độ đo} & \textbf{Điểm} & \textbf{Độ đo} & \textbf{Điểm} \\ \hline
+%     CES            & 0.833           & CSAT           & 0.736          & NPS            & 0.2           \\ \hline
+%     \end{tabular}%
+%     }
+%     \caption{Bảng kết quả tổng hợp của khảo sát}
+% \end{table}
+Từ đó, ta tính được điểm tổng của bài khảo sát là 0.59.
 Đối chiếu với kết quả tính được từ hệ thống như sau:
 \begin{center}
     \begin{figure}[H]
@@ -318,4 +318,50 @@ chất lượng của quy trình nghiệp vụ: 0.645.
 \end{center}
 Như vậy, ta thấy rằng kết quả đánh giá chất lượng của hệ thống và kết quả tính toán bằng tay khá giống nhau, với điểm số của hệ thống là 0.645, và điểm số của tính toán bằng tay là 0.645.
     
-% \subsection{Quy trình mua vé máy bay}
+\subsection{Kiểm chứng process portfolio}
+Để tạo ra được process portfolio cho các quy trình nghiệp vụ đang hoạt động trong Workspace, ta cần một số những dữ liệu sau:
+\begin{enumerate}
+    \item Các giá trị mục tiêu, tệ nhất của các độ đo của Workspace, bao gồm targeted cycle time, worst cycle time, targeted cost, worst cost, 
+    targeted quality, worst quality, targeted flexibility, worst flexibility, giá trị của các độ đo feasibility, strategic importance
+    \item Các giá trị thực tế của các yếu tố trong độ đo health, bao gồm cycle time, cost, quality, flexibility.
+\end{enumerate}
+
+\begin{center}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|c|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{Yếu tố khảo sát}} & \textbf{Giá trị} \\ \hline
+        \textbf{Targeted cycle time} & 25 \\ \hline
+        \textbf{Worst cycle time} & 50 \\ \hline
+        \textbf{Targeted cost} & 20 \\ \hline
+        \textbf{Worst cost} & 30 \\ \hline
+        \textbf{Targeted quality} & 0.8 \\ \hline
+        \textbf{Worst quality} & 0.4 \\ \hline
+        \textbf{Targeted Flexibility} & 0.95 \\ \hline
+        \textbf{Worst Flexibility} & 0.65 \\ \hline
+        \textbf{Feasibility} & 0.8 \\ \hline
+        \textbf{Strategic Importance} & 0.7 \\ \hline
+        \textbf{Current cycle time} & 30.5 \\ \hline
+        Current cost & 28 \\ \hline
+        Current quality & 0.7 \\ \hline
+        Current flexibility & 0.7 \\ \hline
+        \end{tabular}
+        \vspace{0.5cm}
+        \caption{Bảng giá trị kiểm chứng của các yếu tố trong process portfolio}
+        \end{table}
+\end{center}
+
+Vận dụng cơ sở lý thuyết được trình bày ở trên, ta tính được các độ đo của quy trình nghiệp vụ để xây dựng process portfolio:
+Health = -0.19, Feasibility = 0.8, Strategic Importance = 0.7.
+\begin{center}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[ width = 0.7\linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/health.png}
+        \vspace{0.5cm}
+        \caption{Kết quả đánh giá process portfolio của Workspace}
+        \label{fig:Kết quả kiểm chứng process portfolio của Workspace}
+    \end{figure}
+\end{center}
+Như vậy, ta thấy rằng kết quả đánh giá process portfolio của hệ thống và kết quả tính toán bằng tay khá giống nhau, với điểm số của hệ thống là -0.19, và điểm số của tính toán bằng tay là -0.19.
+Với những kết quả trên, ta có thể kết luận rằng hệ thống đánh giá chất lượng của quy trình nghiệp vụ và process portfolio của Workspace hoạt động hiệu quả và chính xác.
