@@ -1,5 +1,7 @@
-Nhóm quyết định chọn 2 quy trình nghiệp vụ, đó là quy trình đổi vé máy bay và quy trình mua vé máy bay để thực hiện cho việc case study cũng như kiểm chứng
-kết quả tính toán được sử dụng cơ sở lý thuyết được trình bày ở trên, so với kết quả thực tế của hệ thống.
+Nhóm quyết định chọn quy trình đổi vé máy bay để làm case study cũng như kiểm chứng kết quả tính toán được sử dụng cơ sở lý thuyết được trình bày ở trên, so với kết quả thực tế của hệ thống.
+
+\subsection{Thu thập dữ liệu khảo sát}
+
 \begin{center}
     \begin{table}[H]
         \centering
@@ -23,10 +25,10 @@ kết quả tính toán được sử dụng cơ sở lý thuyết được trì
         14 & Do you encounter any problems while using products or services provided by this process? \\ \hline
         15 & How likely is it that you would recommend this process to others? \\ \hline
         \end{tabular}
-        \vspace{0.5cm}
         \caption{Bảng câu hỏi khảo sát}
-        \end{table}
+    \end{table}
 \end{center}
+
 Đây là tất cả câu hỏi mẫu có sẵn trong bảng khảo sát, được thiết kế để có thể được sử dụng ở nhiều loại quy trình tương ứng với những nghiệp vụ khác nhau. 
 Ở đây, chúng tôi sẽ kiểm chứng kết quả đánh giá của hệ thống, so với kết quả chúng tôi tự tính toán được bằng tay. Trong trường hợp này, 
 chúng tôi sẽ lấy dữ liệu từ 10 người dùng khác nhau. Và để kiểm chứng kết quả, chúng tôi sẽ chỉ lấy dữ liệu ở những loại câu hỏi được sử dụng để 
@@ -37,8 +39,6 @@ tính giá trị các độ đo cũng như kết quả cuối cùng của bài k
     \item Loại câu hỏi CSAT: câu 8, câu 9, câu 10, câu 11, câu 12, câu 13
     \item Loại câu hỏi NPS: 15
 \end{enumerate}
-
-\subsection{Quy trình đổi vé máy bay}
 
 Ở đây, để dễ dàng cho việc tính toán bằng tay, chúng tôi thiết lập trọng số cho mỗi câu hỏi trong mỗi nhóm độ đo là như nhau. Bên dưới là dữ liệu thu thập được từ bảng khảo sát:
 
@@ -184,12 +184,15 @@ tính giá trị các độ đo cũng như kết quả cuối cùng của bài k
     }
     \caption{Bảng chi tiết lựa chọn của người dùng cho mỗi câu hỏi}
 \end{table}
+
+\subsection{Kiểm chứng dữ liệu khảo sát}
+
 Như vậy, theo như lý thuyết về các độ đo trong bảng khảo sát, ta có thể tính toán được các biến số cần để tinh ra giá trị cuối cùng của mỗi độ đo.
 Nhắc lại, số người đồng ý với câu hỏi (CES) hay số người hài lòng (CSAT) được tính khi người đó cho số điểm nằm trong khoảng [5, 7] cho câu hỏi CES 
 hoặc CSAT. Số người thuộc nhóm Promoters khi họ cho điểm cho câu hỏi NPS thuộc tập giá trị {9, 10} và thuộc nhóm Detractors khi họ cho điểm cho câu hỏi 
 NPS thuộc tập giá trị \{0, 6\}.
 \begin{table}[H]
-    \def\arraystretch{1.5}%
+    \def\arraystretch{1}%
     \centering
     \resizebox{\textwidth}{!}{%
         \begin{tabular}{|C{1cm}|C{1cm}|C{2.5cm}|C{2.75cm}|C{2.75cm}|C{2.75cm}|C{1cm}|}
@@ -315,4 +318,4 @@ chất lượng của quy trình nghiệp vụ: 0.645.
 \end{center}
 Như vậy, ta thấy rằng kết quả đánh giá chất lượng của hệ thống và kết quả tính toán bằng tay khá giống nhau, với điểm số của hệ thống là 0.645, và điểm số của tính toán bằng tay là 0.645.
     
-\subsection{Quy trình mua vé máy bay}
+% \subsection{Quy trình mua vé máy bay}
