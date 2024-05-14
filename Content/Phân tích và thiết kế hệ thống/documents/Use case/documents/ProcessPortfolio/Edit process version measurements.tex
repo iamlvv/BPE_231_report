@@ -14,11 +14,18 @@
   \\ \hline
   \textbf{Trigger}           & Không                                                      
   \\ \hline
-  \textbf{Pre-conditions}    & Người dùng đã đăng nhập vào hệ thống. Người dùng sở hữu một workspace và đang truy cập vào giao diện quản lý workspace (workspace management)
+  \textbf{Pre-conditions}    & 
+  \begin{tabular}{p{10.5cm}}
+    Người dùng đã đăng nhập vào hệ thống. Người dùng sở hữu một workspace và đang truy cập vào giao diện quản lý workspace (workspace management)
+  \end{tabular}
   \\ \hline
-  \textbf{Post-conditions}   & Người dùng thành công thay đổi giá trị thay đổi giá trị health/feasibility/strategic importance của process version, những giá trị này sẽ được sử dụng để khởi tạo process portfolio.
+  \textbf{Post-conditions}   &
+  \begin{tabular}{p{10.5cm}}
+    Người dùng thành công thay đổi giá trị thay đổi giá trị health/feasibility/strategic importance của process version, những giá trị này sẽ được sử dụng để khởi tạo process portfolio.
+  \end{tabular}
   \\ \hline
   \textbf{Normal flow} &
+  \begin{tabular}{p{10.5cm}}
     \begin{enumerate}
         \item Người dùng chọn “Process portfolio” trên sidebar, hệ thống điều hướng tới giao diện quản lý process portfolio.
         \item Hệ thống hiển thị danh sách project/process/process version có trong workspace.
@@ -26,14 +33,15 @@
         \item Người dùng nhập thông tin được yêu cầu.
         \item Người dùng chọn nút “Save” để lưu thông tin của process version, hệ thống đóng modal.
     \end{enumerate}
+  \end{tabular}
   \\ \hline
   \textbf{Alternative flows} & 
-    \begin{tabular}{p{11cm}}
+    \begin{tabular}{p{10.5cm}}
       4. Người dùng không nhập thông tin. Người dùng chọn nút “Save” để lưu thông tin về thang đo, hệ thống đóng modal.
     \end{tabular}
   \\ \hline
   \textbf{Exceptions}        &
-    \begin{tabular}{p{11cm}}
+    \begin{tabular}{p{10.5cm}}
       3. Người dùng nhập kiểu dữ liệu không hợp lệ
       \begin{enumerate}[label=\alph*)]
         \item Người dùng chọn nút “Save” để lưu lại thông tin về thang đo, hệ thống hiện cảnh báo

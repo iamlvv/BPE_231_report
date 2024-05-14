@@ -19,28 +19,26 @@
 \textbf{Post-conditions} & Người dùng gửi thành công yêu cầu “Chia sẻ workspace đến người khác” tới workspace owner để được xét duyệt 
 \\ \hline
 \textbf{Normal flow} &
+\begin{tabular}{p{10.5cm}}
   \begin{enumerate}
-      \item Người dùng ở giao diện Default homepage, hệ thống hiển thị danh sách những workspace mà người dùng tham gia/sở hữu
+      \item Người dùng ở giao diện trang chủ, hệ thống hiển thị danh sách những workspace mà người dùng tham gia/sở hữu
       \item Người dùng chọn icon "Menu" ở workspace mà người dùng tham gia với quyền hạn của viewer để hiển thị dropdown menu
-      \item Người dùng chọn nút “Share” để hiện modal chia sẻ workspace:
-      \begin{enumerate}
-          \item Những người hiện có trong workspace
-          \item Quyền hạn của những người hiện có trong workspace
-      \end{enumerate}
+      \item Người dùng chọn nút “Share” để hiện modal chia sẻ workspace
       \item Người dùng nhập email của người được mời để tìm kiếm người dùng trong hệ thống
       \item Người dùng chọn quyền hạn của người dùng được mời vào workspace
       \item Người dùng chọn “Send” để gửi yêu cầu đến workspace owner
   \end{enumerate}
+\end{tabular}
 \\ \hline
 \textbf{Alternative flows} &
-  \begin{tabular}{p{10cm}}
+  \begin{tabular}{p{10.5cm}}
   4a. Email của người được mời không tồn tại trên hệ thống
-    \begin{tabular}{p{9cm}}
+    \begin{tabular}{p{9.5cm}}
           4a.1. Hệ thống hiển thị không tìm thấy kết quả phù hợp
     \end{tabular}
   \\
   5a. Người dùng gán quyền hạn cho người được mời vào workspace vượt quá quyền hạn hiện có trong workspace
-      \begin{tabular}{p{9cm}}
+      \begin{tabular}{p{9.5cm}}
           5a.1. Hệ thống thông báo lỗi yêu cầu người dùng gán quyền cho người được mời không vượt quá quyền hạn hiện có (Editor > Sharer > Viewer)
           \\
           5a.2. Tiếp tục ở bước 5
@@ -49,7 +47,7 @@
   \end{tabular} 
 \\ \hline
 \textbf{Exceptions} &
-  \begin{tabular}{p{10cm}}
+  \begin{tabular}{p{10.5cm}}
     5a. Người dùng chọn “Cancel” để hủy yêu cầu và đóng modal
   \end{tabular}
 \\ \hline

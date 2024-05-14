@@ -69,64 +69,41 @@ Gồm 2 loại:
 
 Sau khi cân nhắc những ưu, nhược điểm cũng như yêu cầu về thời gian và nhân lực của các phương pháp kiểm thử, nhóm quyết định sử dụng phương pháp kiểm thử Usecase testing để kiểm thử hệ thống.
 
-Dưới đây là tổng hợp các trường hợp kiểm thử dựa trên usecase, nội dung chi tiết được tổng hợp tại \href{https://docs.google.com/spreadsheets/d/1yDyn8-fa67zlSFjvmJKY9pEwQEnEU2gvkhm_gCw2BHo/edit#gid=0}{đây}.
+Dưới đây là tổng hợp các trường hợp kiểm thử dựa trên usecase, nội dung chi tiết được tổng hợp tại đường dẫn \url{https://docs.google.com/spreadsheets/d/1yDyn8-fa67zlSFjvmJKY9pEwQEnEU2gvkhm_gCw2BHo/edit#gid=0}.
 
 \begin{table}[H]
+    \def\arraystretch{1.5}%
     \centering
-    \resizebox{0.8\textwidth}{!}{%
-    \begin{tabular}{|p{2cm}|p{10cm}|}
-    \hline
-    {\textbf{STT}} & {\textbf{Tên usecase}} \\ \hline
-    {1} & {Truy cập trang quản lý workspace} \\ \hline
-    {2} & {Truy cập workspace} \\ \hline
-    {3} & {Tạo mới workspace} \\ \hline
-    {4} & {Xóa workspace} \\ \hline
-    {5} & {Sử dụng bộ lọc tìm kiếm workspace} \\ \hline
-    {6} & {Ghim workspace} \\ \hline
-    {7} & {Thay đổi tên workspace} \\ \hline
-    {8} & {Tìm kiếm workspace} \\ \hline
-    {9} & {Chia sẻ workspace} \\ \hline
-    {10} & {Tìm kiếm project trong workspace} \\ \hline
-    {11} & {Loại thành viên khỏi workspace} \\ \hline
-    {12} & {Thay đổi quyền truy cập của thành viên} \\ \hline
-    {13} & {Sử dụng bộ lọc tìm kiếm thành viên} \\ \hline
-    {14} & {Mời người dùng khác vào workspace} \\ \hline
-    {15} & {Quản lý thành viên trong workspace} \\ \hline
-    {16} & {Tìm kiếm thành viên trong workspace} \\ \hline
-    {17} & {Sử dụng bộ lọc tìm kiếm yêu cầu} \\ \hline
-    {18} & {Truy cập trang quản lý yêu cầu trong workspace} \\ \hline
-    {19} & {Chấp nhận yêu cầu từ thành viên trong workspace} \\ \hline
-    {20} & {Từ chối yêu cầu từ thành viên trong workspace} \\ \hline
-    {21} & {Xóa yêu cầu từ thành viên trong workspace} \\ \hline
-    {22} & {Nhận yêu cầu từ thành viên trong workspace} \\ \hline
-    {23} & {Tìm kiếm yêu cầu trong workspace} \\ \hline
-    {24} & {Chỉnh sửa giá trị thang đo của workspace} \\ \hline
-    {25} & {Chỉnh sửa thông tin của process version} \\ \hline
-    {26} & {Kích hoạt process version} \\ \hline
-    {27} & {Khởi tạo process portfolio} \\ \hline
-    {28} & {Chỉnh sửa thông tin của process version bị khuyết giá trị} \\ \hline
-    {29} & {Tạo mới bảng khảo sát} \\ \hline
-    {30} & {Đóng bảng khảo sát} \\ \hline
-    {31} & {Xóa bảng khảo sát} \\ \hline
-    {32} & {Cấu hình bảng khảo sát} \\ \hline
-    {33} & {Cấu hình câu hỏi} \\ \hline
-    {34} & {Tạo mới câu hỏi} \\ \hline
-    {35} & {Xóa câu hỏi} \\ \hline
-    {36} & {Thực hiện bảng khảo sát} \\ \hline
-    {37} & {Quản lý kết quả bảng khảo sát} \\ \hline
-    {38} & {Di chuyển vị trí câu hỏi} \\ \hline
-    {39} & {Chế độ xem trước bảng khảo sát} \\ \hline
-    {40} & {Công bố bảng khảo sát} \\ \hline
-    {41} & {Chấp nhận lời mời vào workspace} \\ \hline
-    {42} & {Xem nội dung chi tiết thông báo} \\ \hline
-    {43} & {Xem thông báo} \\ \hline
-    {44} & {Từ chối lời mời vào workspace} \\ \hline
-    {45} & {Lọc thông báo} \\ \hline
-    {46} & {Ghim thông báo} \\ \hline
-    {47} & {Nhận thông báo từ hệ thống} \\ \hline
-    {48} & {Tìm kiếm thông báo} \\ \hline
-    {49} & {Xóa thông báo} \\ \hline
-    \end{tabular}%
-    }
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|C{1cm}|C{6cm}|C{1cm}|C{6cm}|}
+        \hline
+        \textbf{STT} & \textbf{Tên usecase}                           & \textbf{STT} & \textbf{Tên usecase}       \\ \hline
+        1            & Truy cập trang quản lý workspace               & 26           & Kích hoạt process version  \\ \hline
+        2            & Truy cập workspace                             & 27           & Khởi tạo process portfolio \\ \hline
+        3  & Tạo mới workspace                               & 28 & Chỉnh sửa thông tin của process version bị khuyết giá trị \\ \hline
+        4            & Xóa workspace                                  & 29           & Tạo mới bảng khảo sát      \\ \hline
+        5            & Sử dụng bộ lọc tìm kiếm workspace              & 30           & Đóng bảng khảo sát         \\ \hline
+        6            & Ghim workspace                                 & 31           & Xóa bảng khảo sát          \\ \hline
+        7            & Thay đổi tên workspace                         & 32           & Cấu hình bảng khảo sát     \\ \hline
+        8            & Tìm kiếm workspace                             & 33           & Cấu hình câu hỏi           \\ \hline
+        9            & Chia sẻ workspace                              & 34           & Tạo mới câu hỏi            \\ \hline
+        10           & Tìm kiếm project trong workspace               & 35           & Xóa câu hỏi                \\ \hline
+        11           & Loại thành viên khỏi workspace                 & 36           & Thực hiện bảng khảo sát    \\ \hline
+        12 & Thay đổi quyền truy cập của thành viên          & 37 & Quản lý kết quả bảng khảo sát                             \\ \hline
+        13           & Sử dụng bộ lọc tìm kiếm thành viên             & 38           & Di chuyển vị trí câu hỏi   \\ \hline
+        14 & Mời người dùng khác vào workspace               & 39 & Chế độ xem trước bảng khảo sát                            \\ \hline
+        15           & Quản lý thành viên trong workspace             & 40           & Công bố bảng khảo sát      \\ \hline
+        16 & Tìm kiếm thành viên trong workspace             & 41 & Chấp nhận lời mời vào workspace                           \\ \hline
+        17 & Sử dụng bộ lọc tìm kiếm yêu cầu                 & 42 & Xem nội dung chi tiết thông báo                           \\ \hline
+        18           & Truy cập trang quản lý yêu cầu trong workspace & 43           & Xem thông báo              \\ \hline
+        19 & Chấp nhận yêu cầu từ thành viên trong workspace & 44 & Từ chối lời mời vào workspace                             \\ \hline
+        20           & Từ chối yêu cầu từ thành viên trong workspace  & 45           & Lọc thông báo              \\ \hline
+        21           & Xóa yêu cầu từ thành viên trong workspace      & 46           & Ghim thông báo             \\ \hline
+        22 & Nhận yêu cầu từ thành viên trong workspace      & 47 & Nhận thông báo từ hệ thống                                \\ \hline
+        23           & Tìm kiếm yêu cầu trong workspace               & 48           & Tìm kiếm thông báo         \\ \hline
+        24           & Chỉnh sửa giá trị thang đo của workspace       & 49           & Xóa thông báo              \\ \hline
+        25           & Chỉnh sửa thông tin của process version        &              &                            \\ \hline
+        \end{tabular}%
+    }    
     \caption{Tổng hợp các trường hợp kiểm thử usecase}
 \end{table}

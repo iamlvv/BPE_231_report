@@ -13,7 +13,7 @@ gọi tới các đối tượng ở tầng Persistence để tương tác với
 
 \begin{figure}[H]
     \centering
-    \includegraphics[ width = \linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png}
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/workspaceBusiness.png}
     \vspace{0.5cm}
     \caption{Class WorkspaceBusiness trong Business layer}
     \label{fig:Class WorkspaceBusiness trong Business layer}
@@ -31,7 +31,7 @@ Recent\_Opened\_Workspace\_Insert\_Business để thực hiện chức năng th�
 bảng Recent\_Opened\_Workspace.
 \begin{figure}[H]
     \centering
-    \includegraphics[ width = \linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png}
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/joinWorkspaceBusiness.png}
     \vspace{0.5cm}
     \caption{Class JoinWorkspaceBusiness trong Business layer}
     \label{fig:Class JoinWorkspaceBusiness trong Business layer}
@@ -45,7 +45,7 @@ JoinWorkspace\_Get\_Business còn kế thừa từ class CheckMemberPermissionBu
 chức năng kiểm tra quyền của người dùng trong một Workspace.
 \begin{figure}[H]
     \centering
-    \includegraphics[ width = \linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png}
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/recentOpenedWorkspaceBusiness.png}
     \vspace{0.5cm}
     \caption{Class RecentOpenedWorkspaceBusiness trong Business layer}
     \label{fig:Class RecentOpenedWorkspaceBusiness trong Business layer}
@@ -58,7 +58,7 @@ Recent\_Opened\_Workspace\_Update\_Business cho những xử lý logic khi lấy
 Workspace được đánh dấu và logic mở cũng như đánh dấu một Workspace.
 \begin{figure}[H]
     \centering
-    \includegraphics[ width = \linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png}
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/requestBusiness.png}
     \vspace{0.5cm}
     \caption{Class RequestBusiness trong Business layer}
     \label{fig:Class RequestBusiness trong Business layer}
@@ -72,7 +72,7 @@ Request\_Update\_Business còn kế thừa từ class Request\_Handling\_Busines
 hiện chức năng xử lý những yêu cầu.
 \begin{figure}[H]
     \centering
-    \includegraphics[ width = \linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png}
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/notificationBusiness.png}
     \vspace{0.5cm}
     \caption{Class NotificationBusiness trong Business layer}
     \label{fig:Class NotificationBusiness trong Business layer}
@@ -85,7 +85,7 @@ Notification\_Get\_Business, Notification\_Delete\_Business, Notification\_Updat
 %% SURVEY %%
 \begin{figure}[H]
     \centering
-    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/survey.png}
+    \includegraphics[ width = 0.4\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/survey.png}
     \vspace{0.5cm}
     \caption{Class SurveyBusiness trong Business layer}
     \label{fig:Class SurveyBusiness trong Business layer}
@@ -93,6 +93,16 @@ Notification\_Get\_Business, Notification\_Delete\_Business, Notification\_Updat
 \par
 Class SurveyBusiness chịu trách nhiệm xử lý các logic liên quan đến bảng khảo sát. Một số phương thức xử lý chẳng hạn như, 
 lấy toàn bộ nội dung của bảng khảo sát, gửi email đường dẫn bảng khảo sát tới một số người dùng, công bố bảng khảo sát, chỉnh sửa những thiết lập liên quan đến bảng khảo sát.
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/surveyRecipient.png}
+    \vspace{0.5cm}
+    \caption{Class SurveyRecipientBusiness trong Business layer}
+    \label{fig:Class SurveyRecipientBusiness trong Business layer}
+\end{figure}
+\par
+Class SurveyRecipientBusiness dùng để quản lý các logic liên quan đến những người dùng sẽ nhận email bài khảo sát được gửi từ hệ thống. 
+Một số phương thức xử lý như lưu lại tạm thời email của người nhận, kiểm tra xem email đã tồn tại hay chưa.
 \begin{figure}[H]
     \centering
     \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/questionInSection.png}
@@ -184,16 +194,6 @@ Một số phương thức xử lý chẳng hạn như lấy toàn bộ các câ
 \par
 Class SurveySendBusiness sẽ quản lý những logic xử lý về việc gửi bài khảo sát tới những người dùng cụ thể, và một số phương thức để phục 
 vụ cho việc kiểm tra bài khảo sát đã được công bố hay chưa (tính năng tự động công bố hoặc đóng survey theo thời gian đã thiết lập).
-\begin{figure}[H]
-    \centering
-    \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/surveyRecipient.png}
-    \vspace{0.5cm}
-    \caption{Class SurveyRecipientBusiness trong Business layer}
-    \label{fig:Class SurveyRecipientBusiness trong Business layer}
-\end{figure}
-\par
-Class SurveyRecipientBusiness dùng để quản lý các logic liên quan đến những người dùng sẽ nhận email bài khảo sát được gửi từ hệ thống. 
-Một số phương thức xử lý như lưu lại tạm thời email của người nhận, kiểm tra xem email đã tồn tại hay chưa.
 \begin{figure}[H]
     \centering
     \includegraphics[ width = 0.5\linewidth]{Content/Phân tích và thiết kế hệ thống/documents/Sơ đồ lớp/images/Business layer/surveyResult.png}

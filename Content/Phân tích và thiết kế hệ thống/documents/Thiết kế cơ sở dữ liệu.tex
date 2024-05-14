@@ -34,7 +34,6 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
     \item Một question có thể có nhiều question option, một question option chỉ thuộc về một question.
 \end{itemize}
 
-\newpage
 \subsection{Ánh xạ ERD và mô tả chi tiết thực thể}
 
 \subsubsection{User: Người dùng của hệ thống}
@@ -65,13 +64,12 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
         \caption{Thực thể User}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\linewidth]{Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png}
-        \label{fig:Thực thể User}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.5\linewidth]{Content//Phân tích và thiết kế hệ thống//images//ERD_mapping/user_mapping.png}
+%         \label{fig:Thực thể User}
+% \end{figure}
 
-\newpage
 \subsubsection{Project: Dự án trong workspace}
 \begin{center} 
         \begin{table}[H]
@@ -105,13 +103,46 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Project}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png}
-        \label{fig:Thực thể Project}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/project_mapping.png}
+%         \label{fig:Thực thể Project}
+% \end{figure}
 
-\newpage
+\subsubsection{Join Workspace: Quan hệ tham gia giữa người dùng và workspace}
+\begin{center}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{3cm} |p{2cm} |p{9cm} |} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{memberId} & integer & ID của member tham gia Workspace. Khoá ngoại tham chiếu tới trường Id trong User. \\ 
+                                \hline
+                                \underline{workspaceId} & integer & ID của Workspace. Khoá ngoại tham chiếu tới trường Id trong Workspace. \\
+                                \hline
+                                joinedAt & timestamp & Thời gian người dùng tham gia Workspace \\
+                                \hline
+                                isDeleted & boolean & Đánh dấu người dùng đã rời khỏi Workspace hay chưa \\
+                                \hline
+                                permission & text & Quyền hạn của người dùng khi tham gia Workspace \\
+                                \hline
+                                leftAt & timestamp & Thời gian người dùng rời khỏi Workspace \\
+                                \hline
+                                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Join Workspace}
+        \end{table}
+\end{center}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png}
+%         \label{fig:Thực thể Join Workspace}
+% \end{figure}
+
 \subsubsection{Workspace: Không gian làm việc trong hệ thống}
 \begin{center}
         \begin{table}[H]
@@ -163,46 +194,11 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Workspace}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/workspace_mapping.png}
-        \label{fig:Thực thể Workspace}
-\end{figure}
-
-\newpage
-\subsubsection{Join Workspace: Quan hệ tham gia giữa người dùng và workspace}
-\begin{center}
-        \begin{table}[H]
-                \def\arraystretch{2}%
-                \resizebox{\textwidth}{!}{
-                        \begin{tabular}{ |p{3cm} |p{2cm} |p{9cm} |} 
-                                \hline
-                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                                \hline
-                                \underline{memberId} & integer & ID của member tham gia Workspace. Khoá ngoại tham chiếu tới trường Id trong User. \\ 
-                                \hline
-                                \underline{workspaceId} & integer & ID của Workspace. Khoá ngoại tham chiếu tới trường Id trong Workspace. \\
-                                \hline
-                                joinedAt & timestamp & Thời gian người dùng tham gia Workspace \\
-                                \hline
-                                isDeleted & boolean & Đánh dấu người dùng đã rời khỏi Workspace hay chưa \\
-                                \hline
-                                permission & text & Quyền hạn của người dùng khi tham gia Workspace \\
-                                \hline
-                                leftAt & timestamp & Thời gian người dùng rời khỏi Workspace \\
-                                \hline
-                                isWorkspaceDeleted & boolean & Đánh dấu workspace đã bị xoá hay chưa \\
-                                \hline
-                        \end{tabular}
-                }
-                \caption{Thực thể Join Workspace}
-        \end{table}
-\end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/joinWorkspace_mapping.png}
-        \label{fig:Thực thể Join Workspace}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/workspace_mapping.png}
+%         \label{fig:Thực thể Workspace}
+% \end{figure}
 
 \subsubsection{Recent Opened Workspace: Quan hệ chỉnh sửa giữa người dùng và workspace}
 \begin{center}
@@ -230,11 +226,50 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Recent Opened Workspace}
         \end{table}  
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png}
-        \label{fig:Thực thể Recent Opened Workspace}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/recent_opened_workspace_mapping.png}
+%         \label{fig:Thực thể Recent Opened Workspace}
+% \end{figure}
+
+\subsubsection{Notification: Các thông báo của người dùng}
+\begin{center}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
+                        \hline
+                           Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                        \hline
+                        \underline{ID} & integer & ID của thông báo. Khoá chính \\ 
+                        \hline
+                        notificationType & varchar & Kiểu thông báo \\
+                        \hline
+                        createdAt & timestamp & Thời gian người dùng nhận được thông báo.\\
+                        \hline
+                        status & text & Trạng thái của thông báo, đã được chấp thuận hay đồng ý hoặc từ chối lời mời.\\
+                        \hline
+                        isDeleted & boolean & Đánh dấu thông báo bị xoá hay chưa \\
+                        \hline
+                        isStarred & boolean & Đánh dấu thông báo đã được đánh dấu ưu tiên hay chưa \\
+                        \hline
+                        workspaceId & integer & ID của workspace gửi thông báo đó. Khoá ngoại tham chiếu tới trường Id trong Workspace \\
+                        \hline
+                         isRead & boolean & Đánh dấu thông báo đã được đọc hay chưa \\
+                        \hline
+                         permission & text & permission của người nhận. \\
+                        \hline
+                         deletedAt & timestamp & Thời gian xoá request. \\
+                        \hline
+                \end{tabular}}
+                \caption{Thực thể Notification}
+        \end{table}
+\end{center}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png}
+%         \label{fig:Thực thể Notification}
+% \end{figure}
 
 \subsubsection{Request: Các yêu cầu trong hệ thống}
 \begin{center}
@@ -278,50 +313,63 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Request}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png}
-        \label{fig:Thực thể request}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/request_mapping.png}
+%         \label{fig:Thực thể request}
+% \end{figure}
 
-\subsubsection{Notification: Các thông báo của người dùng}
+\subsubsection{Feasibility: Mức độ khả thi của quy trình}
+\begin{center}
+        \begin{table}[H]
+                \def\arraystretch{1.5}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{ID} & integer & ID của mức độ khả thi. Khoá chính \\ 
+                                \hline
+                                process{\_}version{\_}version & integer & phiên bản của process chứa mức độ khả thi. Khoá ngoại tham chiếu tới trường version trong Process version \\
+                                \hline
+                                total{\_}value & double precision & Giá trị mức độ khả thi \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Feasibility}
+        \end{table}
+\end{center}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/feasibility_mapping.png}
+%         \label{fig:Thực thể Feasibility}
+% \end{figure}
+
+\subsubsection{Strategic Importance: Mức độ quan trọng chiến lược của quy trình}
 \begin{center}
         \begin{table}[H]
                 \def\arraystretch{2}%
                 \resizebox{\textwidth}{!}{
-                \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
-                        \hline
-                           Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                        \hline
-                        \underline{ID} & integer & ID của thông báo. Khoá chính \\ 
-                        \hline
-                        notificationType & varchar & Kiểu thông báo \\
-                        \hline
-                        createdAt & timestamp & Thời gian người dùng nhận được thông báo.\\
-                        \hline
-                        status & text & Trạng thái của thông báo, đã được chấp thuận hay đồng ý hoặc từ chối lời mời.\\
-                        \hline
-                        isDeleted & boolean & Đánh dấu thông báo bị xoá hay chưa \\
-                        \hline
-                        isStarred & boolean & Đánh dấu thông báo đã được đánh dấu ưu tiên hay chưa \\
-                        \hline
-                        workspaceId & integer & ID của workspace gửi thông báo đó. Khoá ngoại tham chiếu tới trường Id trong Workspace \\
-                        \hline
-                         isRead & boolean & Đánh dấu thông báo đã được đọc hay chưa \\
-                        \hline
-                         permission & text & permission của người nhận. \\
-                        \hline
-                         deletedAt & timestamp & Thời gian xoá request. \\
-                        \hline
-                \end{tabular}}
-                \caption{Thực thể Notification}
+                        \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{ID} & integer & ID của mức độ quan trọng chiến lược. Khoá chính \\ 
+                                \hline
+                                process{\_}version{\_}version & integer & phiên bản của process chứa mức độ quan trọng chiến lược. Khoá ngoại tham chiếu tới trường version trong Process version \\
+                                \hline
+                                total{\_}value & double precision & Giá trị mức độ quan trọng chiến lược \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Strategic Importance}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/notification_mapping.png}
-        \label{fig:Thực thể Notification}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/strategic_importance_mapping.png}
+%         \label{fig:Thực thể Strategic Importance}
+% \end{figure}
 
 \subsubsection{Process version: Phiên bản của quy trình}
 \begin{center}
@@ -354,11 +402,78 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Process Version}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/process_version_mapping.png}
-        \label{fig:Thực thể Process Version}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/process_version_mapping.png}
+%         \label{fig:Thực thể Process Version}
+% \end{figure}
+
+\subsubsection{Health: Sức khoẻ của quy trình}
+\begin{center}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{ID} & integer & ID của sức khoẻ. Khoá chính \\ 
+                                \hline
+                                process{\_}version{\_}version & integer & phiên bản của process chứa sức khoẻ. Khoá ngoại tham chiếu tới trường version trong Process version \\
+                                \hline
+                                current{\_}cycle{\_}time & double precision & Giá trị hiện tại của độ đo thời gian \\
+                                \hline
+                                current{\_}cost & double precision & Giá trị hiện tại của độ đo chi phí \\
+                                \hline
+                                current{\_}quality & double precision & Giá trị hiện tại của độ đo chất lượng \\
+                                \hline
+                                current{\_}flexibility & double precision & Giá trị hiện tại của độ đo sự linh hoạt \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Health}
+        \end{table}
+\end{center}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/health_mapping.png}
+%         \label{fig:Thực thể Health}
+% \end{figure}
+
+\subsubsection{Survey result: Kết quả khảo sát}
+\begin{center}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                        \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
+                                \hline
+                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                                \hline
+                                \underline{ID} & integer & ID của kết quả khảo sát. Khoá chính \\ 
+                                \hline
+                                survey{\_}id & integer & ID của bài khảo sát. Khoá ngoại tham chiếu tới trường ID trong Survey \\
+                                \hline
+                                ces{\_}score & double precision & Giá trị độ đo CES \\
+                                \hline
+                                nps{\_}score & double precision & Giá trị độ đo NPS \\
+                                \hline
+                                csat{\_}score & double precision & Giá trị độ đo CSAT \\
+                                \hline
+                                total{\_}score & double precision & Giá trị tổng của bài khảo sát \\
+                                \hline
+                                visibility & boolean & Đánh dấu kết quả survey có thể xem bởi những người dùng khác ngoài project owner không
+                                \\
+                                \hline
+                        \end{tabular}
+                }
+                \caption{Thực thể Survey Result}
+        \end{table}
+\end{center}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/survey_result_mapping.png}
+%         \label{fig:Thực thể Survey Result}
+% \end{figure}
 
 \subsubsection{Survey: Bài khảo sát}
 \begin{center}
@@ -406,135 +521,17 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                                 last{\_}saved & timestamp & Thời gian lưu bài khảo sát cuối cùng \\
                                 \hline
                                 incomplete{\_}response{\_}action & varchar & Hành động đối với những bài khảo sát đang làm dở của người dùng \\
+                                \hline
                         \end{tabular}
                 }
                 \caption{Thực thể Survey}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/survey_mapping.png}
-        \label{fig:Thực thể Survey}
-\end{figure}
-
-\subsubsection{Health: Sức khoẻ của quy trình}
-\begin{center}
-        \begin{table}[H]
-                \def\arraystretch{2}%
-                \resizebox{\textwidth}{!}{
-                        \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
-                                \hline
-                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                                \hline
-                                \underline{ID} & integer & ID của sức khoẻ. Khoá chính \\ 
-                                \hline
-                                process{\_}version{\_}version & integer & phiên bản của process chứa sức khoẻ. Khoá ngoại tham chiếu tới trường version trong Process version \\
-                                \hline
-                                current{\_}cycle{\_}time & double precision & Giá trị hiện tại của độ đo thời gian \\
-                                \hline
-                                current{\_}cost & double precision & Giá trị hiện tại của độ đo chi phí \\
-                                \hline
-                                current{\_}quality & double precision & Giá trị hiện tại của độ đo chất lượng \\
-                                \hline
-                                current{\_}flexibility & double precision & Giá trị hiện tại của độ đo sự linh hoạt \\
-                                \hline
-                        \end{tabular}
-                }
-                \caption{Thực thể Health}
-        \end{table}
-\end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/health_mapping.png}
-        \label{fig:Thực thể Health}
-\end{figure}
-
-\subsubsection{Strategic Importance: Mức độ quan trọng chiến lược của quy trình}
-\begin{center}
-        \begin{table}[H]
-                \def\arraystretch{2}%
-                \resizebox{\textwidth}{!}{
-                        \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
-                                \hline
-                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                                \hline
-                                \underline{ID} & integer & ID của mức độ quan trọng chiến lược. Khoá chính \\ 
-                                \hline
-                                process{\_}version{\_}version & integer & phiên bản của process chứa mức độ quan trọng chiến lược. Khoá ngoại tham chiếu tới trường version trong Process version \\
-                                \hline
-                                total{\_}value & double precision & Giá trị mức độ quan trọng chiến lược \\
-                                \hline
-                        \end{tabular}
-                }
-                \caption{Thực thể Strategic Importance}
-        \end{table}
-\end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/strategic_importance_mapping.png}
-        \label{fig:Thực thể Strategic Importance}
-\end{figure}
-
-\subsubsection{Feasibility: Mức độ khả thi của quy trình}
-\begin{center}
-        \begin{table}[H]
-                \def\arraystretch{2}%
-                \resizebox{\textwidth}{!}{
-                        \begin{tabular}{ |p{4cm} |p{3cm} |p{7cm}|} 
-                                \hline
-                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                                \hline
-                                \underline{ID} & integer & ID của mức độ khả thi. Khoá chính \\ 
-                                \hline
-                                process{\_}version{\_}version & integer & phiên bản của process chứa mức độ khả thi. Khoá ngoại tham chiếu tới trường version trong Process version \\
-                                \hline
-                                total{\_}value & double precision & Giá trị mức độ khả thi \\
-                                \hline
-                        \end{tabular}
-                }
-                \caption{Thực thể Feasibility}
-        \end{table}
-\end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/feasibility_mapping.png}
-        \label{fig:Thực thể Feasibility}
-\end{figure}
-
-\subsubsection{Survey result: Kết quả khảo sát}
-\begin{center}
-        \begin{table}[H]
-                \def\arraystretch{2}%
-                \resizebox{\textwidth}{!}{
-                        \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
-                                \hline
-                                Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                                \hline
-                                \underline{ID} & integer & ID của kết quả khảo sát. Khoá chính \\ 
-                                \hline
-                                survey{\_}id & integer & ID của bài khảo sát. Khoá ngoại tham chiếu tới trường ID trong Survey \\
-                                \hline
-                                ces{\_}score & double precision & Giá trị độ đo CES \\
-                                \hline
-                                nps{\_}score & double precision & Giá trị độ đo NPS \\
-                                \hline
-                                csat{\_}score & double precision & Giá trị độ đo CSAT \\
-                                \hline
-                                total{\_}score & double precision & Giá trị tổng của bài khảo sát \\
-                                \hline
-                                visibility & boolean & Đánh dấu kết quả survey có thể xem bởi những người dùng khác ngoài project owner không
-                                \\
-                                \hline
-                        \end{tabular}
-                }
-                \caption{Thực thể Survey Result}
-        \end{table}
-\end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/survey_result_mapping.png}
-        \label{fig:Thực thể Survey Result}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/survey_mapping.png}
+%         \label{fig:Thực thể Survey}
+% \end{figure}
 
 \subsubsection{Response: Phản hồi của người dùng}
 \begin{center}
@@ -562,11 +559,11 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Response}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/response_mapping.png}
-        \label{fig:Thực thể Response}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/response_mapping.png}
+%         \label{fig:Thực thể Response}
+% \end{figure}
 
 \subsubsection{Respondent: Người trả lời khảo sát}
 \begin{center}
@@ -588,11 +585,11 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Respondent}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/respondent_mapping.png}
-        \label{fig:Thực thể Respondent}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.3\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/respondent_mapping.png}
+%         \label{fig:Thực thể Respondent}
+% \end{figure}
 
 \subsubsection{Answer: Câu trả lời của người dùng trong khảo sát}
 \begin{center}
@@ -616,11 +613,11 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Answer}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/answer_mapping.png}
-        \label{fig:Thực thể Answer}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.3\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/answer_mapping.png}
+%         \label{fig:Thực thể Answer}
+% \end{figure}
 
 \subsubsection{Question in section: Câu hỏi trong một phần của khảo sát}
 \begin{center}
@@ -652,11 +649,11 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Question in section}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/question_in_section_mapping.png}
-        \label{fig:Thực thể Question in section}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/question_in_section_mapping.png}
+%         \label{fig:Thực thể Question in section}
+% \end{figure}
 
 \subsubsection{Section in survey: Phần của khảo sát}
 \begin{center}
@@ -682,11 +679,11 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Section in survey}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/section_in_survey_mapping.png}
-        \label{fig:Thực thể Section in survey}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/section_in_survey_mapping.png}
+%         \label{fig:Thực thể Section in survey}
+% \end{figure}
 
 \subsubsection{Question option: Câu trả lời của câu hỏi trong khảo sát}
 \begin{center}
@@ -713,11 +710,11 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Question option}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/question_option_mapping.png}
-        \label{fig:Thực thể Question option}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/question_option_mapping.png}
+%         \label{fig:Thực thể Question option}
+% \end{figure}
 
 \subsubsection{Question option Section mapping: Liên kết giữa câu hỏi và phần của khảo sát với câu trả lời của câu hỏi đó}
 \begin{center}
@@ -738,11 +735,34 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Question option Section mapping}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/question_option_section_mapping.png}
-        \label{fig:Thực thể Question option Section mapping}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/question_option_section_mapping.png}
+%         \label{fig:Thực thể Question option Section mapping}
+% \end{figure}
+
+\subsubsection{Survey recipient: Người nhận khảo sát}
+\begin{center}
+        \begin{table}[H]
+                \def\arraystretch{2}%
+                \resizebox{\textwidth}{!}{
+                \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
+                        \hline
+                        Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
+                        \hline
+                        \underline{ID} & integer & ID của người nhận khảo sát. Khoá chính \\ 
+                        \hline
+                        email & varchar & Email của người nhận \\
+                        \hline
+                \end{tabular}}
+                \caption{Thực thể Survey Recipient}
+        \end{table}
+\end{center}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.1\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/survey_recipient_mapping.png}
+%         \label{fig:Thực thể Survey Recipient}
+% \end{figure}
 
 \subsubsection{Question: Câu hỏi trong hệ thống}
 \begin{center}
@@ -775,34 +795,11 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Question}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/question_mapping.png}
-        \label{fig:Thực thể Question}
-\end{figure}
-
-\subsubsection{Survey recipient: Người nhận khảo sát}
-\begin{center}
-        \begin{table}[H]
-                \def\arraystretch{2}%
-                \resizebox{\textwidth}{!}{
-                \begin{tabular}{ |p{3cm} |p{3cm} |p{9cm}|} 
-                        \hline
-                        Thuộc tính & Kiểu & Mô tả \\ [0.5ex] 
-                        \hline
-                        \underline{ID} & integer & ID của người nhận khảo sát. Khoá chính \\ 
-                        \hline
-                        email & varchar & Email của người nhận \\
-                        \hline
-                \end{tabular}}
-                \caption{Thực thể Survey Recipient}
-        \end{table}
-\end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=0.25\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/survey_recipient_mapping.png}
-        \label{fig:Thực thể Survey Recipient}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/question_mapping.png}
+%         \label{fig:Thực thể Question}
+% \end{figure}
 
 \subsubsection{Send survey: Gửi khảo sát cho người nhận khảo sát}
 \begin{center}
@@ -821,8 +818,8 @@ quan hệ như sau, và một số quan hệ cũng có những thuộc tính ri�
                 \caption{Thực thể Send Survey}
         \end{table}
 \end{center}
-\begin{figure}[H]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/send_survey_mapping.png}
-        \label{fig:Thực thể Send Survey}
-\end{figure}
+% \begin{figure}[H]
+%         \centering
+%         \includegraphics[width=0.3\textwidth]{Content/Phân tích và thiết kế hệ thống/images/ERD_mapping/send_survey_mapping.png}
+%         \label{fig:Thực thể Send Survey}
+% \end{figure}

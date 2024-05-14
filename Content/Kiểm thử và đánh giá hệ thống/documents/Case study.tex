@@ -2,7 +2,9 @@ Nhóm quyết định chọn 2 quy trình nghiệp vụ, đó là quy trình đ�
 kết quả tính toán được sử dụng cơ sở lý thuyết được trình bày ở trên, so với kết quả thực tế của hệ thống.
 \begin{center}
     \begin{table}[H]
-        \begin{tabular}{|p{2cm}|p{12cm}|}
+        \centering
+        \def\arraystretch{1.5}%
+        \begin{tabular}{|C{1cm}|p{13cm}|}
         \hline
         \textbf{STT} & \multicolumn{1}{c|}{\textbf{Câu hỏi}} \\ \hline
         1 & Do you use any services or products provided by this process? \\ \hline
@@ -30,70 +32,266 @@ kết quả tính toán được sử dụng cơ sở lý thuyết được trì
 chúng tôi sẽ lấy dữ liệu từ 10 người dùng khác nhau. Và để kiểm chứng kết quả, chúng tôi sẽ chỉ lấy dữ liệu ở những loại câu hỏi được sử dụng để 
 tính giá trị các độ đo cũng như kết quả cuối cùng của bài khảo sát. Cụ thể, chúng tôi sẽ quan tâm dữ liệu ở các câu:
 \begin{enumerate}
-    \item CES: 3, 4
-    \item CSAT: 8, 9, 10, 11, 12, 13
-    \item NPS: 15
-    \item Câu 1: được dùng để phân loại nhóm người dùng.
+    \item Loại câu hỏi rẽ nhánh: câu 1
+    \item Loại câu hỏi CES: câu 3, câu 4
+    \item Loại câu hỏi CSAT: câu 8, câu 9, câu 10, câu 11, câu 12, câu 13
+    \item Loại câu hỏi NPS: 15
 \end{enumerate}
 
 \subsection{Quy trình đổi vé máy bay}
 
 Ở đây, để dễ dàng cho việc tính toán bằng tay, chúng tôi thiết lập trọng số cho mỗi câu hỏi trong mỗi nhóm độ đo là như nhau. Bên dưới là dữ liệu thu thập được từ bảng khảo sát:
-\begin{center}
+
 \begin{table}[H]
-    \begin{tabular}{|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
-        \hline
-        \textbf{Người dùng (STT)} & \textbf{Nhóm} & \textbf{Câu 3} & \textbf{Câu 4} & \textbf{Câu 8} & \textbf{Câu 9} & \textbf{Câu 10} & \multicolumn{1}{c|}{\textbf{Câu 11}} & \multicolumn{1}{c|}{\textbf{Câu 12}} & \multicolumn{1}{c|}{\textbf{Câu 13}} & \textbf{Câu 15} \\ \hline
-        \textbf{1} & user & 6 & 5 & 7 & 4 & 3 &  &  &  & 8 \\ \hline
-        \textbf{2} & guest & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{7} & \multicolumn{1}{c|}{6} & \multicolumn{1}{c|}{4} & 9 \\ \hline
-        \textbf{3} & guest & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{6} & \multicolumn{1}{c|}{7} & \multicolumn{1}{c|}{5} & 6 \\ \hline
-        \textbf{4} & user & 7 & 4 & 2 & 4 & 5 &  &  &  & 5 \\ \hline
-        \textbf{5} & guest & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{5} & \multicolumn{1}{c|}{7} & \multicolumn{1}{c|}{7} & 10 \\ \hline
-        \textbf{6} & user & 7 & 7 & 5 & 6 & 4 &  &  &  & 9 \\ \hline
-        \textbf{7} & user & 6 & 6 & 7 & 2 & 7 &  &  &  & 8 \\ \hline
-        \textbf{8} & user & 5 & 4 & 5 & 3 & 5 &  &  &  & 7 \\ \hline
-        \textbf{9} & user & 6 & 7 & 6 & 7 & 4 &  &  &  & 9 \\ \hline
-        \textbf{10} & guest & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{7} & \multicolumn{1}{c|}{5} & \multicolumn{1}{c|}{6} & 8 \\ \hline
-        \vspace{0.5cm}
+    \def\arraystretch{1.5}%
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|C{1cm}|p{1cm}|C{1cm}|C{1cm}|C{1cm}|C{1cm}|C{1.2cm}|C{1.2cm}|C{1.2cm}|C{1.2cm}|C{1.2cm}|}
+            \hline
+                \textbf{Người dùng} & 
+                \textbf{Nhóm} & 
+                \textbf{Câu 3} & 
+                \textbf{Câu 4} & 
+                \textbf{Câu 8} & 
+                \textbf{Câu 9} & 
+                \textbf{Câu 10} &
+                \textbf{Câu 11} &
+                \textbf{Câu 12} &
+                \textbf{Câu 13} &
+                \textbf{Câu 15} 
+            \\ \hline
+                \textbf{1} &
+                user &
+                6 &
+                5 &
+                7 &
+                4 &
+                3 &
+                &
+                &
+                &
+                8 
+            \\ \hline
+                \textbf{2} &
+                guest &
+                &
+                &
+                &
+                &
+                &
+                7 &
+                6 &
+                4 &
+                9 
+            \\ \hline
+                \textbf{3} &
+                guest &
+                &
+                &
+                &
+                &
+                &
+                6 &
+                7 &
+                5 &
+                6 
+            \\ \hline
+                \textbf{4} &
+                user &
+                7 &
+                4 &
+                2 &
+                4 &
+                5 &
+                &
+                &
+                &
+                5 
+            \\ \hline
+                \textbf{5} &
+                guest &
+                &
+                &
+                &
+                &
+                &
+                5 &
+                7 &
+                7 &
+                10 
+            \\ \hline
+                \textbf{6} &
+                user &
+                7 &
+                7 &
+                5 &
+                6 &
+                4 &
+                &
+                &
+                &
+                9 
+            \\ \hline
+                \textbf{7} &
+                user &
+                6 &
+                6 &
+                7 &
+                2 &
+                7 &
+                &
+                &
+                &
+                8 
+            \\ \hline
+                \textbf{8} &
+                user &
+                5 &
+                4 &
+                5 &
+                3 &
+                5 &
+                &
+                &
+                &
+                7 
+            \\ \hline
+                \textbf{9} &
+                user &
+                6 &
+                7 &
+                6 &
+                7 &
+                4 &
+                &
+                &
+                &
+                9 
+            \\ \hline
+                \textbf{10} &
+                guest &
+                &
+                &
+                &
+                &
+                &
+                7 &
+                5 &
+                6 &
+                8 
+            \\ \hline
         \end{tabular}
-        \caption{Bảng chi tiết lựa chọn của người dùng cho mỗi câu hỏi}
-    \end{table}
-\end{center}
+    }
+    \caption{Bảng chi tiết lựa chọn của người dùng cho mỗi câu hỏi}
+\end{table}
 Như vậy, theo như lý thuyết về các độ đo trong bảng khảo sát, ta có thể tính toán được các biến số cần để tinh ra giá trị cuối cùng của mỗi độ đo.
 Nhắc lại, số người đồng ý với câu hỏi (CES) hay số người hài lòng (CSAT) được tính khi người đó cho số điểm nằm trong khoảng [5, 7] cho câu hỏi CES 
 hoặc CSAT. Số người thuộc nhóm Promoters khi họ cho điểm cho câu hỏi NPS thuộc tập giá trị {9, 10} và thuộc nhóm Detractors khi họ cho điểm cho câu hỏi 
 NPS thuộc tập giá trị \{0, 6\}.
 \begin{table}[H]
-    \begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
-    \hline
-    \textbf{Câu hỏi} & \textbf{\begin{tabular}[c]{@{}c@{}}Loại \\ câu hỏi\end{tabular}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Số người \\ đồng \\ ý với \\ câu hỏi \\ (CES)\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}c@{}}Số người \\ hài lòng \\ (CSAT)\end{tabular}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Số người \\ thuộc \\ nhóm \\ Promoters\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Số người \\ thuộc \\ nhóm \\ Detractors\end{tabular}}} & \textbf{Điểm} \\ \hline
-    \textbf{3} & CES & \multicolumn{1}{c|}{6} & \multicolumn{1}{l|}{} &  &  & 0.6 \\ \hline
-    \textbf{4} & CES & \multicolumn{1}{c|}{4} & \multicolumn{1}{l|}{} &  &  & 0.4 \\ \hline
-    \textbf{8} & CSAT &  & 5 &  &  & 0.5 \\ \hline
-    \textbf{9} & CSAT &  & 2 &  &  & 0.2 \\ \hline
-    \textbf{10} & CSAT &  & 3 &  &  & 0.3 \\ \hline
-    \textbf{11} & CSAT &  & 4 &  &  & 0.4 \\ \hline
-    \textbf{12} & CSAT &  & 4 &  &  & 0.4 \\ \hline
-    \textbf{13} & CSAT &  & 3 &  &  & 0.3 \\ \hline
-    \textbf{15} & NPS &  & \multicolumn{1}{l|}{} & \multicolumn{1}{c|}{4} & \multicolumn{1}{c|}{2} & 0.2 \\ \hline
-    \vspace{0.5cm}
-    \end{tabular}
+    \def\arraystretch{1.5}%
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|C{1cm}|C{1cm}|C{2.5cm}|C{2.75cm}|C{2.75cm}|C{2.75cm}|C{1cm}|}
+        \hline
+        \textbf{Câu hỏi} &
+        \textbf{Phân loại} &
+        \textbf{Số người đồng ý với câu hỏi (CES)} &
+        \textbf{Số người hài lòng (CSAT)} &
+        \textbf{Số người thuộc nhóm Promoters} &
+        \textbf{Số người thuộc nhóm Detractors} &
+        \textbf{Điểm}
+        \\ \hline
+            \textbf{3} &
+            CES &
+            \multicolumn{1}{c|}{6} &
+            \multicolumn{1}{l|}{} &
+            &
+            &
+            0.6 
+        \\ \hline
+            \textbf{4} &
+            CES &
+            \multicolumn{1}{c|}{4} &
+            \multicolumn{1}{l|}{} &
+            &
+            &
+            0.4 
+        \\ \hline
+            \textbf{8} &
+            CSAT &
+            &
+            5 &
+            &
+            &
+            0.5 
+        \\ \hline
+            \textbf{9} &
+            CSAT &
+            &
+            2 &
+            &
+            &
+            0.2 
+        \\ \hline
+            \textbf{10} &
+            CSAT &
+            &
+            3 &
+            &
+            &
+            0.3 
+        \\ \hline
+            \textbf{11} &
+            CSAT &
+            &
+            4 &
+            &
+            &
+            0.4 
+        \\ \hline
+            \textbf{12} &
+            CSAT &
+            &
+            4 &
+            &
+            &
+            0.4 
+        \\ \hline
+            \textbf{13} &
+            CSAT &
+            &
+            3 &
+            &
+            &
+            0.3 
+        \\ \hline
+            \textbf{15} &
+            NPS &
+            &
+            \multicolumn{1}{l|}{} &
+            \multicolumn{1}{c|}{4} &
+            \multicolumn{1}{c|}{2} &
+            0.2 
+        \\ \hline
+        \end{tabular}
+    }
     \caption{Bảng kết quả tính toán mỗi câu hỏi}
 \end{table}
 Mỗi câu hỏi đều có trọng số như nhau, và mỗi độ đo đều có trọng số như nhau trong bảng khảo sát, như vậy ta có điểm số của từng độ đo và của bài khảo sát:
-\begin{center}
-    \begin{table}[H]
-        \begin{tabular}{|c|c|}
-        \hline
-        \textbf{Độ đo} & \textbf{Điểm} \\ \hline
-        \textbf{CES} & 0.5 \\ \hline
-        \textbf{CSAT} & 0.35 \\ \hline
-        \textbf{NPS} & 0.2 \\ \hline
-        \end{tabular}
-        \vspace{0.5cm}
-        \caption{Bảng kết quả cuối cùng của bài khảo sát}
-        \end{table}
-\end{center}
+
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|C{2.2cm}|}
+    \hline
+    \textbf{Độ đo} & \textbf{Điểm} & \textbf{Độ đo} & \textbf{Điểm} & \textbf{Độ đo} & \textbf{Điểm} \\ \hline
+    CES            & 0.5           & CSAT           & 0.35          & NPS            & 0.2           \\ \hline
+    \end{tabular}%
+    }
+    \caption{Bảng kết quả tổng hợp của khảo sát}
+\end{table}
+
 Như vậy, ta tính được điểm tổng của bài khảo sát là 0.35.
 Đối chiếu với kết quả tính được từ hệ thống như sau:
 \begin{center}
