@@ -1,5 +1,11 @@
 \section{Kết quả đạt được và điểm hạn chế}
-Đối với đề tài này chúng tôi đã đạt được một số kết quả nhất định. Thứ nhất, chúng tôi đã hiện thực mở rộng không gian quản lý các dự án và các quy trình nghiệp vụ, cho phép người dùng chia sẻ không gian để mở rộng và cộng tác với nhiều thành viên khác trong hệ thống. Thứ hai, chúng tôi đã hiện thực và tích hợp tính năng khảo sát vào việc thiết kế mô hình quy trình nghiệp vụ, bây giờ người dùng không chỉ xây dựng mô hình quy trình nghiệp vụ mà còn có thể tham gia tùy biến khảo sát để thu thập thêm góc nhìn từ người tham gia quy trình hoặc người sử dụng sản phẩm của quy trình tạo ra. Thứ ba, chúng tôi đã hiện thực danh mục quy trình nghiệp vụ (process portfolio) cho mỗi không gian làm việc (workspace), danh mục quy trình cho phép người dùng thu thập cũng như điều chỉnh thông tin một cách tổng quan về toàn bộ những phiên bản quy trình nghiệp vụ đang hoạt động trong hệ thống; danh mục hỗ trợ lược đồ trực quan hóa mức độ ưu tiên giữa các quy trình dựa trên những tiêu chí mà hệ thống đề xuất. Qua đó, chúng tôi đã cung cấp một hệ thống quản lý quy trình nghiệp vụ mở rộng hơn về phạm vi quản lý, phạm vi cộng tác, cũng như cung cấp thêm những công cụ hỗ trợ người dùng trong việc đánh giá quy trình nghiệp vụ.
+Hệ thống BPSky đã trải qua hai giai đoạn phát triển chính. Trong giai đoạn trước đó, hệ thống tập trung vào cung cấp cho người dùng bộ công cụ cho phép chỉnh sửa, thiết kế quy trình nghiệp vụ dưới dạng mô hình thông qua ngôn ngữ mô hình hóa BPMN. Ngoài ra, hệ thống cũng đã thành công phát triển khung giải thuật và hiện thực tính năng cho phép người dùng đánh giá chất lượng quy trình một cách tự động. Tuy nhiên, những yếu tố như phạm vi quản lý vẫn có thể được cải tiến thêm, thay vì chỉ quản lý quy trình trong không gian làm việc của từng cá nhân thì chúng tôi mong muốn tạo một không gian chung cho phép nhiều người tham gia chia sẻ; ngoài ra tính khách quan của kết quả đánh giá chất lượng vẫn còn có phần hạn chế, hệ thống tính toán dựa trên mô hình được thiết kế nên sẽ là thiếu sót nếu quyết định chất lượng của quy trình là tốt hay chưa. Vì vậy trong giai đoạn phát triển này, hệ thống đã tập trung cải tiến 3 yếu tố chính:
+\begin{enumerate}
+    \item Chúng tôi đã hiện thực mở rộng không gian quản lý các dự án và các quy trình nghiệp vụ, cho phép người dùng chia sẻ không gian để mở rộng và cộng tác với nhiều thành viên khác trong hệ thống. Chủ sở hữu không gian làm việc chung giờ đây có thể quản lý thành viên cũng như xử lý được các yêu cầu của thành viên gửi tới liên quan tới phân quyền và chia sẻ đến thành viên khác ngoài không gian chung.
+    \item Chúng tôi đã hiện thực và tích hợp tính năng khảo sát vào việc thiết kế mô hình quy trình nghiệp vụ, bây giờ người dùng không chỉ xây dựng mô hình quy trình nghiệp vụ mà còn có thể tham gia tùy biến khảo sát để thu thập thêm góc nhìn từ người tham gia quy trình hoặc người sử dụng sản phẩm của quy trình tạo ra.
+    \item Chúng tôi đã hiện thực danh mục quy trình nghiệp vụ (process portfolio) cho mỗi không gian làm việc (workspace), danh mục quy trình cho phép người dùng thu thập cũng như điều chỉnh thông tin một cách tổng quan về toàn bộ những phiên bản quy trình nghiệp vụ đang hoạt động trong hệ thống; danh mục hỗ trợ lược đồ trực quan hóa mức độ ưu tiên giữa các quy trình dựa trên những tiêu chí mà hệ thống đề xuất.
+\end{enumerate}
+Qua đó, chúng tôi đã cung cấp một hệ thống quản lý quy trình nghiệp vụ mở rộng hơn về phạm vi quản lý, phạm vi cộng tác, cũng như cung cấp thêm những công cụ hỗ trợ người dùng trong việc đánh giá quy trình nghiệp vụ.
 \par
 Tuy nhiên, đồ án tốt nghiệp vẫn còn còn một số hạn chế. Thứ nhất, hệ thống thông báo chỉ mới có hai loại thông báo cơ bản 
 là thông báo về lời mời tham gia Workspace và thông báo trạng thái của yêu cầu thay đổi quyền hạn của bản thân người dùng 
@@ -18,95 +24,3 @@ theo các định dạng pdf, csv, bộ lọc chi tiết kết quả thực hi�
     \item Tổ chức Workspace, Project chặt chẽ hơn, phát triển thêm những tính năng quản trị.
     \item Nghiên cứu, mở rộng thêm các hướng tiếp cận để đánh giá quy trình nghiệp vụ khách quan và chính xác hơn.
 \end{itemize}
-
-% \section{Kế hoạch làm việc dự kiến cho giai đoạn luận văn}
-% Dựa vào những hướng phát triển đã đề ra, chúng tôi vạch ra kế hoạch làm việc dự kiến cho giai đoạn luận văn như sau:
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=\linewidth]{Content/Kết luận/images/graduteschedule.png}
-%     \vspace{0.5cm}
-%     \caption{Biểu đồ Gantt cho kế hoạch làm việc dự kiến cho giai đoạn luận văn}
-%     \label{fig:Biểu đồ Gantt cho kế hoạch làm việc dự kiến cho giai đoạn luận văn}
-% \end{figure}
-% Mô tả chi tiết cho kế hoạch làm việc ở giai đoạn luận văn sẽ được trình bày ở bảng bên dưới.
-
-% \newpage
-% \begin{table}[H]
-%     \def\arraystretch{2}
-%     \resizebox{\textwidth}{!}{
-%     \begin{tabular}{|p{11cm}|p{1.75cm}|p{1.5cm}|p{1.5cm}|}
-%       \hline
-%       \textbf{Chi tiết công việc} &
-%         \multicolumn{1}{l|}{\textbf{Phân công}} &
-%         \textbf{Ngày bắt đầu} &
-%         \textbf{Ngày kết thúc} \\ \hline
-%       Kiểm tra những chức năng đã được hiện thực ở đồ án trước        & Hiếu, Vỹ & 08/01/24 & 11/01/24 \\ \hline
-%       Fix những lỗi liên quan tới FE                                  & Hiếu     & 12/01/23 & 15/01/23 \\ \hline
-%       Fix những lỗi liên quan tới BE                                  & Vỹ       & 15/01/24 & 18/01/24 \\ \hline
-%       Kiểm thử hoạt động của hệ thống dựa trên checklist              & Hiếu, Vỹ & 18/01/24 & 21/01/24 \\ \hline
-%       Tìm hiểu về requirements (functional và non-functional) của tính năng Survey &
-%         Hiếu, Vỹ &
-%         22/01/24 &
-%         24/01/24 \\ \hline
-%       Tìm hiểu về requirements (functional và non-functional) của tính năng Process Portfolio &
-%         Hiếu, Vỹ &
-%         25/01/24 &
-%         27/01/24 \\ \hline
-%       Tìm hiểu về requirements (functional và non-functional) của tính năng Template Suggestion &
-%         Hiếu, Vỹ &
-%         28/01/24 &
-%         30/01/24 \\ \hline
-%       Tìm hiểu về lý thuyết đánh giá External Quality of Business process &
-%         Hiếu, Vỹ &
-%         24/02/24 &
-%         03/03/24 \\ \hline
-%       Hiện thực diagram liên quan đến chức năng Survey                & Hiếu, Vỹ & 31/01/24 & 04/02/24 \\ \hline
-%       Hiện thực diagram liên quan đến chức năng Process Portfolio &
-%         Hiếu, Vỹ &
-%         04/02/24 &
-%         08/02/24 \\ \hline
-%       Hiện thực diagram liên quan đến chức năng Template Suggestion &
-%         Hiếu, Vỹ &
-%         08/02/24 &
-%         12/02/24 \\ \hline
-%       Hoàn thiện mockup - Lên ý tưởng giao diện                       & Hiếu, Vỹ & 19/02/24 & 26/02/24 \\ \hline
-%       Hiện thực mockup Survey                                         & Hiếu, Vỹ & 19/02/24 & 21/02/24 \\ \hline
-%       Hiện thực mock up: Process Portfolio                            & Hiếu, Vỹ & 22/02/24 & 24/02/24 \\ \hline
-%       Hiện thực mock up: Template Suggestion                          & Hiếu, Vỹ & 25/02/24 & 26/02/24 \\ \hline
-%       Đánh giá thiết kế giao diện                                     & Hiếu, Vỹ & 27/02/24 & 28/02/24 \\ \hline
-%       Hiện thực giao diện cho chức năng Survey                        & Hiếu     & 27/02/24 & 03/03/24 \\ \hline
-%       Hiện thực giao diện cho chức năng Process Portfolio             & Hiếu     & 03/03/24 & 09/03/24 \\ \hline
-%       Hiện thực giao diện cho chức năng Template Suggestion           & Hiếu     & 09/03/24 & 15/03/24 \\ \hline
-%       Hiện thực tính năng cho giao diện Survey                        & Vỹ       & 18/02/24 & 27/02/24 \\ \hline
-%       Hiện thực tính năng liên quan đến giao diện Process Portfolio   & Vỹ       & 26/02/24 & 02/03/24 \\ \hline
-%       Hiện thực tính năng liên quan đến giao diện Template Suggestion & Vỹ       & 23/02/24 & 08/03/24 \\ \hline
-%       Hoàn thiện tính năng Quality Evaluation                         & Vỹ       & 03/03/24 & 15/03/24 \\ \hline
-%     \end{tabular}}
-%     \vspace{0.5cm}
-%     \caption{Bảng kế hoạch công việc chi tiết cho giai đoạn luận văn}
-% \end{table}
-
-% \begin{table}[H]
-%     \def\arraystretch{2}
-%     \resizebox{\textwidth}{!}{
-%     \begin{tabular}{|p{11cm}|p{1.75cm}|p{1.5cm}|p{1.5cm}|}
-%       \hline
-%       \textbf{Chi tiết công việc} &
-%         \multicolumn{1}{l|}{\textbf{Phân công}} &
-%         \textbf{Ngày bắt đầu} &
-%         \textbf{Ngày kết thúc} \\ \hline
-%       Kiểm tra và đánh giá hệ thống                                   & Hiếu, Vỹ & 16/03/24 & 22/03/24 \\ \hline
-%       Triển khai hệ thống                                             & Hiếu, Vỹ & 23/03/24 & 07/04/24 \\ \hline
-%       Lên outline cho báo cáo và slide thuyết trình                   & Hiếu     & 08/04/24 & 14/04/24 \\ \hline
-%       Hoàn thành phụ lục Tài liệu tham khảo                           & Vỹ       & 08/04/24 & 14/04/24 \\ \hline
-%       Hoàn thành phụ lục Hình ảnh/Bảng                                & Vỹ       & 08/04/24 & 14/04/24 \\ \hline
-%       Kiểm tra tính sẵn sàng của những nội dung được hiện thực trong báo cáo &
-%         Hiếu, Vỹ &
-%         15/04/24 &
-%         21/04/24 \\ \hline
-%       Hoàn thiện nội dung báo cáo                                     & Hiếu, Vỹ & 15/04/24 & 21/04/24 \\ \hline
-%       Hoàn chỉnh slide thuyết trình                                   & Hiếu, Vỹ & 15/04/24 & 21/04/24 \\ \hline
-%     \end{tabular}}
-%     \vspace{0.5cm}
-%     \caption{Bảng kế hoạch công việc chi tiết cho giai đoạn luận văn - tiếp theo}
-% \end{table}
