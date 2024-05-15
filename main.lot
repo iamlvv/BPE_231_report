@@ -25,34 +25,34 @@
 \contentsline {table}{\numberline {3.15}{\ignorespaces Use-case scenario cho use-case Chỉnh sửa giá trị thang đo của workspace}}{54}{table.caption.53}%
 \contentsline {table}{\numberline {3.16}{\ignorespaces Thông tin về yêu cầu đầu vào của use-case Chỉnh sửa giá trị thang đo của workspace}}{55}{table.caption.54}%
 \contentsline {table}{\numberline {3.17}{\ignorespaces Use-case scenario cho use-case Khởi tạo process portfolio}}{56}{table.caption.55}%
-\contentsline {table}{\numberline {3.18}{\ignorespaces Thực thể User}}{86}{table.caption.99}%
-\contentsline {table}{\numberline {3.19}{\ignorespaces Thực thể Project}}{87}{table.caption.100}%
-\contentsline {table}{\numberline {3.20}{\ignorespaces Thực thể Join Workspace}}{87}{table.caption.101}%
-\contentsline {table}{\numberline {3.21}{\ignorespaces Thực thể Workspace}}{88}{table.caption.102}%
-\contentsline {table}{\numberline {3.22}{\ignorespaces Thực thể Recent Opened Workspace}}{89}{table.caption.103}%
-\contentsline {table}{\numberline {3.23}{\ignorespaces Thực thể Notification}}{89}{table.caption.104}%
-\contentsline {table}{\numberline {3.24}{\ignorespaces Thực thể Request}}{90}{table.caption.105}%
-\contentsline {table}{\numberline {3.25}{\ignorespaces Thực thể Feasibility}}{90}{table.caption.106}%
-\contentsline {table}{\numberline {3.26}{\ignorespaces Thực thể Strategic Importance}}{91}{table.caption.107}%
-\contentsline {table}{\numberline {3.27}{\ignorespaces Thực thể Process Version}}{91}{table.caption.108}%
-\contentsline {table}{\numberline {3.28}{\ignorespaces Thực thể Health}}{92}{table.caption.109}%
-\contentsline {table}{\numberline {3.29}{\ignorespaces Thực thể Survey Result}}{92}{table.caption.110}%
-\contentsline {table}{\numberline {3.30}{\ignorespaces Thực thể Survey}}{93}{table.caption.111}%
-\contentsline {table}{\numberline {3.31}{\ignorespaces Thực thể Response}}{94}{table.caption.112}%
-\contentsline {table}{\numberline {3.32}{\ignorespaces Thực thể Respondent}}{94}{table.caption.113}%
-\contentsline {table}{\numberline {3.33}{\ignorespaces Thực thể Answer}}{94}{table.caption.114}%
-\contentsline {table}{\numberline {3.34}{\ignorespaces Thực thể Question in section}}{95}{table.caption.115}%
-\contentsline {table}{\numberline {3.35}{\ignorespaces Thực thể Section in survey}}{95}{table.caption.116}%
-\contentsline {table}{\numberline {3.36}{\ignorespaces Thực thể Question option}}{96}{table.caption.117}%
-\contentsline {table}{\numberline {3.37}{\ignorespaces Thực thể Question option Section mapping}}{96}{table.caption.118}%
-\contentsline {table}{\numberline {3.38}{\ignorespaces Thực thể Survey Recipient}}{96}{table.caption.119}%
-\contentsline {table}{\numberline {3.39}{\ignorespaces Thực thể Question}}{97}{table.caption.120}%
-\contentsline {table}{\numberline {3.40}{\ignorespaces Thực thể Send Survey}}{97}{table.caption.121}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Thực thể User}}{84}{table.caption.99}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Thực thể Project}}{85}{table.caption.100}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces Thực thể Join Workspace}}{85}{table.caption.101}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces Thực thể Workspace}}{86}{table.caption.102}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces Thực thể Recent Opened Workspace}}{87}{table.caption.103}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces Thực thể Notification}}{87}{table.caption.104}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces Thực thể Request}}{88}{table.caption.105}%
+\contentsline {table}{\numberline {3.25}{\ignorespaces Thực thể Feasibility}}{88}{table.caption.106}%
+\contentsline {table}{\numberline {3.26}{\ignorespaces Thực thể Strategic Importance}}{89}{table.caption.107}%
+\contentsline {table}{\numberline {3.27}{\ignorespaces Thực thể Process Version}}{89}{table.caption.108}%
+\contentsline {table}{\numberline {3.28}{\ignorespaces Thực thể Health}}{90}{table.caption.109}%
+\contentsline {table}{\numberline {3.29}{\ignorespaces Thực thể Survey Result}}{90}{table.caption.110}%
+\contentsline {table}{\numberline {3.30}{\ignorespaces Thực thể Survey}}{91}{table.caption.111}%
+\contentsline {table}{\numberline {3.31}{\ignorespaces Thực thể Response}}{92}{table.caption.112}%
+\contentsline {table}{\numberline {3.32}{\ignorespaces Thực thể Respondent}}{92}{table.caption.113}%
+\contentsline {table}{\numberline {3.33}{\ignorespaces Thực thể Answer}}{92}{table.caption.114}%
+\contentsline {table}{\numberline {3.34}{\ignorespaces Thực thể Question in section}}{93}{table.caption.115}%
+\contentsline {table}{\numberline {3.35}{\ignorespaces Thực thể Section in survey}}{93}{table.caption.116}%
+\contentsline {table}{\numberline {3.36}{\ignorespaces Thực thể Question option}}{94}{table.caption.117}%
+\contentsline {table}{\numberline {3.37}{\ignorespaces Thực thể Question option Section mapping}}{94}{table.caption.118}%
+\contentsline {table}{\numberline {3.38}{\ignorespaces Thực thể Survey Recipient}}{94}{table.caption.119}%
+\contentsline {table}{\numberline {3.39}{\ignorespaces Thực thể Question}}{95}{table.caption.120}%
+\contentsline {table}{\numberline {3.40}{\ignorespaces Thực thể Send Survey}}{95}{table.caption.121}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Tổng hợp các trường hợp kiểm thử usecase}}{125}{table.caption.158}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Bảng câu hỏi khảo sát}}{126}{table.caption.159}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Bảng chi tiết lựa chọn của người dùng cho mỗi câu hỏi}}{127}{table.caption.160}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Bảng kết quả tính toán mỗi câu hỏi}}{127}{table.caption.161}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Bảng các giá trị mẫu của các yếu tố trong process portfolio}}{129}{table.caption.164}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Tổng hợp các trường hợp kiểm thử usecase}}{123}{table.caption.158}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Bảng câu hỏi khảo sát}}{124}{table.caption.159}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Bảng chi tiết lựa chọn của người dùng cho mỗi câu hỏi}}{125}{table.caption.160}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Bảng kết quả tính toán mỗi câu hỏi}}{125}{table.caption.161}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Bảng các giá trị mẫu của các yếu tố trong process portfolio}}{127}{table.caption.164}%
 \addvspace {10\p@ }
