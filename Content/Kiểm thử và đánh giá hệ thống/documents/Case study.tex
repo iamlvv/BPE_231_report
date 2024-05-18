@@ -2,32 +2,30 @@ Nhóm quyết định chọn quy trình đổi vé máy bay để làm case stud
 
 \subsection{Thu thập dữ liệu khảo sát}
 
-\begin{center}
-    \begin{table}[H]
-        \centering
-        \def\arraystretch{1.5}%
-        \begin{tabular}{|C{1cm}|p{13cm}|}
-        \hline
-        \textbf{STT} & \multicolumn{1}{c|}{\textbf{Câu hỏi}} \\ \hline
-        1 & Do you use any services or products provided by this process? \\ \hline
-        2 & What is your role in this process? \\ \hline
-        3 & To what extent do you agree with this statement: "It is easy to handle exceptions in your process". \\ \hline
-        4 & To what extent do you agree with this statement: "It is easy to execute your process." \\ \hline
-        5 & How frequently do exceptions happen in practice? \\ \hline
-        6 & Which handled exceptions do you think the way to handle them needs optimizing? Can you suggest some solutions to those? \\ \hline
-        7 & Can you suggest any exceptions that need handling and the way to handle them? \\ \hline
-        8 & How satisfied are you with the way exceptions are handled in your process? \\ \hline
-        9 & How satisfied are you with the amount of time you have to spend on this process? \\ \hline
-        10 & A flexible process means it has variations for different conditions. How satisfied are you with those variations of the process? \\ \hline
-        11 & How satisfied are you with the cost of products or services of this process? \\ \hline
-        12 & How satisfied are you with the products or services provided by this process? \\ \hline
-        13 & How satisfied are you with the total time you have to spend on waiting for the output of this process? \\ \hline
-        14 & Do you encounter any problems while using products or services provided by this process? \\ \hline
-        15 & How likely is it that you would recommend this process to others? \\ \hline
-        \end{tabular}
-        \caption{Bảng câu hỏi khảo sát}
-    \end{table}
-\end{center}
+\begin{table}[H]
+    \centering
+    \def\arraystretch{1.5}%
+    \begin{tabular}{|C{1cm}|p{13cm}|}
+    \hline
+    \textbf{STT} & \multicolumn{1}{c|}{\textbf{Câu hỏi}} \\ \hline
+    1 & Do you use any services or products provided by this process? \\ \hline
+    2 & What is your role in this process? \\ \hline
+    3 & To what extent do you agree with this statement: "It is easy to handle exceptions in your process". \\ \hline
+    4 & To what extent do you agree with this statement: "It is easy to execute your process." \\ \hline
+    5 & How frequently do exceptions happen in practice? \\ \hline
+    6 & Which handled exceptions do you think the way to handle them needs optimizing? Can you suggest some solutions to those? \\ \hline
+    7 & Can you suggest any exceptions that need handling and the way to handle them? \\ \hline
+    8 & How satisfied are you with the way exceptions are handled in your process? \\ \hline
+    9 & How satisfied are you with the amount of time you have to spend on this process? \\ \hline
+    10 & A flexible process means it has variations for different conditions. How satisfied are you with those variations of the process? \\ \hline
+    11 & How satisfied are you with the cost of products or services of this process? \\ \hline
+    12 & How satisfied are you with the products or services provided by this process? \\ \hline
+    13 & How satisfied are you with the total time you have to spend on waiting for the output of this process? \\ \hline
+    14 & Do you encounter any problems while using products or services provided by this process? \\ \hline
+    15 & How likely is it that you would recommend this process to others? \\ \hline
+    \end{tabular}
+    \caption{Bảng câu hỏi khảo sát}
+\end{table}
 
 Đây là tất cả câu hỏi mẫu có sẵn trong bảng khảo sát, được thiết kế để có thể được sử dụng ở nhiều loại quy trình tương ứng với những nghiệp vụ khác nhau. 
 Ở đây, chúng tôi sẽ kiểm chứng kết quả đánh giá của hệ thống, so với kết quả chúng tôi tự tính toán được bằng tay. Trong trường hợp này, 
@@ -37,7 +35,7 @@ tính giá trị các độ đo cũng như kết quả cuối cùng của bài k
     \item Loại câu hỏi rẽ nhánh: câu 1
     \item Loại câu hỏi CES: câu 3, câu 4
     \item Loại câu hỏi CSAT: câu 8, câu 9, câu 10, câu 11, câu 12, câu 13
-    \item Loại câu hỏi NPS: 15
+    \item Loại câu hỏi NPS: câu 15
 \end{enumerate}
 
 Ở đây, để dễ dàng cho việc tính toán bằng tay, chúng tôi thiết lập trọng số cho mỗi câu hỏi trong mỗi nhóm độ đo là như nhau. Bên dưới là dữ liệu thu thập được từ bảng khảo sát:
@@ -295,27 +293,23 @@ Mỗi câu hỏi đều có trọng số như nhau, và mỗi độ đo đều c
 % \end{table}
 Từ đó, ta tính được điểm tổng của bài khảo sát là 0.72.
 Đối chiếu với kết quả tính được từ hệ thống như sau:
-\begin{center}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[ width = 0.7\linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/surveyResult3.png}
-        \vspace{0.5cm}
-        \caption{Kết quả bài khảo sát cho quy trình đổi vé máy bay}
-        \label{fig:Kết quả bài khảo sát cho quy trình đổi vé máy bay}
-    \end{figure}
-\end{center}
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = \linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/surveyResult3.png}
+    \vspace{0.5cm}
+    \caption{Kết quả bài khảo sát cho quy trình đổi vé máy bay}
+    \label{fig:Kết quả bài khảo sát cho quy trình đổi vé máy bay}
+\end{figure}
 Từ kết quả trên, ta thấy rằng kết quả của hệ thống và kết quả tính toán bằng tay khá giống nhau, với điểm số của hệ thống là 0.72, và điểm số tính bằng tay của bài khảo sát là 0.72.
 Điểm tổng bài khảo sát cũng là giá trị External Quality của quy trình nghiệp vụ. Giả sử 2 loại quality đều có trọng số như nhau, ta có giá trị trung bình của độ đo 
 chất lượng của quy trình nghiệp vụ: 0.711.
-\begin{center}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[ width = 0.7\linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/quality3.png}
-        \vspace{0.5cm}
-        \caption{Kết quả đánh giá chất lượng của quy trình đổi vé máy bay}
-        \label{fig:Kết quả đánh giá chất lượng của quy trình đổi vé máy bay}
-    \end{figure}
-\end{center}
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = \linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/quality3.png}
+    \vspace{0.5cm}
+    \caption{Kết quả đánh giá chất lượng của quy trình đổi vé máy bay}
+    \label{fig:Kết quả đánh giá chất lượng của quy trình đổi vé máy bay}
+\end{figure}
 Như vậy, ta thấy rằng kết quả đánh giá chất lượng của hệ thống và kết quả tính toán bằng tay khá giống nhau, với điểm số của hệ thống là 0.7115, và điểm số của tính toán bằng tay là 0.711.
     
 \subsection{Kiểm chứng process portfolio}
@@ -325,42 +319,38 @@ Như vậy, ta thấy rằng kết quả đánh giá chất lượng của hệ 
     targeted quality, worst quality, targeted flexibility, worst flexibility, giá trị của các độ đo feasibility, strategic importance
     \item Các giá trị thực tế của các yếu tố trong độ đo health, bao gồm cycle time, cost, quality, flexibility.
 \end{enumerate}
-\begin{center}
-    \begin{table}[H]
-        \def\arraystretch{1.5}%
-        \centering
-        \begin{tabular}{|l|c|}
-            \hline
-            \multicolumn{1}{|c|}{\textbf{Yếu tố khảo sát}} & \textbf{Giá trị} \\ \hline
-            Targeted cycle time & 25 \\ \hline
-            Worst cycle time & 50 \\ \hline
-            Targeted cost & 20 \\ \hline
-            Worst cost & 30 \\ \hline
-            Targeted quality & 0.8 \\ \hline
-            Worst quality & 0.4 \\ \hline
-            Targeted Flexibility & 0.95 \\ \hline
-            Worst Flexibility & 0.65 \\ \hline
-            Feasibility & 0.8 \\ \hline
-            Strategic Importance & 0.7 \\ \hline
-            Current cycle time & 30.5 \\ \hline
-            Current cost & 28 \\ \hline
-            Current quality & 0.7 \\ \hline
-            Current flexibility & 0.7 \\ \hline
-        \end{tabular}
-        \caption{Bảng các giá trị mẫu của các yếu tố trong process portfolio}
-        \end{table}
-\end{center}
+\begin{table}[H]
+    \def\arraystretch{1.5}%
+    \centering
+    \begin{tabular}{|l|c|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{Yếu tố khảo sát}} & \textbf{Giá trị} \\ \hline
+        Targeted cycle time & 25 \\ \hline
+        Worst cycle time & 50 \\ \hline
+        Targeted cost & 20 \\ \hline
+        Worst cost & 30 \\ \hline
+        Targeted quality & 0.8 \\ \hline
+        Worst quality & 0.4 \\ \hline
+        Targeted Flexibility & 0.95 \\ \hline
+        Worst Flexibility & 0.65 \\ \hline
+        Feasibility & 0.8 \\ \hline
+        Strategic Importance & 0.7 \\ \hline
+        Current cycle time & 30.5 \\ \hline
+        Current cost & 28 \\ \hline
+        Current quality & 0.7 \\ \hline
+        Current flexibility & 0.7 \\ \hline
+    \end{tabular}
+    \caption{Bảng các giá trị mẫu của các yếu tố trong process portfolio}
+\end{table}
 
 Vận dụng cơ sở lý thuyết được trình bày ở trên, ta tính được các độ đo của quy trình nghiệp vụ để xây dựng process portfolio:
 Health = -0.19, Feasibility = 0.8, Strategic Importance = 0.7.
-\begin{center}
-    \begin{figure}[H]
-        \centering
-        \includegraphics[ width = 0.7\linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/health.png}
-        \vspace{0.5cm}
-        \caption{Kết quả đánh giá process portfolio của Workspace}
-        \label{fig:Kết quả kiểm chứng process portfolio của Workspace của hệ thống}
-    \end{figure}
-\end{center}
+\begin{figure}[H]
+    \centering
+    \includegraphics[ width = \linewidth]{Content/Kiểm thử và đánh giá hệ thống/images/health.png}
+    \vspace{0.5cm}
+    \caption{Kết quả đánh giá process portfolio của Workspace}
+    \label{fig:Kết quả kiểm chứng process portfolio của Workspace của hệ thống}
+\end{figure}
 Như vậy, ta thấy rằng kết quả đánh giá process portfolio của hệ thống và kết quả tính toán bằng tay khá giống nhau, với điểm số của hệ thống là -0.19, và điểm số của tính toán bằng tay là -0.19.
 Với những kết quả trên, ta có thể kết luận rằng hệ thống đánh giá chất lượng của quy trình nghiệp vụ và process portfolio của Workspace hoạt động hiệu quả và chính xác.
