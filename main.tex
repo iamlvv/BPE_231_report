@@ -1,4 +1,11 @@
-\documentclass[a4paper]{report}
+\documentclass[12pt]{report}
+\usepackage[a4paper]{geometry}
+\geometry{
+  left=3cm,
+  right=2cm,
+  top=2cm,
+  bottom=2cm
+}
 \usepackage{tcolorbox}
 \usepackage{lipsum}
 \usepackage[utf8]{vietnam}
@@ -85,8 +92,8 @@
    \end{picture}&
 	%\includegraphics[width=8mm, height=8mm]{hcmut.png} & %
 	\begin{tabular}{l}
-		\textbf{\bf \ttfamily Trường Đại Học Bách Khoa Tp.Hồ Chí Minh}\\
-		\textbf{\bf \ttfamily Khoa Khoa Học \& Kỹ Thuật Máy Tính}
+		\textbf{\bf Trường Đại Học Bách Khoa Tp.Hồ Chí Minh}\\
+		\textbf{\bf Khoa Khoa Học \& Kỹ Thuật Máy Tính}
 	\end{tabular} 
  \vspace{2mm}
  \end{tabular}
@@ -97,8 +104,8 @@
 		\tiny \bf 
 	\end{tabular}  }
 \fancyfoot{} % clear all footer fields
-\fancyfoot[L]{\scriptsize \ttfamily Báo cáo Đồ án tốt nghiệp - HK232}
-\fancyfoot[R]{\scriptsize \ttfamily Trang {\thepage}/\pageref{LastPage}}
+\fancyfoot[L]{\scriptsize Báo cáo Đồ án tốt nghiệp - HK232}
+\fancyfoot[R]{\scriptsize Trang {\thepage}/\pageref{LastPage}}
 \renewcommand{\headrulewidth}{0.3pt}
 \renewcommand{\footrulewidth}{0.3pt}
 
@@ -131,6 +138,19 @@
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 \thesislayout
+
+\usepackage{eso-pic}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
+\AddToShipoutPictureBG*{
+    \ifnum\value{page}=1
+        \begin{tikzpicture}[overlay,remember picture]
+            \draw [line width=3pt] ($ (current page.north west) + (1.5cm,-2.0cm) $) rectangle ($ (current page.south east) + (-1.5cm,1.8cm) $);
+            \draw [line width=1pt] ($ (current page.north west) + (1.65cm,-2.15cm) $) rectangle ($ (current page.south east) + (-1.65cm,1.95cm) $); 
+        \end{tikzpicture}
+    \fi
+}
+
 \setcounter{tocdepth}{2}
 
 \begin{document}
