@@ -1,11 +1,11 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Biểu đồ Gantt kế hoạch làm việc giai đoạn học kỳ HK231}}{16}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Biểu đồ Gantt kế hoạch làm việc giai đoạn học kỳ HK232}}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Biểu đồ Gantt kế hoạch làm việc giai đoạn học kỳ HK231}}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Biểu đồ Gantt kế hoạch làm việc giai đoạn học kỳ HK232}}{18}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ví dụ về Danh mục quy trình (Process portfolio) [26]}}{27}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Lược đồ trình tự câu hỏi trong bảng khảo sát}}{48}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ví dụ về Danh mục quy trình (Process portfolio) [26]}}{26}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Lược đồ trình tự câu hỏi trong bảng khảo sát}}{47}{figure.caption.38}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Lược đồ use-case hệ thống}}{52}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Lược đồ use-case hệ thống}}{51}{figure.caption.40}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Quản lý requests trong Workspace}}{77}{figure.caption.57}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Thay đổi quyền của thành viên trong Workspace}}{78}{figure.caption.58}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Gửi lời mời người dùng tham gia Workspace}}{79}{figure.caption.59}%
@@ -57,15 +57,15 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Giao diện trang Workspace detail}}{136}{figure.caption.127}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Giao diện trang thông báo của người dùng}}{137}{figure.caption.128}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của thông báo}}{138}{figure.caption.129}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Giao diện trang quản lý thành viên trong Workspace}}{138}{figure.caption.130}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Giao diện trang quản lý yêu cầu từ thành viên trong workspace}}{139}{figure.caption.131}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Giao diện trang quản lý thành viên trong Workspace}}{139}{figure.caption.130}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Giao diện trang quản lý yêu cầu từ thành viên trong workspace}}{140}{figure.caption.131}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Giao diện modal hiển thị thông tin chi tiết của yêu cầu}}{140}{figure.caption.132}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Giao diện quản lý process portfolio của workspace}}{140}{figure.caption.133}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Giao diện quản lý process portfolio của workspace}}{141}{figure.caption.133}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Giao diện chỉnh sửa giá trị thang đo cho process portfolio của workspace}}{141}{figure.caption.134}%
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Giao diện menu của process version}}{142}{figure.caption.135}%
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Giao diện chỉnh sửa giá trị của process version trong workspace}}{142}{figure.caption.136}%
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Giao diện biểu đồ process portfolio của workspace}}{143}{figure.caption.137}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Giao diện hiển thị danh sách process version không có/thiếu dữ liệu}}{143}{figure.caption.138}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Giao diện hiển thị danh sách process version không có/thiếu dữ liệu}}{144}{figure.caption.138}%
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Giao diện chỉnh sửa mô hình quy trình nghiệp vụ}}{144}{figure.caption.139}%
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Giao diện chỉnh sửa nội dung khảo sát}}{145}{figure.caption.140}%
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Giao diện xem trước bảng khảo sát}}{146}{figure.caption.141}%
